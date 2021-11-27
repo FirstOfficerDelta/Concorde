@@ -1,15 +1,28 @@
-<?xml version="1.0" ?> 
+<?xml version="1.0" ?>
 
-<PropertyList> 
- <path>steward.ac</path> 
+<PropertyList>
+ <path>steward.ac</path>
 
- 
+ <effect>
+ 	   <inherits-from>Aircraft/Concorde/Models/Effects/interior</inherits-from>
+   <object-name>GroundService</object-name>
+   <object-name>GroundServicePlate</object-name>
+   <object-name>PassStereo</object-name>
+   <object-name>ReadingLeft</object-name>
+   <object-name>ReadingLeft2</object-name>
+   <object-name>ReadingRight</object-name>
+   <object-name>ReadingRight2</object-name>
+   <object-name>StewardPanel</object-name>
+
+ </effect>
+
+
  <animation>
   <type>rotate</type>
   <object-name>GroundService</object-name>
   <property>/controls/electric/ac/ground</property>
   <factor>54</factor>
-  <offset-deg>-27</offset-deg>   
+  <offset-deg>-27</offset-deg>
   <center>
    <x-m>-0.00351</x-m>
    <y-m> 0.02345</y-m>

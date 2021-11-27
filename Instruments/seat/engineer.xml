@@ -1,12 +1,12 @@
-<?xml version="1.0" ?> 
+<?xml version="1.0" ?>
 
 <!-- - the engineer seat must match the engineer view (rotation).
      - auto smooth is disabled (except rail).
 -->
 
 
-<PropertyList> 
- <path>seat-engineer.ac</path> 
+<PropertyList>
+ <path>seat-engineer.ac</path>
 
 
 
@@ -78,8 +78,8 @@
    <blue>0.64</blue>
 <!--   <factor-prop>systems/lighting/level/roof</factor-prop>-->
    <factor-prop>controls/lighting/crew/roof</factor-prop>
-  </emission> 
- </animation> 
+  </emission>
+ </animation>
 
 <!-- the condition rotates once -->
 
@@ -90,7 +90,6 @@
   <offset-deg>90</offset-deg>
   <condition>
    <and>
-    <property>systems/seat/engineer</property>
     <equals>
      <property>systems/human/engineer/seat-deg</property>
      <value>0.0</value>
@@ -102,6 +101,10 @@
     <equals>
      <property>systems/human/engineer/stowe-norm</property>
      <value>0.0</value>
+    </equals>
+    <equals>
+      <property>sim/current-view/view-number</property>
+      <value>8</value>
     </equals>
    </and>
   </condition>
@@ -135,7 +138,7 @@
    <z>0.0</z>
   </axis>
  </animation>
- 
+
  <animation>
   <type>translate</type>
   <object-name>MovingSeat</object-name>
@@ -147,7 +150,7 @@
    <z>0.0</z>
   </axis>
  </animation>
- 
+
  <animation>
   <type>rotate</type>
   <object-name>TopSeat</object-name>
@@ -163,7 +166,7 @@
    <z>1.0</z>
   </axis>
  </animation>
- 
+
  <animation>
   <type>translate</type>
   <object-name>MovingSeat</object-name>

@@ -1,7 +1,7 @@
-<?xml version="1.0" ?> 
+<?xml version="1.0" ?>
 
-<PropertyList> 
- <path>pilot.ac</path> 
+<PropertyList>
+ <path>pilot.ac</path>
 
  <animation>
   <name>TheHead</name>
@@ -53,7 +53,7 @@
    <property>systems/human/engineer/headset</property>
   </condition>
  </animation>
-    
+
  <animation>
   <type>select</type>
   <object-name>Eyes</object-name>
@@ -98,8 +98,8 @@
    <green>0.44</green>
    <blue>0.08</blue>
    <factor-prop>systems/lighting/level/human/engineer</factor-prop>
-  </emission> 
- </animation> 
+  </emission>
+ </animation>
 
  <animation>
   <type>pick</type>

@@ -196,7 +196,7 @@
    <property-base>sim/model/livery/</property-base>
    <texture-prop>texture</texture-prop>
   </animation>
-  
+
   <!--Apply grouping removed from .ac model-->
   <animation>
     <name>Front</name>
@@ -204,7 +204,7 @@
     <object-name>Screen_1</object-name>
     <object-name>Screen_0.001</object-name>
   </animation>
-  
+
 <!-- ================ -->
 <!-- Separated models -->
 <!-- ================ -->
@@ -317,7 +317,7 @@
   </animation>
 -->
 <!-- COPILOT -->
-<!-- 
+<!--
   <animation>
    <name>copilot</name>
    <object-name>Copilot location</object-name>
@@ -356,7 +356,7 @@
   </animation>
 -->
 <!-- ENGINEER -->
-<!-- 
+<!--
   <animation>
    <name>engineer</name>
    <object-name>Engineer location</object-name>
@@ -2377,7 +2377,7 @@
   </transparency>
  </animation>
 
-<!-- Burner Flame 
+<!-- Burner Flame
 
  <animation>
   <type>select</type>
@@ -2668,7 +2668,7 @@
    <object-name>Cylinder</object-name>
    <object-name>Tablet_dummy</object-name>
    <object-name>Screen_0.001</object-name>
-   <object-name>Lantern</object-name>  
+   <object-name>Lantern</object-name>
 </effect>
 
 <!-- =================== -->
@@ -2715,7 +2715,6 @@
       <binding>
         <command>nasal</command>
 	  <script>
-	  	setprop("sim/rendering/als-secondary-lights/use-searchlight",1);
 	  	setprop("sim/rendering/als-secondary-lights/use-flashlight",1);
 	  </script>
       </binding>
@@ -2726,7 +2725,10 @@
     <type>select</type>
     <object-name>Lantern</object-name>
     <condition>
-        <not><property>sim/rendering/als-secondary-lights/use-searchlight</property></not>
+      <not-equals>
+        <property>sim/rendering/als-secondary-lights/use-flashlight</property>
+        <value>1</value>
+      </not-equals>
     </condition>
   </animation>
 
@@ -2741,8 +2743,7 @@
         <command>nasal</command>
 	  <script>
 		light=getprop("controls/lighting/crew/roof");
-	  	setprop("sim/rendering/als-secondary-lights/use-searchlight",0);
-  	        setprop("sim/rendering/als-secondary-lights/use-flashlight",light);		
+  	        setprop("sim/rendering/als-secondary-lights/use-flashlight",light);
 	  </script>
       </binding>
     </action>
@@ -2787,10 +2788,10 @@
 
  <animation>
   <type>material</type>
-  <!--<object-name>CeilingEdge</object-name>-->
-  <!--<object-name>Dashboard</object-name>-->
- <!-- <object-name>Dashboard.001</object-name>-->
-  <!--<object-name>Rack lighting</object-name>-->
+  <object-name>CeilingEdge</object-name>
+  <object-name>Dashboard</object-name>
+  <object-name>Dashboard.001</object-name>
+  <object-name>Rack lighting</object-name>
   <condition>
 	<greater-than>
 	  <property>systems/lighting/level/roof</property>
@@ -2803,7 +2804,7 @@
    <blue>0.64</blue>
    <factor-prop>systems/lighting/level/roof</factor-prop>
   </emission>
- </animation>
+</animation>
 
  <animation>
   <type>material</type>
@@ -2830,9 +2831,9 @@
 
 <!-- isolated from a group -->
 
- <animation>
+ <!--animation>
   <type>material</type>
-  <!-- <object-name>engineer</object-name>-->
+  <object-name>engineer</object-name>
   <condition>
 	<greater-than>
 	  <property>systems/lighting/level/roof</property>
@@ -2849,7 +2850,7 @@
 
  <animation>
   <type>material</type>
-  <!--<object-name>observer</object-name>-->
+  <object-name>observer</object-name>
   <condition>
 	<greater-than>
 	  <property>systems/lighting/level/roof</property>
@@ -2866,8 +2867,8 @@
 
  <animation>
   <type>material</type>
- <!-- <object-name>RoofLight1</object-name>-->
-  <!--<object-name>RoofLight2</object-name>-->
+ <object-name>RoofLight1</object-name>
+  <object-name>RoofLight2</object-name>
   <condition>
     <and>
 	<greater-than>
@@ -2890,9 +2891,9 @@
 
  <animation>
   <type>material</type>
-   <!-- <object-name>ConsoleLeft</object-name>-->
-  <!--<object-name>ConsoleRight</object-name>-->
- <!-- <object-name>Dash lighting</object-name>-->
+  <object-name>ConsoleLeft</object-name>
+  <object-name>ConsoleRight</object-name>
+ <object-name>Dash lighting</object-name>
   <condition>
 	<greater-than>
 	  <property>systems/lighting/level/roof</property>
@@ -2905,7 +2906,7 @@
    <blue>0.7</blue>
    <factor-prop>systems/lighting/level/roof</factor-prop>
   </emission>
- </animation>
+</animation-->
 <!--
  <animation>
   <type>material</type>
@@ -3049,7 +3050,7 @@
 
 
   <!-- ENGINE CONTRAILS NEW -->
-  
+
   <model>
     <path>Aircraft/Concorde/Models/Effects/Contrail/contrail_1.xml</path>
     <offsets>
@@ -3192,8 +3193,8 @@
 			<z-m>1</z-m>
 			<pitch-deg>0</pitch-deg>
   </offsets>
- </model> 
-	
+ </model>
+
 
 <model>
   <path>Aircraft/Concorde/Models/Effects/Vapour/Vapour.xml</path>
@@ -3218,7 +3219,7 @@
 			<heading-deg>-25</heading-deg>
   </offsets>
 </model>
-	
+
 <model>
   <path>Aircraft/Concorde/Models/Effects/Vapour/Vapour.xml</path>
   <offsets>
@@ -3243,7 +3244,7 @@
 			<heading-deg>-25</heading-deg>
   </offsets>
 </model>
-	
+
 <model>
   <path>Aircraft/Concorde/Models/Effects/Vapour/Vapour.xml</path>
   <offsets>
@@ -3255,7 +3256,7 @@
 			<heading-deg>25</heading-deg>
   </offsets>
 </model>
- 
+
 
 <model>
   <path>Aircraft/Concorde/Models/Effects/Vapour/Vapour.xml</path>
@@ -3268,7 +3269,7 @@
 			<heading-deg>-25</heading-deg>
   </offsets>
 </model>
-	
+
 <model>
   <path>Aircraft/Concorde/Models/Effects/Vapour/Vapour.xml</path>
   <offsets>
@@ -3295,7 +3296,7 @@
 			<heading-deg>-25</heading-deg>
   </offsets>
 </model>
-	
+
 <model>
   <path>Aircraft/Concorde/Models/Effects/Vapour/Vapour.xml</path>
   <offsets>
@@ -3319,7 +3320,7 @@
 			<heading-deg>-25</heading-deg>
   </offsets>
 </model>
-	
+
 <model>
   <path>Aircraft/Concorde/Models/Effects/Vapour/Vapour.xml</path>
   <offsets>
@@ -3344,7 +3345,7 @@
 			<heading-deg>-25</heading-deg>
   </offsets>
 </model>
-	
+
 <model>
   <path>Aircraft/Concorde/Models/Effects/Vapour/Vapour.xml</path>
   <offsets>
@@ -3370,7 +3371,7 @@
 			<heading-deg>-25</heading-deg>
   </offsets>
 </model>
-	
+
 <model>
   <path>Aircraft/Concorde/Models/Effects/Vapour/Vapour.xml</path>
   <offsets>
@@ -3418,9 +3419,9 @@
 <!-- GEAR FIRE -->
 
 <model>
- <path>Aircraft/Concorde/Models/Effects/Fire/fire.xml</path> 
+ <path>Aircraft/Concorde/Models/Effects/Fire/fire.xml</path>
  <name>gearfire.1</name>
- <offsets> 
+ <offsets>
    <x-m>4.475</x-m>
    <y-m>-3.731</y-m>
    <z-m>-4.013</z-m>
@@ -3440,9 +3441,9 @@
 </animation>
 
 <model>
- <path>Aircraft/Concorde/Models/Effects/Fire/fire.xml</path> 
+ <path>Aircraft/Concorde/Models/Effects/Fire/fire.xml</path>
  <name>gearfire.2</name>
- <offsets> 
+ <offsets>
    <x-m>6.228</x-m>
    <y-m>-3.731</y-m>
    <z-m>-4.013</z-m>
@@ -3462,9 +3463,9 @@
 </animation>
 
 <model>
- <path>Aircraft/Concorde/Models/Effects/Fire/fire.xml</path> 
+ <path>Aircraft/Concorde/Models/Effects/Fire/fire.xml</path>
  <name>gearfire.3</name>
- <offsets> 
+ <offsets>
    <x-m>4.475</x-m>
    <y-m>3.736</y-m>
    <z-m>-4.013</z-m>
@@ -3484,9 +3485,9 @@
 </animation>
 
 <model>
- <path>Aircraft/Concorde/Models/Effects/Fire/fire.xml</path> 
+ <path>Aircraft/Concorde/Models/Effects/Fire/fire.xml</path>
  <name>gearfire.4</name>
- <offsets> 
+ <offsets>
    <x-m>6.228</x-m>
    <y-m>3.736</y-m>
    <z-m>-4.013</z-m>

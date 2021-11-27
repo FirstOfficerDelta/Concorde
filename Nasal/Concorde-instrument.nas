@@ -60,7 +60,7 @@ VMO.getvmokt = func( altitudeft, acweightlb ) {
    vmokt = constantaero.interpolateweight( me.weightlb, vmokt, vmokt0 );
 
    return vmokt;
-}  
+}
 
 VMO.interpolatealtitude0 = func( altitudeft ) {
    var vmokt = constantaero.interpolate( me.find0, me.vmokt0, me.vmaxkt0, me.vminkt0,
@@ -228,7 +228,7 @@ AirDataComputer.computer = func {
         child = me.itself["root"][i].getNode("output");
 
         altitudeft = child.getChild("altitude-ft").getValue();
-           
+
         # maximum operating speed (kt)
         vmokt = me.vmo.getvmokt( altitudeft, weightlb ) ;
 
@@ -255,7 +255,7 @@ AirDataComputer.computer = func {
            child.getChild("mmo-mach").setValue(mmomach);
        }
    }
-}  
+}
 
 AirDataComputer.failure = func( index ) {
     var fault = constant.FALSE;
@@ -312,7 +312,7 @@ AirDataComputer.failuresensor = func( child, serviceable, sensor, output, altern
         # blocked on last measure
         indication = child.getNode(alternate);
         indication.setValue( me.noinstrument[sensor].getValue() );
-    }            
+    }
 
     path = child.getNode(output).getAliasTarget().getPath();
     if( path != indication ) {
@@ -467,7 +467,7 @@ Altimeter.sensor = func( index ) {
            setting2 = me.noinstrument["sensor"][index].getChild("setting-hpa").getPath();
            setting = me.noinstrument["sensor"][index].getChild("setting-inhg").getPath();
        }
-            
+
        else {
            child = me.dependency["adc"][index].getChild("output");
            indication = child.getChild("altitude-ft").getPath();
@@ -581,7 +581,7 @@ Airspeed.sensor = func( index ) {
        if( me.standby[index] ) {
            indication = me.noinstrument["sensor"][index].getChild("indicated-speed-kt").getPath();
        }
-            
+
        else {
            child = me.dependency["adc"][index].getChild("output");
            indication = child.getChild("airspeed-kt").getPath();
@@ -664,7 +664,7 @@ StandbyAirspeed.schedule = func {
 
        me.itself["root"].getChild("vmo-kt").setValue(vmokt);
    }
-}  
+}
 
 
 # ==============
@@ -800,7 +800,7 @@ Centergravity.schedule = func {
             me.corridor( i );
         }
    }
-}  
+}
 
 Centergravity.corridor = func( index ) {
    var cgmin = 0.0;
@@ -849,7 +849,7 @@ Centergravity.corridor = func( index ) {
 
    me.itself["root"][index].getChild("min-extreme-percent").setValue(cgmin);
    me.itself["root"][index].getChild("max-extreme-percent").setValue(cgmax);
-}  
+}
 
 # normal below 105 t, extreme above 165 t
 Centergravity.min = func( speedmach ) {
@@ -883,7 +883,7 @@ Centergravity.min = func( speedmach ) {
     }
 }
 
-# extreme below 105 t 
+# extreme below 105 t
 Centergravity.extrememin105t = func( weightlb, speedmach ) {
    me.find0 = constant.FALSE;
 
@@ -1469,7 +1469,7 @@ Temperature.failure = func( index ) {
 
 # International Standard Atmosphere temperature
 Temperature.isa = func( index ) {
-   var altft = me.dependency["adc"][index].getNode("output").getChild("altitude-ft").getValue(); 
+   var altft = me.dependency["adc"][index].getNode("output").getChild("altitude-ft").getValue();
 
    var isadegc = constantISA.temperature_degc( altft );
 

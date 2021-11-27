@@ -7,7 +7,6 @@
   <model>
     <name>concorde_interior</name>
     <path>Aircraft/Concorde/Models/Concorde_interior.xml</path>
-
   </model>
 
   <animation>

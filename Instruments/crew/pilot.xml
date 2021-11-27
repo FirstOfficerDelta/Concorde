@@ -1,8 +1,8 @@
-<?xml version="1.0" ?> 
+<?xml version="1.0" ?>
 
 <!--
      - visible with night lighting (feedback).
-     
+
 
      TO DO :
      =====
@@ -15,8 +15,8 @@
 -->
 
 
-<PropertyList> 
- <path>pilot.ac</path> 
+<PropertyList>
+ <path>pilot.ac</path>
 
  <animation>
   <name>TheHead</name>
@@ -32,7 +32,7 @@
   <name>AllPilot</name>
   <object-name>TheHead</object-name>
   <object-name>Body</object-name>
- </animation>
+</animation>
 
  <animation>
   <type>rotate</type>
@@ -60,7 +60,7 @@
    <z>0.0</z>
   </axis>
  </animation>
-    
+
  <animation>
   <type>select</type>
   <object-name>Headset</object-name>
@@ -68,7 +68,7 @@
    <property>systems/human/copilot/headset</property>
   </condition>
  </animation>
-    
+
  <animation>
   <type>select</type>
   <object-name>Eyes</object-name>
@@ -76,7 +76,7 @@
    <property>systems/human/copilot/eyes</property>
   </condition>
  </animation>
-    
+
  <animation>
   <type>select</type>
   <object-name>Eyelid</object-name>
@@ -86,7 +86,7 @@
    </not>
   </condition>
  </animation>
-    
+
  <animation>
   <type>select</type>
   <object-name>Mooth</object-name>
@@ -96,7 +96,7 @@
    </not>
   </condition>
  </animation>
-    
+
  <animation>
   <type>select</type>
   <object-name>Teeth</object-name>
@@ -113,8 +113,8 @@
    <green>0.44</green>
    <blue>0.08</blue>
    <factor-prop>systems/lighting/level/human/copilot</factor-prop>
-  </emission> 
- </animation> 
+  </emission>
+ </animation>
 
  <animation>
   <type>pick</type>

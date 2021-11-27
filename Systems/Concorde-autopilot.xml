@@ -3,7 +3,7 @@
 <!-- Concorde autopilot :
 
      - Speed with pitch and Mach with pitch are considered autopilot modes (datum).
-     - restoring to /vertical/vertical-speed-fps (see Concorde-init-instrumentation.xml) 
+     - restoring to /vertical/vertical-speed-fps (see Concorde-init-instrumentation.xml)
      doesn't require a new tuning of autopilot.
 
 
@@ -47,6 +47,24 @@
 
 <PropertyList>
 
+  <!--FPS to FPM-->
+  <filter>
+    <name>FPM</name>
+    <type>gain</type>
+    <gain>1.0</gain>
+    <input>
+      <expression>
+        <div>
+          <property>/instrumentation/vertical-speed-indicator/indicated-speed-fps</property>
+          <value>60</value>
+        </div>
+      </expression>
+    </input>
+    <output>
+      <property>/instrumentation/vertical-speed-indicator/indicated-speed-fpm</property>
+    </output>
+  </filter>
+
   <!-- =============================================================== -->
   <!-- Prediction filters                                              -->
   <!-- =============================================================== -->
@@ -85,7 +103,7 @@
   <!-- =============================================================== -->
 
   <!-- ............ -->
-  <!-- Wing leveler --> 
+  <!-- Wing leveler -->
   <!-- ............ -->
   <pid-controller>
     <name>Wing Leveler (Turn Coordinator based)</name>
@@ -456,7 +474,7 @@
  <!-- =============================================================== -->
 
   <!-- ................. -->
-  <!-- Simple pitch hold --> 
+  <!-- Simple pitch hold -->
   <!-- ................. -->
   <pid-controller>
     <name>Pitch hold</name>
@@ -1033,7 +1051,7 @@
  <!-- =============================================================== -->
 
  <!-- ............. -->
- <!-- Auto throttle --> 
+ <!-- Auto throttle -->
  <!-- ............. -->
  <pid-controller>
     <name>Auto Throttle (5 sec lookahead)</name>
@@ -1160,7 +1178,7 @@
   </pid-controller>
 
  <!-- .................. -->
- <!-- Mach Auto Throttle --> 
+ <!-- Mach Auto Throttle -->
  <!-- .................. -->
  <pid-controller>
     <name>Mach Auto Throttle (5 sec lookahead)</name>
@@ -1287,7 +1305,7 @@
   </pid-controller>
 
  <!-- ............................................................ -->
- <!-- Hold speed by varying pitch (Two stage cascading controller) --> 
+ <!-- Hold speed by varying pitch (Two stage cascading controller) -->
  <!-- ............................................................ -->
  <pid-controller>
     <name>Speed hold (vary pitch) Stage #1</name>
@@ -1319,7 +1337,7 @@
   </pid-controller>
 
  <!-- ............................................................ -->
- <!-- Hold Mach by varying pitch (Two stage cascading controller) --> 
+ <!-- Hold Mach by varying pitch (Two stage cascading controller) -->
  <!-- ............................................................ -->
  <pid-controller>
     <name>Mach hold (vary pitch) Stage #1</name>

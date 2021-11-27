@@ -54,7 +54,7 @@
      ............................................
      In flight, the IVSI should be steady; a wrong order of FG systems (instruments vs. environment)
      can create needle vibrations, making the IVSI unusable on some hardware.
-     
+
      On each IVSI :
      a) set serviceable to false.
      b) remove the comment around the alias of /velocities/vertical-speed-fps.
@@ -1049,7 +1049,7 @@
      <temperature>/environment/temperature-degc</temperature>
     </noinstrument>
    </relations>
-   
+
    <selector type="int">0</selector>
    <tank-degc>15.0</tank-degc>
   </tank-temperature>
@@ -1138,6 +1138,7 @@
 
    <alarm-flag type="bool">false</alarm-flag>
    <indicated-speed-fps alias="/instrumentation/adc[1]/output/vertical-speed-fps"/>
+
   </vertical-speed-indicator>
 
   <voltmeter-ac>

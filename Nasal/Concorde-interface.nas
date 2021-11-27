@@ -130,14 +130,14 @@ Seats.viewexport = func( name ) {
        }
 
        # disable all other views
-       for( var i = 0; i < me.nb_seats; i=i+1 ) {
-            if( name != me.names[i] ) {
-                me.itself["root"].getChild(me.names[i]).setValue(constant.FALSE);
-   
-                index = me.lookup[me.names[i]];
-                me.dependency["views"][index].getChild("enabled").setValue(constant.FALSE);
-            }
-       }
+       #for( var i = 0; i < me.nb_seats; i=i+1 ) {
+            #if( name != me.names[i] ) {
+                #me.itself["root"].getChild(me.names[i]).setValue(constant.FALSE);
+
+                #index = me.lookup[me.names[i]];
+                #me.dependency["views"][index].getChild("enabled").setValue(constant.FALSE);
+            #}
+       #}
 
        me.recover();
    }
@@ -148,12 +148,12 @@ Seats.viewexport = func( name ) {
        me.itself["root"].getChild("captain").setValue(constant.TRUE);
 
        # disable all other views
-       for( var i = 0; i < me.nb_seats; i=i+1 ) {
-            me.itself["root"].getChild(me.names[i]).setValue(constant.FALSE);
+       #for( var i = 0; i < me.nb_seats; i=i+1 ) {
+            #me.itself["root"].getChild(me.names[i]).setValue(constant.FALSE);
 
-            index = me.lookup[me.names[i]];
-            me.dependency["views"][index].getChild("enabled").setValue(constant.FALSE);
-       }
+            #index = me.lookup[me.names[i]];
+            #me.dependency["views"][index].getChild("enabled").setValue(constant.FALSE);
+       #}
    }
 
    me.audioexport();
@@ -522,7 +522,7 @@ Menu = {};
 
 Menu.new = func {
    var obj = { parents : [Menu,System],
-               
+
 # menu handles
                autopilot : nil,
                crew : nil,
@@ -947,7 +947,7 @@ DestinationDialog = {};
 
 DestinationDialog.new = func {
    var obj = { parents : [DestinationDialog,System],
-               
+
                airports : {}
          };
 
@@ -958,27 +958,27 @@ DestinationDialog.new = func {
 
 DestinationDialog.init = func {
    me.inherit_system("/systems/human");
-   
+
    me.filldialog();
 }
 
 DestinationDialog.getnavaid = func {
    var result = "";
    var dialog = me.itself["root"].getChild("dialog").getValue();
-   
+
    var idcomment = split( " ", dialog );
-   
+
    if( me.itself["root-ctrl"].getNode("destination/sort").getChild("name").getValue() ) {
        # EGLL  London ==> EGLL
        result = idcomment[0];
    }
    else {
        var nbstrings = size(idcomment);
-       
+
        # last
        result = idcomment[nbstrings-1];
    }
-   
+
    me.itself["root-ctrl"].getChild("airport-id").setValue(result);
 }
 
@@ -1011,77 +1011,77 @@ DestinationDialog.filldialog = func {
    categoryDiversion = me.itself["root-ctrl"].getNode("destination/category").getChild("diversion").getValue();
    categoryHistorical = me.itself["root-ctrl"].getNode("destination/category").getChild("historical").getValue();
    categoryOther = me.itself["root-ctrl"].getNode("destination/category").getChild("other").getValue();
-   
+
    destinationName = me.itself["root-ctrl"].getNode("destination").getChild("show").getValue();
 
-   
+
    me.airports = {};
-   
+
    for( var i=0; i<size(me.itself["airport"]); i=i+1 ) {
         destination = me.itself["airport"][ i ].getChild("airport-id").getValue();
-        
+
         info = airportinfo( destination );
         if( info != nil ) {
             navaid.set_latlon( info.lat, info.lon );
             distancemeter = flight.distance_to( navaid );
             distancenm = int(distancemeter / constant.NMTOMETER);
-            
-            include = constant.TRUE;      
-            
+
+            include = constant.TRUE;
+
             child = me.itself["airport"][ i ].getChild("non-historical");
             if( child != nil ) {
                 if( child.getValue() ) {
                     include = constant.FALSE;
                 }
             }
-            
+
             if( include and categoryRegular ) {
 		include = me.getService( i, "regular" );
             }
-            
+
             elsif( include and categoryDiversion ) {
 		include = me.getService( i, "diversion" );
             }
-            
+
             elsif( include and categoryHistorical ) {
 		include = me.getService( i, "historical" );
             }
-            
+
             elsif( include and categoryOther ) {
                 if( me.getService( i, "regular" ) or me.getService( i, "diversion" ) or me.getService( i, "historical" ) ) {
 		    include = constant.FALSE;
 		}
             }
-            
+
             if( destinationName ) {
                 name = me.itself["airport"][ i ].getChild("name").getValue();
             }
             else {
                 name = info.name;
             }
-        
-            has_navaid = constant.TRUE;   
+
+            has_navaid = constant.TRUE;
             child = me.itself["airport"][ i ].getChild("arrival");
             if( child == nil ) {
                 child = me.itself["airport"][ i ].getChild("departure");
                 if( child == nil ) {
                     has_navaid = constant.FALSE;
-                
+
                     # identify airport without navaid
                     name = name ~ " *"
                 }
             }
-                
+
             # only within radio range
             if( include and filterRange and distancenm > constantaero.RADIONM ) {
                 include = constant.FALSE;
             }
-            
+
             # only with navaids
             elsif( include and filterNavaid and !has_navaid ) {
                 include = constant.FALSE;
             }
-            
+
             if( include ) {
                 me.airports[destination] = { id : destination, label : name, rangenm : distancenm };
             }
@@ -1090,13 +1090,13 @@ DestinationDialog.filldialog = func {
             print( "no airport info found for ", destination );
         }
    }
-   
+
    var node = me.itself["root"].getNode("list");
    var sortedairports = {};
-   
+
    byDistance = me.itself["root-ctrl"].getNode("destination/sort").getChild("distance").getValue();
    byName = me.itself["root-ctrl"].getNode("destination/sort").getChild("name").getValue();
-   
+
    if( byDistance ) {
        sortedairports = sort (keys(me.airports), func (a,b) me.compare_distance(a,b));
    }
@@ -1106,7 +1106,7 @@ DestinationDialog.filldialog = func {
    else {
        sortedairports = sort (keys(me.airports), func (a,b) cmp (me.airports[a].id, me.airports[b].id));
    }
-   
+
    var k = 0;
    foreach( var ident; sortedairports ) {
        if( byDistance ) {
@@ -1118,13 +1118,13 @@ DestinationDialog.filldialog = func {
        else {
            name = ident ~ "  " ~ me.airports[ident].label;
        }
-        
+
        child = node.getNode("value[" ~ k ~ "]",constant.DELAYEDNODE);
        child.setValue(name);
-       
+
        k = k+1;
    }
-   
+
    # remove older entries of the list on screen
    var listLength = size(me.itself["root"].getNode("list").getChildren("value"));
    for( var i=listLength-1; i>=k; i=i-1 ) {
@@ -1135,7 +1135,7 @@ DestinationDialog.filldialog = func {
 DestinationDialog.getService = func( index, service ) {
    var result = constant.FALSE;
    var child = nil;
-   
+
    child = me.itself["airport"][ index ].getChild(service);
    if( child != nil ) {
        result = child.getValue();
@@ -1143,7 +1143,7 @@ DestinationDialog.getService = func( index, service ) {
    else {
        result = constant.FALSE;
    }
-            
+
    return result;
 }
 
@@ -1151,16 +1151,16 @@ DestinationDialog.compare_distance = func( a, b ) {
    var result = 0;
    var distancenm = 0;
    var distancenm = 0;
-  
+
    distancenm = me.airports[a].rangenm;
    distancenm2 = me.airports[b].rangenm;
-  
+
    if( distancenm < distancenm2 ) {
        result = -1;
    }
    elsif( distancenm > distancenm2 ) {
        result = 1;
    }
-   
+
    return result;
 }

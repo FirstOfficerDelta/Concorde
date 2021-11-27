@@ -66,6 +66,10 @@
       <desc>emergency brakes</desc>
     </key>
     <key>
+      <name>e</name>
+      <desc>Set Idle Thrust</desc>
+    </key>
+    <key>
       <name>f</name>
       <desc>full cockpit</desc>
     </key>
@@ -176,7 +180,7 @@
 
 <!-- FDM ops -->
 
-<text> 
+<text>
 Start Engines:
 -Menu Concorde/Ground/Elec+AirBleed
 -Stewart Ctrl+W : Ground Service On
@@ -212,8 +216,8 @@ After starting all engines:
 
 
 Takeoff (408000 lb) :
-            nose 5 deg, afterburner, 
-            Engine 4 N1 Limiter 88%: Normal, at 60kt            
+            nose 5 deg, afterburner,
+            Engine 4 N1 Limiter 88%: Normal, at 60kt
             V1 165 kt,
             VR 195 kt, pitch 13.5 deg at rotation, V2 220 kt.
             trim before engaging autopilot.
@@ -231,7 +235,7 @@ Takeoff (408000 lb) :
  Supersonic descent :
             at 250 NM decelerate at 350 kt,
             before starting the descent until Mach 0.95 FL380 (empty load).
- Approach : 
+ Approach :
             190 kt.
             10 NM at 3500 ft.
  Landing (245000 lb) :

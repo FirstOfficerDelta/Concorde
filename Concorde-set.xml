@@ -20,7 +20,7 @@
 
 <sim include="Nasal/Concorde-sim.xml">
 
-  <description type="string">Concorde</description>
+  <description>Concorde</description>
   <status>early-production</status>
   <rating>
       <FDM type="int">4</FDM>
@@ -38,8 +38,8 @@
    <tag>four-engine</tag>
    <tag>afterburner</tag>
    <tag>1970s,1980s,1990s</tag>
-  </tags>	 
-	 
+  </tags>
+
   <previews>
 	<preview>
 		<type>exterior</type>
@@ -85,18 +85,17 @@
    <property-rule n="101">
     <path>Aircraft/Concorde/Systems/als/Concorde-lights.xml</path>
    </property-rule>
-  </systems> 
+  </systems>
 
   <instrumentation>
    <path>Aircraft/Concorde/Systems/Concorde-instrumentation.xml</path>
   </instrumentation>
-  
+
   <sound>
-   <audible>true</audible>
-   <path>Aircraft/Concorde/Sounds/Concorde-sound.xml</path>
+   <path type="string">Aircraft/Concorde/Sounds/Concorde-sound..xml</path>
   </sound>
 
-  
+
   <model>
    <path>Aircraft/Concorde/Models/Concorde_ba.xml</path>
    <pushback>
@@ -107,6 +106,24 @@
     <position-norm type="double">0</position-norm>
     <target-speed-fps type="double">0</target-speed-fps>
    </pushback>
+	 <door n="0">
+		 <position-x-m type="float">13.2314</position-x-m>
+		 <position-y-m type="float">-1.3368</position-y-m>
+		 <position-z-m type="float">0.233901</position-z-m>
+		 <jetway-hood-deg type="float">2</jetway-hood-deg>
+  </door>
+	<door n="1">
+		<position-x-m type="float">13.2314</position-x-m>
+		<position-y-m type="float">-1.3368</position-y-m>
+		<position-z-m type="float">0.233901</position-z-m>
+		<jetway-hood-deg type="float">2</jetway-hood-deg>
+ </door>
+ <door n="2">
+	 <position-x-m type="float">13.2314</position-x-m>
+	 <position-y-m type="float">-1.3368</position-y-m>
+	 <position-z-m type="float">0.233901</position-z-m>
+	 <jetway-hood-deg type="float">2</jetway-hood-deg>
+</door>
 
   </model>
 
@@ -115,13 +132,6 @@
    <usage>Interior</usage>
    <path>Aircraft/Concorde/Models/Concorde_instruments.xml</path>
   </model>
-
-
-
-
-
-
-
 
 <!-- compensates the shift of VRP at nose -->
 
@@ -132,7 +142,7 @@
   </airport>
 
 <!-- see all fuselage -->
-  
+
   <chase-distance-m type="double" archive="y">-67.0</chase-distance-m>
 
   <help include="help.xml"/>
@@ -243,15 +253,6 @@
    <file>Aircraft/Concorde/Models/Instruments/ND/canvas/WXR.nas</file>
    <file>Aircraft/Concorde/Models/Instruments/ND/canvas/tablet.nas</file>
   </Concorde>
-  <dual_control_tools>
-      <file>Aircraft/Generic/DualControl/dual-control-tools.nas</file>
-    </dual_control_tools>
-    <aircraft_dual_control>
-      <file>dual_control/dual_control.nas</file>
-    </aircraft_dual_control>
-    <dual_control>
-      <file>Aircraft/Generic/DualControl/pilot-dual-control.nas</file>
-    </dual_control>
   <tyresmoke>
     <file>Aircraft/Concorde/Nasal/Concorde-tyre.nas</file>
   </tyresmoke>
@@ -291,20 +292,20 @@
 <!-- autopilot -->
 
   <autoflight>
-   <altitude-select>60000</altitude-select>
+   <altitude-select>10000</altitude-select>
    <speed-select>250</speed-select>
    <autopilot n="0">
-    <heading-select>283</heading-select>                                    <!-- magnetic -->
+    <heading-select>0</heading-select>                                    <!-- magnetic -->
     <heading-true-select>0</heading-true-select>                            <!-- true -->
    </autopilot>
    <autopilot n="1">
-    <heading-select>324</heading-select>                                    <!-- LFBO 32R -->
-    <heading-true-select>87</heading-true-select>                           <!-- EGTG 09 -->
+    <heading-select>0</heading-select>                                    <!-- LFBO 32R -->
+    <heading-true-select>0</heading-true-select>                           <!-- EGTG 09 -->
    </autopilot>
   </autoflight>
 
 <!-- takeoff monitor bug -->
- 
+
   <engines>
    <engine n="0">
     <bug_pph>10000.0</bug_pph>
@@ -324,6 +325,10 @@
 
    <!-- parking brake -->
    <brake-parking-lever type="bool">true</brake-parking-lever>
+
+	 <!--Wheel Chocks On-->
+
+	 <wheel-chocks type="bool">true</wheel-chocks>
 
    <!-- tyre effects -->
    <gear n="0">
@@ -381,8 +386,8 @@
      <on type="bool">false</on>
     </taxi-turn>
    </external>
-   <nav-lights type="bool">true</nav-lights>
-   <strobe type="bool">true</strobe>
+   <nav-lights type="bool">false</nav-lights>
+   <strobe type="bool">false</strobe>
   </lighting>
 
 <!-- not all instruments -->
@@ -424,8 +429,8 @@
 
  </instrumentation>
 
-<!-- engines on -->
- 
+<!-- engines off -->
+
  <engines>
   <engine n="0">
     <running>false</running>
@@ -440,9 +445,6 @@
     <running>false</running>
   </engine>
  </engines>
-
-
-
 
 
 

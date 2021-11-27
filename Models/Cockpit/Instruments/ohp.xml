@@ -1528,7 +1528,7 @@
           <command>property-toggle</command>
           <property>instrumentation/generic/click</property>
         </binding>
-      </mod-up>  
+      </mod-up>
     </action>
   </animation>
 
@@ -2804,7 +2804,7 @@
     		<command>property-toggle</command>
     		<property>instrumentation/generic/click</property>
    	</binding>
-     </action>  
+     </action>
   </animation>
   <animation>
     <type>pick</type>
@@ -2843,7 +2843,7 @@
     		<command>nasal</command>
     		<script>globals.Concorde.flightsystem.resetexport();</script>
    	</binding>
-     </action>  
+     </action>
   </animation>
 
 <!-- Jam warning light -->
@@ -2908,7 +2908,7 @@
     		<command>property-toggle</command>
     		<property>instrumentation/generic/click</property>
    	</binding>
-     </action>  
+     </action>
   </animation>
   <animation>
     <type>pick</type>
@@ -2947,7 +2947,7 @@
     		<command>nasal</command>
     		<script>globals.Concorde.flightsystem.resetexport();</script>
    	</binding>
-     </action>  
+     </action>
   </animation>
 
 <!-- Rudder sw -->
@@ -2996,7 +2996,7 @@
     		<command>property-toggle</command>
     		<property>instrumentation/generic/click</property>
    	</binding>
-     </action>  
+     </action>
   </animation>
   <animation>
     <type>pick</type>
@@ -3035,7 +3035,7 @@
     		<command>nasal</command>
     		<script>globals.Concorde.flightsystem.resetexport();</script>
    	</binding>
-     </action>  
+     </action>
   </animation>
 
 <!-- Antistall (FAIL simulated) -->
@@ -3072,7 +3072,7 @@
     		<command>property-toggle</command>
     		<property>instrumentation/generic/click</property>
    	</binding>
-     </action>  
+     </action>
   </animation>
 
   <animation>
@@ -3107,7 +3107,7 @@
     		<command>property-toggle</command>
     		<property>instrumentation/generic/click</property>
    	</binding>
-     </action>  
+     </action>
   </animation>
 
 <!-- Warning light -->
@@ -3169,7 +3169,7 @@
     <property>instrumentation/generic/click</property>
    </binding>
   </action>
- 
+
   </animation>
 
 <!-- HP valves -->
@@ -3420,7 +3420,7 @@
     <object-name>Knob.010</object-name>
     <property>controls/lighting/instrument-lights</property>
     <factor>180</factor>
-    <axis>   
+    <axis>
       <x1-m>-22.93176</x1-m>
       <y1-m>-0.11051</y1-m>
       <z1-m>1.75918</z1-m>
@@ -3440,7 +3440,7 @@
     <object-name>Knob.009</object-name>
     <property>controls/lighting/instrument-lights</property>
     <factor>180</factor>
-    <axis>   
+    <axis>
       <x1-m>-22.93174</x1-m>
       <y1-m>-0.17424</y1-m>
       <z1-m>1.75917</z1-m>
@@ -3460,7 +3460,7 @@
     <object-name>Knob.013</object-name>
     <property>controls/lighting/instrument-lights</property>
     <factor>180</factor>
-    <axis>   
+    <axis>
       <x1-m>-22.93183</x1-m>
       <y1-m>0.1121</y1-m>
       <z1-m>1.75921</z1-m>
@@ -3480,7 +3480,7 @@
     <object-name>Knob.011</object-name>
     <property>controls/lighting/instrument-lights</property>
     <factor>180</factor>
-    <axis>   
+    <axis>
       <x1-m>-22.93346</x1-m>
       <y1-m>0.24128</y1-m>
       <z1-m>1.75918</z1-m>
@@ -3562,13 +3562,11 @@
      <command>nasal</command>
      <script>
 	light=getprop("/controls/lighting/crew/roof");
-	lantern=getprop("sim/rendering/als-secondary-lights/use-searchlight");
         if (light>0){
 	  setprop("sim/rendering/als-secondary-lights/flash-radius",99);
 	  setprop("sim/rendering/als-secondary-lights/use-flashlight",1);
         } else {
 	  setprop("sim/rendering/als-secondary-lights/flash-radius",13);
-	  setprop("sim/rendering/als-secondary-lights/use-flashlight",lantern);
         };
      </script>
    </binding>
@@ -5248,7 +5246,7 @@
     <property>controls/anti-ice/wing/main-selector</property>
     <factor>-25</factor>
 
-  <axis>   
+  <axis>
    <x1-m>-23.15698</x1-m>
    <y1-m>0.1183</y1-m>
    <z1-m>1.7513</z1-m>
@@ -5314,7 +5312,7 @@
     <property>controls/anti-ice/wing/alternate-selector</property>
     <factor>-25</factor>
 
-  <axis>   
+  <axis>
    <x1-m>-23.15859</x1-m>
    <y1-m>0.24748</y1-m>
    <z1-m>1.75127</z1-m>
@@ -5476,5 +5474,5 @@
 
 
 
- 
+
 </PropertyList>

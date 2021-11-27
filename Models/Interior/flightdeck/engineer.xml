@@ -1,4 +1,4 @@
-<?xml version="1.0" ?> 
+<?xml version="1.0" ?>
 
 <!-- Concorde engineer panel at scale.
 
@@ -6,8 +6,8 @@
      Not smoothed (solid).
 -->
 
-<PropertyList> 
- <path>engineer.ac</path> 
+<PropertyList>
+ <path>engineer.ac</path>
 
 <effect>
 	   <inherits-from>Aircraft/Concorde/Models/Effects/interior</inherits-from>
@@ -16,6 +16,17 @@
   <object-name>EngineerRight</object-name>
   <object-name>Engineer</object-name>
   <object-name>EngineerAft</object-name>
+  <object-name>Plane</object-name>
+  <object-name>Plane.001</object-name>
+  <object-name>Plane.002</object-name>
+  <object-name>Plane.003</object-name>
+  <object-name>Plane.004</object-name>
+  <object-name>Plane.005</object-name>
+  <object-name>Plane.006</object-name>
+  <object-name>Plane.007</object-name>
+  <object-name>Plane.008</object-name>
+  <object-name>Plane.009</object-name>
+  <object-name>Plane.010</object-name>
 
 </effect>
 
@@ -28,7 +39,7 @@
 -->
 
  <animation>
-  <name>EngineerPanel</name> 
+  <name>EngineerPanel</name>
   <object-name>EngineerLeft</object-name>
   <object-name>EngineerLeft.001</object-name>
   <object-name>EngineerRight</object-name>
@@ -41,23 +52,23 @@
   <object-name>EngineerPanel</object-name>
   <object-name>EngineerLeft.001</object-name>
    <object-name>Plane</object-name>
-   <object-name>Plane.001</object-name>   
+   <object-name>Plane.001</object-name>
    <object-name>Plane.002</object-name>
-   <object-name>Plane.003</object-name>   
-   <object-name>Plane.004</object-name>   
+   <object-name>Plane.003</object-name>
+   <object-name>Plane.004</object-name>
    <object-name>Plane.005</object-name>
-   <object-name>Plane.006</object-name>   
+   <object-name>Plane.006</object-name>
    <object-name>Plane.007</object-name>
-   <object-name>Plane.008</object-name>   
-   <object-name>Plane.009</object-name>   
+   <object-name>Plane.008</object-name>
+   <object-name>Plane.009</object-name>
    <object-name>Plane.010</object-name>
   <emission>
    <red>0.83</red>
    <green>0.74</green>
    <blue>0.38</blue>
    <factor-prop>systems/lighting/level/engineer/panel</factor-prop>
-  </emission> 
- </animation> 
+  </emission>
+ </animation>
 
 
 </PropertyList>

@@ -234,7 +234,6 @@ EngineThrottle.schedule = func {
     }
 }
 
-
 # =======================
 # ENGINE CONTROL SCHEDULE
 # =======================
@@ -419,13 +418,13 @@ EngineN1.new = func {
 
                TRANSITSEC : 2.5,                              # duration of transit sound
 
-               TRANSITEND : 1.0,                           
+               TRANSITEND : 1.0,
                TRANSITOFF : 0.0,
 
                THROTTLE88N1 : 0.806,                          # doesn't depend of temperature
 	       THROTTLETOM : 0.94, 			      # T/O monitor ARMED
                THROTTLEREHEAT : 0.10,
-  
+
                N1REHEAT : 81,
                N1EXHAUST : 50,
                N1TRANSIT : 50,                                # like sound file
@@ -604,7 +603,7 @@ Rating.set_throttle = func( position ) {
    var r2=me.itself["root-ctrl"][1].getChild("reverser").getValue();
    var r3=me.itself["root-ctrl"][2].getChild("reverser").getValue();
    var r4=me.itself["root-ctrl"][3].getChild("reverser").getValue();
-  
+
    # faster to process here
    for( var i = 0; i < constantaero.NBENGINES; i = i+1 ) {
         position_new = position;
@@ -613,14 +612,14 @@ Rating.set_throttle = func( position ) {
 #          maxthrottle = 0.90;
 #        }
 #        else {
-	  maxthrottle = me.level( i );        
+	  maxthrottle = me.level( i );
 #        }
 
-#	if (((monitor==0 or (monitor==1 and !me.is_takeoff(i))) and speedmach>n1gov) and me.itself["root-ctrl"][i].getChild("throttle").getValue()>0.90) { 
+#	if (((monitor==0 or (monitor==1 and !me.is_takeoff(i))) and speedmach>n1gov) and me.itself["root-ctrl"][i].getChild("throttle").getValue()>0.90) {
 #            maxthrottle=( (100-60*(speedmach-n1gov))*0.0090 );
 #	}
 #        else {
-#	  maxthrottle = me.level( i );        
+#	  maxthrottle = me.level( i );
 #       }
 
         if( position_new > maxthrottle ) {
@@ -661,7 +660,7 @@ Rating.supervisor = func {
    var rating = "";
    var dummy=0;
    n1gov = 2.0;
- 
+
    # arm takeoff rating
    for( var i=0; i<constantaero.NBENGINES; i=i+1 ) {
         if( !me.is_takeoff(i) ) {
@@ -707,7 +706,7 @@ Rating.supervisor = func {
 #            me.itself["root-ctrl"][i].getChild("throttle").setValue( 0.90 );
 #	}
 
-#	if (((monitor==0 or (monitor==1 and !me.is_takeoff(i))) and speedmach>n1gov) and me.itself["root-ctrl"][i].getChild("throttle").getValue()>(100-60*(speedmach-n1gov))*0.0090) { 
+#	if (((monitor==0 or (monitor==1 and !me.is_takeoff(i))) and speedmach>n1gov) and me.itself["root-ctrl"][i].getChild("throttle").getValue()>(100-60*(speedmach-n1gov))*0.0090) {
 #            me.itself["root-ctrl"][i].getChild("throttle").setValue( (100-60*(speedmach-n1gov))*0.0090 );
 #	}
 
@@ -727,10 +726,10 @@ Rating.autothrottle = func {
 #          maxthrottle = 0.90;
 #        }
 #        else {
-	  maxthrottle = me.level( i );        
+	  maxthrottle = me.level( i );
 #        }
 
-#	if (((monitor==0 or (monitor==1 and !me.is_takeoff(i))) and speedmach>n1gov) ) { 
+#	if (((monitor==0 or (monitor==1 and !me.is_takeoff(i))) and speedmach>n1gov) ) {
 #            maxthrottle=( (100-60*(speedmach-n1gov))*0.0090 );
 #	}
 
@@ -871,6 +870,29 @@ Bucket.reverseexport = func {
             }
 
        }
+   }
+
+   #Throttle setting when reverser is deployed on ground
+   if (getprop("controls/engines/engine/reverser") and getprop("controls/engines/engine[1]/reverser") and getprop("controls/engines/engine[2]/reverser") and getprop("controls/engines/engine[3]/reverser")){
+     setprop("controls/engines/engine/throttle", 1);
+     setprop("controls/engines/engine[1]/throttle", 1);
+     setprop("controls/engines/engine[2]/throttle", 1);
+     setprop("controls/engines/engine[3]/throttle", 1);
+
+     setprop("controls/engines/engine/throttle-manual", 1);
+     setprop("controls/engines/engine[1]/throttle-manual", 1);
+     setprop("controls/engines/engine[2]/throttle-manual", 1);
+     setprop("controls/engines/engine[3]/throttle-manual", 1);
+   } else {
+     setprop("controls/engines/engine/throttle", 0);
+     setprop("controls/engines/engine[1]/throttle", 0);
+     setprop("controls/engines/engine[2]/throttle", 0);
+     setprop("controls/engines/engine[3]/throttle", 0);
+
+     setprop("controls/engines/engine/throttle-manual", 0);
+     setprop("controls/engines/engine[1]/throttle-manual", 0);
+     setprop("controls/engines/engine[2]/throttle-manual", 0);
+     setprop("controls/engines/engine[3]/throttle-manual", 0);
    }
 }
 
@@ -1058,7 +1080,7 @@ AirDoor.schedule = func {
            if( speedkt > me.ENGINE4KT ) {
                value = constant.TRUE;
            }
-       } 
+       }
        # shuts below Mach 0.26, gear down
        elsif( speedmach < me.ENGINESMACH and gearpos == constantaero.GEARDOWN ) {
            value = constant.FALSE;

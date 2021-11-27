@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<!-- 
+<!--
      IMPORTANT : the index of views is automatically created, and then retrieved by Nasal.
 
 
@@ -31,6 +31,7 @@
      <pitch-offset-deg archive="y">-17.0</pitch-offset-deg> <!-- look at the instruments -->
      <heading-offset-deg archive="y">0.0</heading-offset-deg>
    </config>
+   <name>Captain's View</name>
   </view>
 
 <!-- shift from nose to CG (54 % : 33.64 m = 18.7 + 0.54 x 27.66), to make the view natural -->
@@ -89,8 +90,8 @@
       <front-right-direction-deg type="double">315</front-right-direction-deg>
       <!-- x/y/z == right/up/back -->
       <x-offset-m archive="y">0.0</x-offset-m> <!-- behind the pedestal -->
-      <y-offset-m archive="y">1.457</y-offset-m> <!-- head at the bottom of the (tilted) top rack --> 
-      <z-offset-m archive="y">9.508</z-offset-m> <!--in the middle of the horizontal table --> 
+      <y-offset-m archive="y">1.457</y-offset-m> <!-- head at the bottom of the (tilted) top rack -->
+      <z-offset-m archive="y">9.508</z-offset-m> <!--in the middle of the horizontal table -->
       <pitch-offset-deg archive="y">-20.0</pitch-offset-deg> <!-- look at the fuel instruments -->
       <heading-offset-deg type="double">270</heading-offset-deg> <!-- parallel to the panel -->
     </config>
@@ -118,9 +119,9 @@
       <front-right-direction-deg type="double">315</front-right-direction-deg>
       <!-- x/y/z == right/up/back -->
       <x-offset-m archive="y">0.0</x-offset-m> <!-- seat rolls behind the pedestal -->
-      <y-offset-m archive="y">1.530</y-offset-m> <!-- rolling seat in front on the engineer panel -->
+      <y-offset-m archive="y">0.8</y-offset-m>
       <z-offset-m archive="y">8.68</z-offset-m> <!--seat stops behind the pedestal -->
-      <pitch-offset-deg archive="y">36.0</pitch-offset-deg> <!-- look at the rear panel -->
+      <pitch-offset-deg archive="y">61.333</pitch-offset-deg> <!-- look at the rear panel -->
       <heading-offset-deg type="double">0</heading-offset-deg> <!-- parallel to the panel -->
     </config>
   </view>
@@ -150,8 +151,8 @@
       <x-offset-m archive="y">0.452</x-offset-m>   <!-- symmetry with captain -->
       <y-offset-m archive="y">1.530</y-offset-m>
       <z-offset-m archive="y">8.03</z-offset-m>
-      <pitch-offset-deg archive="y">-5.0</pitch-offset-deg> <!-- look the horizon -->
-      <heading-offset-deg type="double">280</heading-offset-deg> <!-- inside its windows -->
+      <pitch-offset-deg archive="y">-17.0</pitch-offset-deg>
+      <heading-offset-deg type="double">0</heading-offset-deg>
     </config>
   </view>
 
@@ -263,11 +264,11 @@
       <right-direction-deg type="double">270</right-direction-deg>
       <front-right-direction-deg type="double">315</front-right-direction-deg>
       <!-- x/y/z == right/up/back -->
-      <x-offset-m archive="y">3.25</x-offset-m>
-      <y-offset-m archive="y">0.0</y-offset-m>
-      <z-offset-m archive="y">37.18</z-offset-m>
-      <pitch-offset-deg archive="y">-30.0</pitch-offset-deg>
-      <heading-offset-deg type="double">55</heading-offset-deg>       <!--  watch the two right pistons -->
+      <x-offset-m archive="y">0</x-offset-m>
+      <y-offset-m archive="y">-1.5</y-offset-m>
+      <z-offset-m archive="y">20.2</z-offset-m>
+      <pitch-offset-deg archive="y">0</pitch-offset-deg>
+      <heading-offset-deg type="double">180</heading-offset-deg>
     </config>
   </view>
 
@@ -292,13 +293,12 @@
       <right-direction-deg type="double">270</right-direction-deg>
       <front-right-direction-deg type="double">315</front-right-direction-deg>
       <!-- x/y/z == right/up/back -->
-      <x-offset-m archive="y">-0.37</x-offset-m>
-      <y-offset-m archive="y">-0.67</y-offset-m>
-      <z-offset-m archive="y">18.06</z-offset-m>
-      <pitch-offset-deg archive="y">5.0</pitch-offset-deg>
-      <heading-offset-deg type="double">355.0</heading-offset-deg>       <!-- tyres -->
+      <x-offset-m archive="y">0</x-offset-m>
+      <y-offset-m archive="y">-1.06</y-offset-m>
+      <z-offset-m archive="y">25.26</z-offset-m>
+      <pitch-offset-deg archive="y">-13.0</pitch-offset-deg>
+      <heading-offset-deg type="double">0</heading-offset-deg>       <!-- tyres -->
     </config>
   </view>
 
 </PropertyList>
-

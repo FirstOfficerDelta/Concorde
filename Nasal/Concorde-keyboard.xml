@@ -20,7 +20,9 @@
     <desc>reverse thrust</desc>
     <binding>
      <command>nasal</command>
-     <script>globals.Concorde.enginesystem.reverseexport();</script>
+     <script>
+       globals.Concorde.enginesystem.reverseexport();
+     </script>
     </binding>
    </key>
 
@@ -43,8 +45,9 @@
     <name>Ctrl-E</name>
     <desc>Toggle engineer view</desc>
     <binding>
-     <command>nasal</command>
-     <script>globals.Concorde.seatsystem.viewexport("engineer");</script>
+     <command>property-assign</command>
+     <property>sim/current-view/view-number</property>
+     <value>8</value>
     </binding>
    </key>
 
@@ -87,8 +90,9 @@
     <name>Ctrl-K</name>
     <desc>Toggle observer view.</desc>
     <binding>
-     <command>nasal</command>
-     <script>globals.Concorde.seatsystem.viewexport("observer");</script>
+     <command>property-assign</command>
+     <property>sim/current-view/view-number</property>
+     <value>12</value>
     </binding>
    </key>
 
@@ -96,8 +100,9 @@
     <name>Ctrl-L</name>
     <desc>Toggle observer 2 view.</desc>
     <binding>
-     <command>nasal</command>
-     <script>globals.Concorde.seatsystem.viewexport("observer2");</script>
+     <command>property-assign</command>
+     <property>sim/current-view/view-number</property>
+     <value>13</value>
     </binding>
    </key>
 
@@ -118,8 +123,9 @@
     <name>Ctrl-O</name>
     <desc>Toggle overhead view.</desc>
     <binding>
-     <command>nasal</command>
-     <script>globals.Concorde.seatsystem.viewexport("overhead");</script>
+     <command>property-assign</command>
+     <property>sim/current-view/view-number</property>
+     <value>9</value>
     </binding>
    </key>
 
@@ -198,28 +204,13 @@
     </binding>
    </key>
 
-   <key n="22">
-    <name>Ctrl-V</name>
-    <desc>Select initial view (view 0).</desc>
-    <binding>
-     <command>nasal</command>
-     <script>globals.Concorde.seatsystem.viewexport("captain");</script>
-    </binding>
-    <mod-shift>
-     <desc>Restore view pitch</desc>
-     <binding>
-      <command>nasal</command>
-      <script>globals.Concorde.seatsystem.restorepitchexport();</script>
-     </binding>
-    </mod-shift>
-   </key>
-
    <key n="23">
     <name>Ctrl-W</name>
     <desc>Toggle steward view.</desc>
     <binding>
-     <command>nasal</command>
-     <script>globals.Concorde.seatsystem.viewexport("steward");</script>
+     <command>property-assign</command>
+     <property>sim/current-view/view-number</property>
+     <value>11</value>
     </binding>
    </key>
 
@@ -238,9 +229,26 @@
     <name>Ctrl-Y</name>
     <desc>Toggle copilot view.</desc>
     <binding>
-     <command>nasal</command>
-     <script>globals.Concorde.seatsystem.viewexport("copilot");</script>
+     <command>property-assign</command>
+     <property>sim/current-view/view-number</property>
+     <value>10</value>
     </binding>
+   </key>
+
+   <key n="53">
+     <name>5</name>
+     <desc>Center All Flight Controls</desc>
+     <binding>
+       <command>nasal</command>
+       <script>
+         setprop("controls/flight/aileron", 0);
+         setprop("controls/flight/aileron-trim", 0);
+         setprop("controls/flight/elevator", 0);
+         setprop("controls/flight/elevator-trim", 0);
+         setprop("controls/flight/rudder", 0);
+         setprop("controls/flight/rudder-trim", 0);
+       </script>
+     </binding>
    </key>
 
    <key n="61">
@@ -249,15 +257,6 @@
     <binding>
      <command>dialog-show</command>
      <dialog-name>Concorde-menu</dialog-name>
-    </binding>
-   </key>
-
-   <key n="86">
-    <name>V</name>
-    <desc>Scroll in reverse through views.</desc>
-    <binding>
-     <command>nasal</command>
-     <script>globals.Concorde.seatsystem.scrollreverseexport();</script>
     </binding>
    </key>
 
@@ -270,6 +269,35 @@
       <script>globals.Concorde.hydraulicsystem.brakesemergencyexport();</script>
      </binding>
     </mod-alt>
+   </key>
+
+   <key n="101">
+     <name>e</name>
+     <desc>Set Idle Thrust</desc>
+     <binding>
+       <command>nasal</command>
+       <script>
+         setprop("controls/engines/engine/throttle", 0);
+         setprop("controls/engines/engine[1]/throttle", 0);
+         setprop("controls/engines/engine[2]/throttle", 0);
+         setprop("controls/engines/engine[3]/throttle", 0);
+
+         setprop("controls/engines/engine/throttle-manual", 0);
+         setprop("controls/engines/engine[1]/throttle-manual", 0);
+         setprop("controls/engines/engine[2]/throttle-manual", 0);
+         setprop("controls/engines/engine[3]/throttle-manual", 0);
+
+         setprop("controls/autoflight/autothrottle/engage", 0);
+         setprop("controls/autoflight/autothrottle[1]/engage", 0);
+         setprop("controls/autoflight/speed", "");
+
+         setprop("autopilot/locks/speed", "");
+         setprop("autopilot/locks/autothrottle/engine", "");
+         setprop("autopilot/locks/autothrottle/engine[1]", "");
+         setprop("autopilot/locks/autothrottle/engine[2]", "");
+         setprop("autopilot/locks/autothrottle/engine[3]", "");
+       </script>
+     </binding>
    </key>
 
    <key n="102">
@@ -310,15 +338,6 @@
      <command>property-assign</command>
      <property>/sim/speed-up</property>
      <value>1</value>
-    </binding>
-   </key>
-
-   <key n="118">
-    <name>v</name>
-    <desc>Cycle view</desc>
-    <binding>
-     <command>nasal</command>
-     <script>globals.Concorde.seatsystem.scrollexport();</script>
     </binding>
    </key>
 
@@ -383,5 +402,3 @@
    </key>
 
 </PropertyList>
-
-

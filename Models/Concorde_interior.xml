@@ -172,10 +172,10 @@
       <pitch-deg>-10</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
+
+
+
+
 
   <model>
     <name>Copilot RAD/INS Switch</name>
@@ -187,9 +187,9 @@
       <pitch-deg>-10</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
 
 
     <model>
@@ -202,8 +202,8 @@
       <pitch-deg>-10</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
 
 
   <model>
@@ -558,7 +558,7 @@
       <pitch-deg>-10</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Captain Cabin Altimeter</name>
     <path>Aircraft/Concorde/Models/Cockpit/Instruments/cabin-alt.xml</path>
@@ -767,7 +767,7 @@
       <pitch-deg>-10</pitch-deg>
     </offsets>
   </model>
-  
+
 
 
   <model>
@@ -1648,7 +1648,7 @@
       <pitch-deg>-10</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Nose Visor Status 2</name>
     <path>Aircraft/Concorde/Models/Cockpit/Instruments/visor-mi.xml</path>
@@ -1659,7 +1659,7 @@
       <pitch-deg>-10</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Nose Status 2</name>
     <path>Aircraft/Concorde/Models/Cockpit/Instruments/nose-mi.xml</path>
@@ -1829,8 +1829,8 @@
     <z-m> 0.27484</z-m>
    </offsets>
   </model>
-  
-  
+
+
 
 
 <!-- ENGINEER -->
@@ -1889,7 +1889,7 @@
   </model>
 
 
-<!-- STEWARD -->
+<!-- STEWARD>
 
   <model>
    <name>Steward Panel</name>
@@ -1899,14 +1899,14 @@
     <y-m>  0.0  </y-m>
     <z-m>  0.260</z-m>
    </offsets>
-  </model>
+ </model-->
 <!-- ======== -->
 <!-- ENGINEERINSTRUMENTS -->
 <!-- ======== -->
 
 
 <model>
-  
+
   <name>Mi LP FWD EXT</name>
     <path>Cockpit/Engineer/mi-lpflow.xml</path>
     <overlay>
@@ -1915,7 +1915,7 @@
       <x-m>-21.974</x-m>
       <y-m>0.467</y-m>
       <z-m>1.485</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -1929,13 +1929,13 @@
       <x-m>-21.962</x-m>
       <y-m>0.465</y-m>
       <z-m>1.485</z-m>
-      
-      
+
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>22</pitch-deg>
-      
-     
-      
+
+
+
     </offsets>
   </model>
 
@@ -1949,17 +1949,17 @@
       <x-m>-21.950</x-m>
       <y-m>0.465</y-m>
       <z-m>1.485</z-m>
-      
-      
+
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>22</pitch-deg>
-      
-     
-      
+
+
+
     </offsets>
   </model>
   <model>
-  
+
   <name>Mi FWD  SUPPLY LH</name>
     <path>Cockpit/Engineer/mi-lpflow.xml</path>
     <overlay>
@@ -1968,12 +1968,12 @@
       <x-m>-21.918</x-m>
       <y-m>0.467</y-m>
       <z-m>1.485</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model><model>
-  
+
   <name>Mi FWD  SUPPLY RH</name>
     <path>Cockpit/Engineer/mi-lpflow.xml</path>
     <overlay>
@@ -1982,14 +1982,14 @@
       <x-m>-21.906</x-m>
       <y-m>0.467</y-m>
       <z-m>1.485</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
-  
+
   <name>Mi LP REAR LH</name>
     <path>Cockpit/Engineer/mi-lpflow.xml</path>
     <overlay>
@@ -1998,12 +1998,12 @@
       <x-m>-21.885</x-m>
       <y-m>0.467</y-m>
       <z-m>1.485</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Flow Light 3</name>
     <path>Cockpit/Engineer/red-flow.xml</path>
@@ -2013,18 +2013,18 @@
       <x-m>-21.875</x-m>
       <y-m>0.465</y-m>
       <z-m>1.485</z-m>
-      
-      
+
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>22</pitch-deg>
-      
-     
-      
+
+
+
     </offsets>
   </model>
-  
+
   <model>
-  
+
   <name>Mi LP REAR RH</name>
     <path>Cockpit/Engineer/mi-lpflow.xml</path>
     <overlay>
@@ -2033,7 +2033,7 @@
       <x-m>-21.859</x-m>
       <y-m>0.467</y-m>
       <z-m>1.485</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -2050,13 +2050,13 @@
       <x-m>-21.977</x-m>
       <y-m>0.480</y-m>
       <z-m>1.458</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
 <name>Fan 1 3 </name>
     <path>Cockpit/Engineer/switch-nothing.xml</path>
@@ -2066,14 +2066,14 @@
       <x-m>-21.960</x-m>
       <y-m>0.480</y-m>
       <z-m>1.458</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
    <model>
 <name>Fwd Supply </name>
     <path>Cockpit/Engineer/switch-nothing.xml</path>
@@ -2083,12 +2083,12 @@
       <x-m>-21.910</x-m>
       <y-m>0.475</y-m>
       <z-m>1.453</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
 <name>Rear Extract LH </name>
     <path>Cockpit/Engineer/switch-nothing.xml</path>
@@ -2098,12 +2098,12 @@
       <x-m>-21.885</x-m>
       <y-m>0.475</y-m>
       <z-m>1.453</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
    <model>
 <name>Rear Extract RH </name>
     <path>Cockpit/Engineer/switch-nothing.xml</path>
@@ -2113,12 +2113,12 @@
       <x-m>-21.87</x-m>
       <y-m>0.475</y-m>
       <z-m>1.453</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
    <model>
 <name>Rear Extract Standby </name>
     <path>Cockpit/Engineer/switch-nothing.xml</path>
@@ -2128,7 +2128,7 @@
       <x-m>-21.85</x-m>
       <y-m>0.475</y-m>
       <z-m>1.453</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -2146,18 +2146,18 @@
       <x-m>-21.940</x-m>
        <y-m>0.500</y-m>
       <z-m>1.417</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
 <name>Mi Fwd Extract </name>
     <path>Cockpit/Engineer/mi-wopen-valve.xml</path>
     <overlay>
     <params>
-  <open-status>/systems/electrical/power/specific</open-status>        
+  <open-status>/systems/electrical/power/specific</open-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -2165,13 +2165,13 @@
      <x-m>-21.968</x-m>
       <y-m>0.50</y-m>
       <z-m>1.412</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
 <name>Fwd Emerg Relief </name>
     <path>Cockpit/Engineer/switch-nothing.xml</path>
@@ -2181,14 +2181,14 @@
       <x-m>-21.98</x-m>
       <y-m>0.50</y-m>
       <z-m>1.412</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
-  
+
   <name>Mi LP Protection 1</name>
     <path>Cockpit/Engineer/mi-lpprotection.xml</path>
     <overlay>
@@ -2197,14 +2197,14 @@
       <x-m>-21.969</x-m>
       <y-m>0.53</y-m>
       <z-m>1.352</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
-  
+
   <name>Mi LP Protection 2</name>
     <path>Cockpit/Engineer/mi-lpprotection.xml</path>
     <overlay>
@@ -2213,14 +2213,14 @@
       <x-m>-21.958</x-m>
       <y-m>0.53</y-m>
       <z-m>1.352</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
-  
+
   <name>Mi LP Protection 3</name>
     <path>Cockpit/Engineer/mi-lpprotection.xml</path>
     <overlay>
@@ -2229,14 +2229,14 @@
       <x-m>-21.947</x-m>
       <y-m>0.53</y-m>
       <z-m>1.352</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
    <model>
-  
+
   <name>Mi LP Protection 4</name>
     <path>Cockpit/Engineer/mi-lpprotection.xml</path>
     <overlay>
@@ -2245,14 +2245,14 @@
       <x-m>-21.936</x-m>
       <y-m>0.53</y-m>
       <z-m>1.352</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
-  
+
   <name>Fuel LP Protection </name>
     <path>Cockpit/Engineer/switch-nothing.xml</path>
     <overlay>
@@ -2261,13 +2261,13 @@
       <x-m>-21.942</x-m>
       <y-m>0.544</y-m>
       <z-m>1.32</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Mi Refuel </name>
     <path>Cockpit/Engineer/mi-refuel.xml</path>
@@ -2277,16 +2277,16 @@
       <x-m>-21.761</x-m>
       <y-m>0.453</y-m>
       <z-m>1.512</z-m>
-      
-      
+
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>22</pitch-deg>
-      
-     
-      
+
+
+
     </offsets>
   </model>
-  
+
 
 <model>
     <name>Fuel Tank 9 Overfull </name>
@@ -2301,13 +2301,13 @@
       <x-m>-21.761</x-m>
       <y-m>0.471</y-m>
       <z-m>1.472</z-m>
-      
-      
+
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>22</pitch-deg>
-      
-     
-      
+
+
+
     </offsets>
   </model>
 
@@ -2323,13 +2323,13 @@
       <x-m>-21.761</x-m>
       <y-m>0.495</y-m>
       <z-m>1.434</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Fuel Tank 9 pump 1 Low Press</name>
     <path>Cockpit/Engineer/low-press.xml</path>
@@ -2343,12 +2343,12 @@
       <x-m>-21.813</x-m>
        <y-m>0.484</y-m>
       <z-m>1.448</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Tank 9 pump 2 Low Press</name>
     <path>Cockpit/Engineer/low-press.xml</path>
@@ -2362,13 +2362,13 @@
       <x-m>-21.709</x-m>
        <y-m>0.484</y-m>
       <z-m>1.448</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Fuel Tank 9 Overfull </name>
     <path>Cockpit/Engineer/tank-o-full9.xml</path>
@@ -2382,16 +2382,16 @@
       <x-m>-21.761</x-m>
       <y-m>0.471</y-m>
       <z-m>1.472</z-m>
-      
-      
+
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>22</pitch-deg>
-      
-     
-      
+
+
+
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Tank 10 </name>
     <path>Cockpit/Engineer/tank-12.xml</path>
@@ -2404,12 +2404,12 @@
       <x-m>-21.761</x-m>
       <y-m>0.533</y-m>
       <z-m>1.347</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Tank 10 pump 1 Low Press</name>
     <path>Cockpit/Engineer/low-press.xml</path>
@@ -2423,12 +2423,12 @@
       <x-m>-21.813</x-m>
       <y-m>0.524</y-m>
       <z-m>1.36</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Tank 10 pump 2 Low Press</name>
     <path>Cockpit/Engineer/low-press.xml</path>
@@ -2442,14 +2442,14 @@
       <x-m>-21.709</x-m>
       <y-m>0.524</y-m>
       <z-m>1.36</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Fuel Tank 5 Overfull </name>
     <path>Cockpit/Engineer/tank-o-full.xml</path>
@@ -2463,14 +2463,14 @@
       <x-m>-21.936</x-m>
       <y-m>0.555</y-m>
       <z-m>1.262</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Fuel Tank 5 </name>
     <path>Cockpit/Engineer/tank-10.xml</path>
@@ -2483,13 +2483,13 @@
       <x-m>-21.937</x-m>
       <y-m>0.555</y-m>
       <z-m>1.229</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
    <model>
     <name>Fuel Tank 7 Overfull </name>
     <path>Cockpit/Engineer/tank-o-full.xml</path>
@@ -2503,12 +2503,12 @@
       <x-m>-21.602</x-m>
       <y-m>0.555</y-m>
       <z-m>1.262</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Tank 7 </name>
     <path>Cockpit/Engineer/tank-10.xml</path>
@@ -2521,14 +2521,14 @@
       <x-m>-21.600</x-m>
       <y-m>0.555</y-m>
       <z-m>1.229</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Fuel Tank 6 </name>
     <path>Cockpit/Engineer/tank-12.xml</path>
@@ -2541,12 +2541,12 @@
       <x-m>-21.938</x-m>
       <y-m>0.554</y-m>
       <z-m>1.171</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Tank 8 </name>
     <path>Cockpit/Engineer/tank-12.xml</path>
@@ -2559,13 +2559,13 @@
       <x-m>-21.599</x-m>
       <y-m>0.554</y-m>
       <z-m>1.171</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Fuel Tank 11 </name>
     <path>Cockpit/Engineer/tank-12.xml</path>
@@ -2578,13 +2578,13 @@
         <x-m>-21.773</x-m>
       <y-m>0.551</y-m>
       <z-m>1.064</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Fuel Tank 11 Overfull </name>
     <path>Cockpit/Engineer/tank-o-full.xml</path>
@@ -2598,12 +2598,12 @@
         <x-m>-21.773</x-m>
       <y-m>0.549</y-m>
       <z-m>1.024</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Tank 11 pump 1 Low Press</name>
     <path>Cockpit/Engineer/low-press.xml</path>
@@ -2617,12 +2617,12 @@
       <x-m>-21.803</x-m>
        <y-m>0.548</y-m>
       <z-m>0.95</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Tank 11 pump 2 Low Press</name>
     <path>Cockpit/Engineer/low-press.xml</path>
@@ -2636,12 +2636,12 @@
       <x-m>-21.739</x-m>
        <y-m>0.548</y-m>
       <z-m>0.95</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Tank 7A </name>
     <path>Cockpit/Engineer/tank-5.xml</path>
@@ -2654,7 +2654,7 @@
       <x-m>-21.615</x-m>
       <y-m>0.533</y-m>
       <z-m>1.347</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -2671,12 +2671,12 @@
       <x-m>-21.900</x-m>
       <y-m>0.533</y-m>
       <z-m>1.347</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Tank 1 </name>
     <path>Cockpit/Engineer/tank-5.xml</path>
@@ -2689,7 +2689,7 @@
       <x-m>-21.975</x-m>
       <y-m>0.552</y-m>
       <z-m>1.111</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
@@ -2706,7 +2706,7 @@
       <x-m>-21.885</x-m>
       <y-m>0.552</y-m>
       <z-m>1.111</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
@@ -2723,7 +2723,7 @@
       <x-m>-21.653</x-m>
       <y-m>0.552</y-m>
       <z-m>1.111</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
@@ -2740,7 +2740,7 @@
       <x-m>-21.562</x-m>
       <y-m>0.552</y-m>
       <z-m>1.111</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -2761,11 +2761,11 @@
       <x-m>-21.93</x-m>
       <y-m>0.549</y-m>
       <z-m>1.11</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Tank 2 Light </name>
     <path>Cockpit/Engineer/light-tank.xml</path>
@@ -2782,12 +2782,12 @@
       <x-m>-21.84</x-m>
       <y-m>0.549</y-m>
       <z-m>1.11</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Fuel Tank 3 Light </name>
     <path>Cockpit/Engineer/light-tank.xml</path>
@@ -2804,11 +2804,11 @@
       <x-m>-21.695</x-m>
       <y-m>0.549</y-m>
       <z-m>1.11</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Tank 4 Light </name>
     <path>Cockpit/Engineer/light-tank.xml</path>
@@ -2825,7 +2825,7 @@
       <x-m>-21.605</x-m>
       <y-m>0.549</y-m>
       <z-m>1.11</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -2843,13 +2843,13 @@
       <x-m>-21.733</x-m>
       <y-m>0.514</y-m>
       <z-m>1.391</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Fuel Auto 11 </name>
     <path>Cockpit/Engineer/fuel-limit-auto-11.xml</path>
@@ -2862,7 +2862,7 @@
         <x-m>-21.771</x-m>
       <y-m>0.549</y-m>
       <z-m>0.98</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
@@ -2884,7 +2884,7 @@
       <x-m>-21.977</x-m>
       <y-m>0.551</y-m>
       <z-m>1.234</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
@@ -2903,13 +2903,13 @@
       <x-m>-21.977</x-m>
       <y-m>0.551</y-m>
       <z-m>1.214</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
    <model>
     <name>Fuel Tank 5 pump 2 Low Press</name>
     <path>Cockpit/Engineer/low-press.xml</path>
@@ -2923,13 +2923,13 @@
      <x-m>-21.896</x-m>
       <y-m>0.551</y-m>
       <z-m>1.234</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
 
-  
+
 <model>
     <name>Fuel Pump 2 Tank 5 </name>
     <path>Cockpit/Engineer/tank-5-pump-2.xml</path>
@@ -2942,14 +2942,14 @@
       <x-m>-21.896</x-m>
       <y-m>0.549</y-m>
       <z-m>1.214</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
- 
+
+
+
  <model>
     <name>Fuel Tank 7 pump 1 Low Press</name>
     <path>Cockpit/Engineer/low-press.xml</path>
@@ -2963,7 +2963,7 @@
     <x-m>-21.641</x-m>
       <y-m>0.551</y-m>
       <z-m>1.234</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
@@ -2982,13 +2982,13 @@
       <x-m>-21.641</x-m>
       <y-m>0.549</y-m>
       <z-m>1.214</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
    <model>
     <name>Fuel Tank 7 pump 2 Low Press</name>
     <path>Cockpit/Engineer/low-press.xml</path>
@@ -3002,7 +3002,7 @@
     <x-m>-21.559</x-m>
       <y-m>0.551</y-m>
       <z-m>1.234</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
@@ -3020,7 +3020,7 @@
       <x-m>-21.559</x-m>
       <y-m>0.549</y-m>
       <z-m>1.214</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
@@ -3046,7 +3046,7 @@
    	<x-m>-21.978</x-m>
       <y-m>0.551</y-m>
       <z-m>1.18</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -3064,7 +3064,7 @@
       <x-m>-21.978</x-m>
       <y-m>0.549</y-m>
       <z-m>1.16</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -3085,7 +3085,7 @@
    	<x-m>-21.897</x-m>
       <y-m>0.551</y-m>
       <z-m>1.18</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -3105,7 +3105,7 @@
       <x-m>-21.897</x-m>
       <y-m>0.549</y-m>
       <z-m>1.16</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -3125,12 +3125,12 @@
    	<x-m>-21.641</x-m>
       <y-m>0.551</y-m>
       <z-m>1.18</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
+
 <model>
     <name>Fuel Pump 1 Tank 8 </name>
     <path>Cockpit/Engineer/tank-8-pump-1.xml</path>
@@ -3143,7 +3143,7 @@
       <x-m>-21.641</x-m>
       <y-m>0.549</y-m>
       <z-m>1.16</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -3162,7 +3162,7 @@
    	<x-m>-21.559</x-m>
       <y-m>0.551</y-m>
       <z-m>1.18</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -3181,7 +3181,7 @@
       <x-m>-21.559</x-m>
       <y-m>0.549</y-m>
       <z-m>1.16</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -3199,11 +3199,11 @@
       <x-m>-21.987</x-m>
       <y-m>0.549</y-m>
       <z-m>1.065</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Pump 1 Tank 1 Low Press</name>
     <path>Cockpit/Engineer/low-press-feed.xml</path>
@@ -3216,7 +3216,7 @@
       <x-m>-21.987</x-m>
       <y-m>0.548</y-m>
       <z-m>1.036</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -3234,11 +3234,11 @@
       <x-m>-21.959</x-m>
       <y-m>0.549</y-m>
       <z-m>1.065</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Pump 2 Tank 1 Low Press</name>
     <path>Cockpit/Engineer/low-press-feed.xml</path>
@@ -3251,7 +3251,7 @@
       <x-m>-21.959</x-m>
       <y-m>0.550</y-m>
       <z-m>1.036</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -3268,7 +3268,7 @@
       <x-m>-21.931</x-m>
       <y-m>0.549</y-m>
       <z-m>1.065</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -3285,13 +3285,13 @@
       <x-m>-21.931</x-m>
       <y-m>0.550</y-m>
       <z-m>1.036</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
 
 
 
@@ -3314,11 +3314,11 @@
       <x-m>-21.897</x-m>
       <y-m>0.549</y-m>
       <z-m>1.065</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Pump 1 Tank 2 Low Press</name>
     <path>Cockpit/Engineer/low-press-feed.xml</path>
@@ -3331,11 +3331,11 @@
       <x-m>-21.897</x-m>
       <y-m>0.549</y-m>
       <z-m>1.036</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
+
 
 <model>
     <name>Fuel Pump 2 Tank 2 </name>
@@ -3349,11 +3349,11 @@
       <x-m>-21.870</x-m>
       <y-m>0.549</y-m>
       <z-m>1.065</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Pump 2 Tank 2 Low Press</name>
     <path>Cockpit/Engineer/low-press-feed.xml</path>
@@ -3366,7 +3366,7 @@
       <x-m>-21.870</x-m>
       <y-m>0.549</y-m>
       <z-m>1.036</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -3383,7 +3383,7 @@
       <x-m>-21.841</x-m>
       <y-m>0.549</y-m>
       <z-m>1.065</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -3399,7 +3399,7 @@
       <x-m>-21.841</x-m>
       <y-m>0.549</y-m>
       <z-m>1.036</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -3427,7 +3427,7 @@
       <x-m>-21.703</x-m>
       <y-m>0.549</y-m>
       <z-m>1.065</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -3443,7 +3443,7 @@
       <x-m>-21.703</x-m>
       <y-m>0.549</y-m>
       <z-m>1.036</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -3460,7 +3460,7 @@
       <x-m>-21.675</x-m>
       <y-m>0.549</y-m>
       <z-m>1.065</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -3476,7 +3476,7 @@
       <x-m>-21.675</x-m>
       <y-m>0.549</y-m>
       <z-m>1.036</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -3493,11 +3493,11 @@
       <x-m>-21.646</x-m>
       <y-m>0.549</y-m>
       <z-m>1.065</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Pump 3 Tank 3 Low Press</name>
     <path>Cockpit/Engineer/low-press-feed.xml</path>
@@ -3510,7 +3510,7 @@
       <x-m>-21.646</x-m>
       <y-m>0.549</y-m>
       <z-m>1.036</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -3537,7 +3537,7 @@
       <x-m>-21.612</x-m>
       <y-m>0.549</y-m>
       <z-m>1.065</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -3553,7 +3553,7 @@
       <x-m>-21.612</x-m>
       <y-m>0.549</y-m>
       <z-m>1.036</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -3570,11 +3570,11 @@
       <x-m>-21.584</x-m>
       <y-m>0.549</y-m>
       <z-m>1.065</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Pump 2 Tank 4 Low Press</name>
     <path>Cockpit/Engineer/low-press-feed.xml</path>
@@ -3587,7 +3587,7 @@
       <x-m>-21.584</x-m>
       <y-m>0.549</y-m>
       <z-m>1.036</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -3604,7 +3604,7 @@
       <x-m>-21.556</x-m>
       <y-m>0.549</y-m>
       <z-m>1.065</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -3620,7 +3620,7 @@
       <x-m>-21.556</x-m>
       <y-m>0.549</y-m>
       <z-m>1.036</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -3642,12 +3642,12 @@
       <x-m>-21.998</x-m>
       <y-m>0.548</y-m>
       <z-m>1</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Fuel Tank 2 LP Valve Selector</name>
     <path>Cockpit/Engineer/lp-valve-selector.xml</path>
@@ -3662,12 +3662,12 @@
       <x-m>-21.835</x-m>
       <y-m>0.548</y-m>
       <z-m>1</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Fuel Tank 3 LP Valve Selector</name>
     <path>Cockpit/Engineer/lp-valve-selector.xml</path>
@@ -3682,12 +3682,12 @@
       <x-m>-21.712</x-m>
       <y-m>0.548</y-m>
       <z-m>1</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Fuel Tank 4 LP Valve Selector</name>
     <path>Cockpit/Engineer/lp-valve-selector.xml</path>
@@ -3702,30 +3702,30 @@
       <x-m>-21.550</x-m>
       <y-m>0.548</y-m>
       <z-m>1</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <model>
   <name>Fuel Tank 1 Crossfeed Mi  </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/fuel/tank[0]/cross-feed-valve</connect-status>        
+  <connect-status>/controls/fuel/tank[0]/cross-feed-valve</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -3733,17 +3733,17 @@
       <x-m>-21.92</x-m>
       <y-m>0.547</y-m>
       <z-m>0.974</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Fuel Tank 2 Crossfeed Mi  </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/fuel/tank[1]/cross-feed-valve</connect-status>        
+  <connect-status>/controls/fuel/tank[1]/cross-feed-valve</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -3751,17 +3751,17 @@
       <x-m>-21.907</x-m>
       <y-m>0.547</y-m>
       <z-m>0.974</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Fuel Tank 3 Crossfeed Mi  </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/fuel/tank[2]/cross-feed-valve</connect-status>        
+  <connect-status>/controls/fuel/tank[2]/cross-feed-valve</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -3769,17 +3769,17 @@
    <x-m>-21.638</x-m>
       <y-m>0.547</y-m>
       <z-m>0.974</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Fuel Tank 4 Crossfeed Mi  </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/fuel/tank[3]/cross-feed-valve</connect-status>        
+  <connect-status>/controls/fuel/tank[3]/cross-feed-valve</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -3787,24 +3787,24 @@
       <x-m>-21.625</x-m>
       <y-m>0.547</y-m>
       <z-m>0.974</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
   <model>
   <name>Fuel Tank 1 LP Valve Mi  </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/fuel/tank[0]/lp-valve</connect-status>        
+  <connect-status>/controls/fuel/tank[0]/lp-valve</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -3812,17 +3812,17 @@
       <x-m>-21.962</x-m>
       <y-m>0.547</y-m>
       <z-m>0.98</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Fuel Tank 2 LP Valve Mi  </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/fuel/tank[1]/lp-valve</connect-status>        
+  <connect-status>/controls/fuel/tank[1]/lp-valve</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -3830,17 +3830,17 @@
       <x-m>-21.866</x-m>
       <y-m>0.547</y-m>
       <z-m>0.98</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Fuel Tank 3 LP Valve Mi  </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/fuel/tank[2]/lp-valve</connect-status>        
+  <connect-status>/controls/fuel/tank[2]/lp-valve</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -3848,17 +3848,17 @@
    <x-m>-21.684</x-m>
       <y-m>0.547</y-m>
       <z-m>0.98</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Fuel Tank 4 LP Valve Mi  </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/fuel/tank[3]/cross-feed-valve</connect-status>        
+  <connect-status>/controls/fuel/tank[3]/cross-feed-valve</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -3866,23 +3866,23 @@
       <x-m>-21.587</x-m>
       <y-m>0.547</y-m>
       <z-m>0.98</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <model>
@@ -3897,11 +3897,11 @@
       <x-m>-21.942</x-m>
       <y-m>0.552</y-m>
       <z-m>0.996</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Tank 2 Crossfeed</name>
     <path>Cockpit/Engineer/crossfeed-rotary.xml</path>
@@ -3914,11 +3914,11 @@
       <x-m>-21.881</x-m>
       <y-m>0.552</y-m>
       <z-m>0.996</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
+
    <model>
     <name>Fuel Tank 3 Crossfeed</name>
     <path>Cockpit/Engineer/crossfeed-rotary.xml</path>
@@ -3931,7 +3931,7 @@
       <x-m>-21.67</x-m>
       <y-m>0.552</y-m>
       <z-m>0.996</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -3948,7 +3948,7 @@
       <x-m>-21.607</x-m>
       <y-m>0.552</y-m>
       <z-m>0.996</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -3972,11 +3972,11 @@
       <x-m>-21.945</x-m>
       <y-m>0.552</y-m>
       <z-m>0.936</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Engine Consumed 2</name>
     <path>Cockpit/Engineer/engine-consumed.xml</path>
@@ -3990,11 +3990,11 @@
       <x-m>-21.885</x-m>
       <y-m>0.552</y-m>
       <z-m>0.936</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
+
    <model>
     <name>Engine Consumed 3</name>
     <path>Cockpit/Engineer/engine-consumed.xml</path>
@@ -4008,7 +4008,7 @@
       <x-m>-21.663</x-m>
       <y-m>0.552</y-m>
       <z-m>0.936</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -4026,7 +4026,7 @@
       <x-m>-21.600</x-m>
       <y-m>0.552</y-m>
       <z-m>0.936</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -4061,12 +4061,12 @@
       <x-m>-21.987</x-m>
       <y-m>0.546</y-m>
       <z-m>0.945</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Fuel Tank 2 Stream</name>
     <path>Cockpit/Engineer/light-engine-stream.xml</path>
@@ -4082,11 +4082,11 @@
       <x-m>-21.845</x-m>
       <y-m>0.546</y-m>
       <z-m>0.945</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Tank 3 Stream</name>
     <path>Cockpit/Engineer/light-engine-stream.xml</path>
@@ -4102,11 +4102,11 @@
       <x-m>-21.703</x-m>
       <y-m>0.546</y-m>
       <z-m>0.945</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Tank 4 Stream</name>
     <path>Cockpit/Engineer/light-engine-stream.xml</path>
@@ -4122,7 +4122,7 @@
       <x-m>-21.561</x-m>
       <y-m>0.546</y-m>
       <z-m>0.945</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
@@ -4148,7 +4148,7 @@
       <x-m>-21.863</x-m>
       <y-m>0.529</y-m>
       <z-m>1.352</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -4168,12 +4168,12 @@
       <x-m>-21.843</x-m>
       <y-m>0.529</y-m>
       <z-m>1.352</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Tank 5A Low Press</name>
     <path>Cockpit/Engineer/low-press-aux.xml</path>
@@ -4188,7 +4188,7 @@
       <x-m>-21.853</x-m>
       <y-m>0.541</y-m>
       <z-m>1.322</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -4212,7 +4212,7 @@
       <x-m>-21.675</x-m>
       <y-m>0.530</y-m>
       <z-m>1.352</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -4232,7 +4232,7 @@
       <x-m>-21.655</x-m>
       <y-m>0.530</y-m>
       <z-m>1.352</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -4252,7 +4252,7 @@
      <x-m>-21.665</x-m>
       <y-m>0.544</y-m>
       <z-m>1.322</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -4279,15 +4279,15 @@
       <x-m>-21.818</x-m>
       <y-m>0.490</y-m>
       <z-m>1.426</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
+
+
+
+
 <model>
     <name>Fuel Trim 2 Tank 9 </name>
     <path>Cockpit/Engineer/tank-9-trim-2.xml</path>
@@ -4301,7 +4301,7 @@
       <x-m>-21.705</x-m>
       <y-m>0.490</y-m>
       <z-m>1.426</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -4324,7 +4324,7 @@
       <x-m>-21.818</x-m>
       <y-m>0.535</y-m>
       <z-m>1.337</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -4343,7 +4343,7 @@
       <x-m>-21.705</x-m>
       <y-m>0.535</y-m>
       <z-m>1.337</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -4368,7 +4368,7 @@
       <x-m>-21.736</x-m>
       <y-m>0.549</y-m>
       <z-m>1.065</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -4388,7 +4388,7 @@
       <x-m>-21.744</x-m>
       <y-m>0.548</y-m>
       <z-m>1.014</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -4408,7 +4408,7 @@
       <x-m>-21.810</x-m>
       <y-m>0.549</y-m>
       <z-m>1.065</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -4427,7 +4427,7 @@
       <x-m>-21.802</x-m>
       <y-m>0.548</y-m>
       <z-m>1.014</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -4443,7 +4443,7 @@
     <path>Cockpit/Engineer/mi-wopen-valve.xml</path>
     <overlay>
       <params>
-  <open-status>/controls/fuel/tank[0]/inlet-standby</open-status>        
+  <open-status>/controls/fuel/tank[0]/inlet-standby</open-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -4451,18 +4451,18 @@
     <x-m>-21.858</x-m>
       <y-m>0.495</y-m>
       <z-m>1.427</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Air  Cond Mi 2 </name>
     <path>Cockpit/Engineer/mi-wopen-valve.xml</path>
     <overlay>
       <params>
-  <open-status>/controls/fuel/tank[1]/inlet-standby</open-status>        
+  <open-status>/controls/fuel/tank[1]/inlet-standby</open-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -4470,18 +4470,18 @@
     <x-m>-21.84</x-m>
       <y-m>0.495</y-m>
       <z-m>1.427</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Air  Cond Mi 2 </name>
     <path>Cockpit/Engineer/mi-wopen-valve.xml</path>
     <overlay>
       <params>
-  <open-status>/controls/fuel/tank[1]/inlet-standby</open-status>        
+  <open-status>/controls/fuel/tank[1]/inlet-standby</open-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -4489,18 +4489,18 @@
     <x-m>-21.84</x-m>
       <y-m>0.495</y-m>
       <z-m>1.427</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Air  Cond Mi 3 </name>
     <path>Cockpit/Engineer/mi-wopen-valve.xml</path>
     <overlay>
       <params>
-  <open-status>/controls/fuel/tank[2]/inlet-standby</open-status>        
+  <open-status>/controls/fuel/tank[2]/inlet-standby</open-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -4508,18 +4508,18 @@
     <x-m>-21.682</x-m>
       <y-m>0.495</y-m>
       <z-m>1.427</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Air  Cond Mi 4 </name>
     <path>Cockpit/Engineer/mi-wopen-valve.xml</path>
     <overlay>
       <params>
-  <open-status>/controls/fuel/tank[3]/inlet-standby</open-status>        
+  <open-status>/controls/fuel/tank[3]/inlet-standby</open-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -4527,7 +4527,7 @@
     <x-m>-21.664</x-m>
       <y-m>0.495</y-m>
       <z-m>1.427</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -4539,7 +4539,7 @@
     <path>Cockpit/Engineer/mi-wopen-valve.xml</path>
     <overlay>
       <params>
-  <open-status>/controls/fuel/tank[9]/inlet-standby</open-status>        
+  <open-status>/controls/fuel/tank[9]/inlet-standby</open-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -4547,7 +4547,7 @@
     <x-m>-21.646</x-m>
       <y-m>0.495</y-m>
       <z-m>1.427</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -4572,7 +4572,7 @@
       <x-m>-21.892</x-m>
       <y-m>0.501</y-m>
       <z-m>1.410</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -4590,7 +4590,7 @@
       <x-m>-21.875</x-m>
       <y-m>0.501</y-m>
       <z-m>1.410</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -4608,7 +4608,7 @@
       <x-m>-21.858</x-m>
       <y-m>0.501</y-m>
       <z-m>1.410</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -4626,7 +4626,7 @@
       <x-m>-21.840</x-m>
       <y-m>0.501</y-m>
       <z-m>1.410</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -4653,7 +4653,7 @@
       <x-m>-21.682</x-m>
       <y-m>0.501</y-m>
       <z-m>1.410</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -4671,7 +4671,7 @@
       <x-m>-21.664</x-m>
       <y-m>0.501</y-m>
       <z-m>1.410</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -4689,7 +4689,7 @@
       <x-m>-21.646</x-m>
       <y-m>0.501</y-m>
       <z-m>1.410</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -4707,7 +4707,7 @@
       <x-m>-21.629</x-m>
       <y-m>0.501</y-m>
       <z-m>1.410</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -4725,12 +4725,12 @@
       <x-m>-21.611</x-m>
       <y-m>0.501</y-m>
       <z-m>1.410</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
 <name>Fuel inletvalve 1 Tank 9 Mi </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
@@ -4744,13 +4744,13 @@
     <x-m>-21.813</x-m>
       <y-m>0.46</y-m>
       <z-m>1.50</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
     <model>
 <name>Fuel inletvalve 2 Tank 9 Mi </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
@@ -4764,7 +4764,7 @@
     <x-m>-21.705</x-m>
       <y-m>0.46</y-m>
       <z-m>1.50</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -4785,7 +4785,7 @@
       <x-m>-21.813</x-m>
       <y-m>0.473</y-m>
       <z-m>1.472</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -4804,15 +4804,15 @@
       <x-m>-21.705</x-m>
       <y-m>0.473</y-m>
       <z-m>1.472</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
+
+
+
+
   <model>
 <name>Fuel inletoverride 1 Tank 9 </name>
     <path>Cockpit/Engineer/tank-9-inletoverride-1.xml</path>
@@ -4826,7 +4826,7 @@
       <x-m>-21.787</x-m>
       <y-m>0.473</y-m>
       <z-m>1.472</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -4845,7 +4845,7 @@
       <x-m>-21.731</x-m>
       <y-m>0.473</y-m>
       <z-m>1.472</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -4858,7 +4858,7 @@
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/fuel/tank[10]/inlet-valve[0]</connect-status>        
+  <connect-status>/controls/fuel/tank[10]/inlet-valve[0]</connect-status>
   		<defined-status>/controls/fuel/tank[10]/inlet-static[0]</defined-status>
  </params>
     </overlay>
@@ -4866,18 +4866,18 @@
       <x-m>-21.80</x-m>
       <y-m>0.55</y-m>
       <z-m>1.14</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Fuel inletvalve 2 Tank 11 Mi  </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/fuel/tank[10]/inlet-valve[1]</connect-status>        
+  <connect-status>/controls/fuel/tank[10]/inlet-valve[1]</connect-status>
   		<defined-status>/controls/fuel/tank[10]/inlet-static[1]</defined-status>
  </params>
     </overlay>
@@ -4885,7 +4885,7 @@
       <x-m>-21.740</x-m>
       <y-m>0.55</y-m>
       <z-m>1.14</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -4908,7 +4908,7 @@
       <x-m>-21.812</x-m>
       <y-m>0.546</y-m>
       <z-m>1.116</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -4927,13 +4927,13 @@
       <x-m>-21.735</x-m>
       <y-m>0.546</y-m>
       <z-m>1.116</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
 <name>Fuel inletoverride 1 Tank 11 </name>
     <path>Cockpit/Engineer/tank-11-inletoverride-1.xml</path>
@@ -4947,7 +4947,7 @@
       <x-m>-21.785</x-m>
       <y-m>0.546</y-m>
       <z-m>1.116</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -4966,15 +4966,15 @@
       <x-m>-21.764</x-m>
       <y-m>0.546</y-m>
       <z-m>1.116</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
+
+
+
+
   <model>
     <name>Fuel Tank 11 Jettison 2</name>
     <path>Cockpit/Engineer/tank-11-jettison-2.xml</path>
@@ -4986,12 +4986,12 @@
       <x-m>-21.749</x-m>
       <y-m>0.546</y-m>
       <z-m>0.928</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Fuel Tank 11 Jettison 1</name>
     <path>Cockpit/Engineer/tank-11-jettison-1.xml</path>
@@ -5003,7 +5003,7 @@
       <x-m>-21.80</x-m>
       <y-m>0.546</y-m>
       <z-m>0.928</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -5015,7 +5015,7 @@
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/fuel/tank[11]/trans-valve</connect-status>        
+  <connect-status>/controls/fuel/tank[11]/trans-valve</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -5023,18 +5023,18 @@
       <x-m>-21.904</x-m>
       <y-m>0.553</y-m>
       <z-m>1.263</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Fuel inletvalve trans Tank 7  </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/fuel/tank[12]/trans-valve</connect-status>        
+  <connect-status>/controls/fuel/tank[12]/trans-valve</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -5042,7 +5042,7 @@
       <x-m>-21.631</x-m>
       <y-m>0.553</y-m>
       <z-m>1.263</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -5067,7 +5067,7 @@
       <x-m>-21.874</x-m>
       <y-m>0.549</y-m>
       <z-m>1.267</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -5085,7 +5085,7 @@
       <x-m>-21.663</x-m>
       <y-m>0.549</y-m>
       <z-m>1.267</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -5100,7 +5100,7 @@
     <path>Cockpit/Engineer/mi-wopen-valve.xml</path>
     <overlay>
       <params>
-  <open-status>/controls/fuel/tank[4]/interconnect-valve</open-status>        
+  <open-status>/controls/fuel/tank[4]/interconnect-valve</open-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -5108,18 +5108,18 @@
       <x-m>-21.674</x-m>
       <y-m>0.552</y-m>
       <z-m>1.172</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Fuel inletvalve inter Tank 7  Mi </name>
     <path>Cockpit/Engineer/mi-wopen-valve.xml</path>
     <overlay>
       <params>
-  <open-status>/controls/fuel/tank[6]/interconnect-valve</open-status>        
+  <open-status>/controls/fuel/tank[6]/interconnect-valve</open-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -5127,7 +5127,7 @@
       <x-m>-21.865</x-m>
       <y-m>0.551</y-m>
       <z-m>1.172</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -5145,7 +5145,7 @@
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
- <connect-status>/controls/fuel/tank[6]/inlet-valve</connect-status>        
+ <connect-status>/controls/fuel/tank[6]/inlet-valve</connect-status>
   		<defined-status>/controls/fuel/tank[6]/inlet-static</defined-status>
  </params>
     </overlay>
@@ -5153,18 +5153,18 @@
       <x-m>-21.682</x-m>
       <y-m>0.552</y-m>
       <z-m>1.258</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Fuel inter Tank 7  Mi </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
- <connect-status>/controls/fuel/tank[4]/inlet-valve</connect-status>        
+ <connect-status>/controls/fuel/tank[4]/inlet-valve</connect-status>
   		<defined-status>/controls/fuel/tank[4]/inlet-static</defined-status>
  </params>
     </overlay>
@@ -5172,7 +5172,7 @@
       <x-m>-21.854</x-m>
       <y-m>0.551</y-m>
       <z-m>1.258</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -5196,14 +5196,14 @@
       <x-m>-21.674</x-m>
       <y-m>0.547</y-m>
       <z-m>1.153</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
 
 	<model>
     <name>Fuel intervalve Tank 7</name>
@@ -5217,13 +5217,13 @@
       <x-m>-21.865</x-m>
       <y-m>0.547</y-m>
       <z-m>1.153</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
    <model>
     <name>Fuel Temperature </name>
     <path>Cockpit/Engineer/fueltemp.xml</path>
@@ -5233,13 +5233,13 @@
       <x-m>-21.661</x-m>
       <y-m>0.468</y-m>
       <z-m>1.492</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
    <model>
 <name>Jettison Valve 1 Mi </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
@@ -5253,7 +5253,7 @@
      <x-m>-21.620</x-m>
       <y-m>0.461</y-m>
       <z-m>1.501</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -5271,7 +5271,7 @@
    <x-m>-21.620</x-m>
       <y-m>0.474</y-m>
       <z-m>1.472</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -5289,7 +5289,7 @@
       <x-m>-21.567</x-m>
       <y-m>0.474</y-m>
       <z-m>1.472</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -5307,16 +5307,16 @@
   <x-m>-21.567</x-m>
       <y-m>0.46</y-m>
       <z-m>1.501</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
+
+
+
+
+
   <model>
     <name>Jettison Valve 1</name>
     <path>Cockpit/Engineer/jettison-valve-1.xml</path>
@@ -5329,12 +5329,12 @@
       <x-m>-21.595</x-m>
       <y-m>0.459</y-m>
       <z-m>1.502</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Jettison Valve 2</name>
     <path>Cockpit/Engineer/jettison-valve-2.xml</path>
@@ -5347,14 +5347,14 @@
       <x-m>-21.595</x-m>
       <y-m>0.473</y-m>
       <z-m>1.473</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Jettison Valve 3</name>
     <path>Cockpit/Engineer/jettison-valve-3.xml</path>
@@ -5367,14 +5367,14 @@
       <x-m>-21.552</x-m>
       <y-m>0.473</y-m>
       <z-m>1.473</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Jettison Valve 4</name>
     <path>Cockpit/Engineer/jettison-valve-4.xml</path>
@@ -5387,33 +5387,33 @@
       <x-m>-21.552</x-m>
       <y-m>0.459</y-m>
       <z-m>1.502</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
+
+
+
+
+
   <model>
     <name>Fuel Temperature Selector</name>
     <path>Cockpit/Engineer/fuel-temperature-selector.xml</path>
     <overlay>
-      
+
     </overlay>
    <offsets>
       <x-m>-21.66</x-m>
       <y-m>0.484</y-m>
       <z-m>1.455</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Jettison Master Valve 1</name>
     <path>Cockpit/Engineer/fuel-jettison-master-valve-1.xml</path>
@@ -5427,14 +5427,14 @@
       <x-m>-21.620</x-m>
       <y-m>0.484</y-m>
       <z-m>1.448</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Jettison Master Valve 2</name>
     <path>Cockpit/Engineer/fuel-jettison-master-valve-2.xml</path>
@@ -5448,12 +5448,12 @@
       <x-m>-21.565</x-m>
       <y-m>0.484</y-m>
       <z-m>1.448</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
 <name>Jettison Master Valve 1 Mi </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
@@ -5467,13 +5467,13 @@
     <x-m>-21.596</x-m>
       <y-m>0.485</y-m>
       <z-m>1.446</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
     <model>
 <name>Jettison Master Valve 2 Mi </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
@@ -5487,21 +5487,21 @@
      <x-m>-21.583</x-m>
       <y-m>0.485</y-m>
       <z-m>1.446</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
    <model>
     <name>Trim auto secure</name>
     <path>Cockpit/Engineer/trim-auto.xml</path>
@@ -5514,12 +5514,12 @@
       <x-m>-21.728</x-m>
       <y-m>0.552</y-m>
       <z-m>1.237</z-m>
-      
+
       <heading-deg>-90</heading-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>Trans Valve 1 4  Mi </name>
     <path>Cockpit/Engineer/mi-trans14.xml</path>
@@ -5529,39 +5529,39 @@
      <x-m>-21.703</x-m>
       <y-m>0.552</y-m>
       <z-m>1.256</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Trans Valve 1 4</name>
     <path>Cockpit/Engineer/trans-14.xml</path>
     <overlay>
-      
+
     </overlay>
     <offsets>
       <x-m>-21.703</x-m>
       <y-m>0.552</y-m>
       <z-m>1.237</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
- 
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
   <model>
 <name>Fuel Tank Inlet Selector </name>
     <path>Cockpit/Engineer/tank-inlet-selector-7.xml</path>
@@ -5575,12 +5575,12 @@
       <x-m>-21.683</x-m>
       <y-m>0.547</y-m>
       <z-m>1.239</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
     <model>
 <name>Fuel Tank Inlet Selector bis </name>
     <path>Cockpit/Engineer/tank-inlet-selector-5.xml</path>
@@ -5594,15 +5594,15 @@
       <x-m>-21.858</x-m>
       <y-m>0.547</y-m>
       <z-m>1.239</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
+
+
+
+
    <model>
 <name>Fuel Tank Oride Selector </name>
     <path>Cockpit/Engineer/tank-oride-selector-7.xml</path>
@@ -5616,12 +5616,12 @@
       <x-m>-21.683</x-m>
       <y-m>0.547</y-m>
       <z-m>1.202</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
     <model>
 <name>Fuel Tank Oride Selector bis </name>
     <path>Cockpit/Engineer/tank-oride-selector-5.xml</path>
@@ -5635,15 +5635,15 @@
       <x-m>-21.858</x-m>
       <y-m>0.547</y-m>
       <z-m>1.202</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
+
+
+
+
   <model>
     <name>Engineer COG</name>
     <path>Aircraft/Concorde/Models/Cockpit/Engineer/cogengineer.xml</path>
@@ -5655,7 +5655,7 @@
       <pitch-deg>-2</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Engineer Channel COG</name>
     <path>Aircraft/Concorde/Models/Cockpit/Engineer/cogchannelengineer.xml</path>
@@ -5667,8 +5667,8 @@
       <pitch-deg>-1</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Engineer Fuel AC</name>
     <path>Aircraft/Concorde/Models/Cockpit/Engineer/ac-weight.xml</path>
@@ -5703,7 +5703,7 @@
       <x-m>-21.365</x-m>
       <y-m>0.473</y-m>
       <z-m>1.435</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -5717,7 +5717,7 @@
       <x-m>-21.365</x-m>
       <y-m>0.48</y-m>
       <z-m>1.420</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -5728,7 +5728,7 @@
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-        <connect-status>/controls/electric/ac/ssb</connect-status>        
+        <connect-status>/controls/electric/ac/ssb</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
       </params>
     </overlay>
@@ -5736,7 +5736,7 @@
        <x-m>-21.380</x-m>
       <y-m>0.519</y-m>
       <z-m>1.338</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -5750,7 +5750,7 @@
       <x-m>-21.358</x-m>
       <y-m>0.516</y-m>
       <z-m>1.339</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -5768,7 +5768,7 @@
       <x-m>-21.480</x-m>
       <y-m>0.486</y-m>
       <z-m>1.440</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -5788,7 +5788,7 @@
       <x-m>-21.423</x-m>
       <y-m>0.479</y-m>
       <z-m>1.440</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -5808,7 +5808,7 @@
       <x-m>-21.312</x-m>
       <y-m>0.464</y-m>
       <z-m>1.440</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -5827,7 +5827,7 @@
       <x-m>-21.255</x-m>
       <y-m>0.457</y-m>
       <z-m>1.440</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -5845,12 +5845,12 @@
       <x-m>-21.487</x-m>
       <y-m>0.506</y-m>
       <z-m>1.395</z-m>
-      
+
       <heading-deg>-97</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>AC Main Bus 2</name>
     <path>Cockpit/Engineer/ac-main-bus.xml</path>
@@ -5863,12 +5863,12 @@
       <x-m>-21.431</x-m>
       <y-m>0.500</y-m>
       <z-m>1.395</z-m>
-      
+
       <heading-deg>-97</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
    <model>
     <name>AC Main Bus 3</name>
     <path>Cockpit/Engineer/ac-main-bus.xml</path>
@@ -5881,13 +5881,13 @@
       <x-m>-21.32</x-m>
       <y-m>0.486</y-m>
       <z-m>1.395</z-m>
-      
+
       <heading-deg>-97</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>AC Main Bus 4</name>
     <path>Cockpit/Engineer/ac-main-bus.xml</path>
@@ -5900,7 +5900,7 @@
       <x-m>-21.265</x-m>
       <y-m>0.477</y-m>
       <z-m>1.395</z-m>
-      
+
       <heading-deg>-97</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -5919,7 +5919,7 @@
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/electric/ac/btb[0]</connect-status>        
+  <connect-status>/controls/electric/ac/btb[0]</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -5927,19 +5927,19 @@
   <x-m>-21.485</x-m>
       <y-m>0.52</y-m>
       <z-m>1.368</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>BTBMi 2 </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/electric/ac/btb[1]</connect-status>        
+  <connect-status>/controls/electric/ac/btb[1]</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -5947,19 +5947,19 @@
       <x-m>-21.432</x-m>
       <y-m>0.513</y-m>
       <z-m>1.368</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>BTB  Mi 3 </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/electric/ac/btb[2]</connect-status>        
+  <connect-status>/controls/electric/ac/btb[2]</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -5967,20 +5967,20 @@
           <x-m>-21.32</x-m>
       <y-m>0.498</y-m>
       <z-m>1.368</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
   <name>BTB  Mi 4 </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/electric/ac/btb[3]</connect-status>        
+  <connect-status>/controls/electric/ac/btb[3]</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -5988,7 +5988,7 @@
     <x-m>-21.263</x-m>
       <y-m>0.491</y-m>
       <z-m>1.368</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -6019,13 +6019,13 @@
       <x-m>-21.470</x-m>
       <y-m>0.518</y-m>
       <z-m>1.368</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>BTB 2</name>
     <path>Cockpit/Engineer/btb.xml</path>
@@ -6039,12 +6039,12 @@
       <x-m>-21.417</x-m>
       <y-m>0.511</y-m>
       <z-m>1.368</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>BTB 3</name>
     <path>Cockpit/Engineer/btb.xml</path>
@@ -6058,13 +6058,13 @@
       <x-m>-21.305</x-m>
       <y-m>0.496</y-m>
       <z-m>1.368</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
    <model>
     <name>BTB 4</name>
     <path>Cockpit/Engineer/btb.xml</path>
@@ -6078,72 +6078,72 @@
       <x-m>-21.248</x-m>
       <y-m>0.489</y-m>
       <z-m>1.368</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
  <model>
     <name>Hyd Light Green</name>
     <path>Cockpit/Engineer/light-hyd.xml</path>
     <overlay>
-   
+
     </overlay>
     <offsets>
       <x-m>-21.430</x-m>
       <y-m>0.324</y-m>
       <z-m>1.778</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
-  </model> 
-  
-  
-  
-  
+  </model>
+
+
+
+
   <model>
     <name>Hyd Light Yellow</name>
     <path>Cockpit/Engineer/light-hyd.xml</path>
     <overlay>
-   
+
     </overlay>
     <offsets>
       <x-m>-21.340</x-m>
       <y-m>0.311</y-m>
       <z-m>1.778</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
-  </model> 
-  
-  
+  </model>
+
+
   <model>
     <name>Hyd Light Blue</name>
     <path>Cockpit/Engineer/light-hyd.xml</path>
     <overlay>
-   
+
     </overlay>
     <offsets>
       <x-m>-21.252</x-m>
       <y-m>0.300</y-m>
       <z-m>1.778</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
-  </model> 
-  
-  
-  
-  
-  
-  
-  
-  
+  </model>
+
+
+
+
+
+
+
+
   <model>
     <name>Hyd Tank Green</name>
     <path>Cockpit/Engineer/hydgreen.xml</path>
@@ -6156,15 +6156,15 @@
       <x-m>-21.430</x-m>
       <y-m>0.344</y-m>
       <z-m>1.738</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
-  </model> 
-  
-  
-  
-  
+  </model>
+
+
+
+
   <model>
     <name>Hyd Tank Yellow</name>
     <path>Cockpit/Engineer/hydyellow.xml</path>
@@ -6177,13 +6177,13 @@
       <x-m>-21.340</x-m>
       <y-m>0.332</y-m>
       <z-m>1.738</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
-  </model> 
-  
-  
+  </model>
+
+
   <model>
     <name>Hyd Tank Blue</name>
     <path>Cockpit/Engineer/hydblue.xml</path>
@@ -6196,27 +6196,27 @@
       <x-m>-21.252</x-m>
       <y-m>0.321</y-m>
       <z-m>1.738</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
-  </model> 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  </model>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <model>
     <name>Press Green</name>
     <path>Cockpit/Engineer/hydpress.xml</path>
@@ -6229,15 +6229,15 @@
       <x-m>-21.430</x-m>
       <y-m>0.405</y-m>
       <z-m>1.605</z-m>
-      
+
       <heading-deg>-98</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
-  </model> 
-  
-  
-  
-  
+  </model>
+
+
+
+
   <model>
     <name>Press Yellow</name>
     <path>Cockpit/Engineer/hydpress.xml</path>
@@ -6250,13 +6250,13 @@
       <x-m>-21.340</x-m>
       <y-m>0.393</y-m>
       <z-m>1.605</z-m>
-      
+
       <heading-deg>-98</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
-  </model> 
-  
-  
+  </model>
+
+
   <model>
     <name>Press Blue</name>
     <path>Cockpit/Engineer/hydpress.xml</path>
@@ -6269,26 +6269,26 @@
       <x-m>-21.252</x-m>
       <y-m>0.382</y-m>
       <z-m>1.605</z-m>
-      
+
       <heading-deg>-98</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
-  </model> 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  </model>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    <model>
   <name>Hyd Green 1 Open Mi  </name>
     <path>Cockpit/Engineer/mi-hydopen-valve.xml</path>
@@ -6302,12 +6302,12 @@
      <x-m>-21.450</x-m>
       <y-m>0.363</y-m>
       <z-m>1.704</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Hyd Green 1 On Mi  </name>
     <path>Cockpit/Engineer/mi-won-valve.xml</path>
@@ -6321,29 +6321,29 @@
      <x-m>-21.450</x-m>
       <y-m>0.369</y-m>
       <z-m>1.692</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
- 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    <model>
   <name>Hyd Green 2 Open Mi  </name>
     <path>Cockpit/Engineer/mi-hydopen-valve.xml</path>
@@ -6357,12 +6357,12 @@
      <x-m>-21.408</x-m>
       <y-m>0.357</y-m>
       <z-m>1.704</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Hyd Green 2 On Mi  </name>
     <path>Cockpit/Engineer/mi-won-valve.xml</path>
@@ -6376,28 +6376,28 @@
      <x-m>-21.408</x-m>
       <y-m>0.363</y-m>
       <z-m>1.692</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
- 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    <model>
   <name>Hyd Yellow 1 Open Mi  </name>
     <path>Cockpit/Engineer/mi-hydopen-valve.xml</path>
@@ -6411,12 +6411,12 @@
      <x-m>-21.379</x-m>
       <y-m>0.353</y-m>
       <z-m>1.704</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Hyd Yellow 1 On Mi  </name>
     <path>Cockpit/Engineer/mi-won-valve.xml</path>
@@ -6430,21 +6430,21 @@
      <x-m>-21.379</x-m>
       <y-m>0.359</y-m>
       <z-m>1.692</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
- 
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
   <model>
   <name>Hyd Yellow 2 Open Mi  </name>
     <path>Cockpit/Engineer/mi-hydopen-valve.xml</path>
@@ -6458,12 +6458,12 @@
      <x-m>-21.314</x-m>
       <y-m>0.345</y-m>
       <z-m>1.704</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Hyd Yellow 2 On Mi  </name>
     <path>Cockpit/Engineer/mi-won-valve.xml</path>
@@ -6477,22 +6477,22 @@
      <x-m>-21.314</x-m>
       <y-m>0.351</y-m>
       <z-m>1.692</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
    <model>
   <name>Hyd Blue 1 Open Mi  </name>
     <path>Cockpit/Engineer/mi-hydopen-valve.xml</path>
@@ -6506,12 +6506,12 @@
      <x-m>-21.273</x-m>
       <y-m>0.339</y-m>
       <z-m>1.704</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Hyd Blue 1 On Mi  </name>
     <path>Cockpit/Engineer/mi-won-valve.xml</path>
@@ -6525,28 +6525,28 @@
      <x-m>-21.273</x-m>
       <y-m>0.345</y-m>
       <z-m>1.692</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
- 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    <model>
   <name>Hyd Blue 2 Open Mi  </name>
     <path>Cockpit/Engineer/mi-hydopen-valve.xml</path>
@@ -6560,12 +6560,12 @@
      <x-m>-21.235</x-m>
       <y-m>0.334</y-m>
       <z-m>1.704</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Hyd Blue 2 On Mi  </name>
     <path>Cockpit/Engineer/mi-won-valve.xml</path>
@@ -6579,32 +6579,32 @@
      <x-m>-21.235</x-m>
       <y-m>0.340</y-m>
       <z-m>1.692</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
- 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-   
-  
- 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <model>
     <name>Hyd Green 1 Switch</name>
@@ -6620,13 +6620,13 @@
       <x-m>-21.450</x-m>
       <y-m>0.374</y-m>
       <z-m>1.678</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Hyd Green 2 Switch</name>
     <path>Cockpit/Engineer/hyd-pump-green.xml</path>
@@ -6641,13 +6641,13 @@
       <x-m>-21.408</x-m>
       <y-m>0.369</y-m>
       <z-m>1.678</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Hyd Yellow 1 Switch</name>
     <path>Cockpit/Engineer/hyd-pump-yellow.xml</path>
@@ -6662,13 +6662,13 @@
       <x-m>-21.379</x-m>
       <y-m>0.364</y-m>
       <z-m>1.678</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Hyd Yellow 2 Switch</name>
     <path>Cockpit/Engineer/hyd-pump-yellow.xml</path>
@@ -6683,14 +6683,14 @@
       <x-m>-21.314</x-m>
       <y-m>0.357</y-m>
       <z-m>1.678</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Hyd Blue 1 Switch</name>
     <path>Cockpit/Engineer/hyd-pump-blue.xml</path>
@@ -6705,13 +6705,13 @@
       <x-m>-21.273</x-m>
       <y-m>0.351</y-m>
       <z-m>1.678</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Hyd Blue 2 Switch</name>
     <path>Cockpit/Engineer/hyd-pump-blue.xml</path>
@@ -6726,7 +6726,7 @@
       <x-m>-21.235</x-m>
       <y-m>0.346</y-m>
       <z-m>1.678</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -6749,13 +6749,13 @@
       <x-m>-21.450</x-m>
       <y-m>0.388</y-m>
       <z-m>1.648</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>LPress Green Right</name>
     <path>Cockpit/Engineer/low-press-hyd.xml</path>
@@ -6768,14 +6768,14 @@
       <x-m>-21.408</x-m>
       <y-m>0.383</y-m>
       <z-m>1.648</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>LPress Yellow Left</name>
     <path>Cockpit/Engineer/low-press-hyd.xml</path>
@@ -6788,13 +6788,13 @@
       <x-m>-21.379</x-m>
       <y-m>0.38</y-m>
       <z-m>1.648</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>LPress Yellow Right</name>
     <path>Cockpit/Engineer/low-press-hyd.xml</path>
@@ -6807,13 +6807,13 @@
       <x-m>-21.314</x-m>
       <y-m>0.37</y-m>
       <z-m>1.648</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>LPress Blue Left</name>
     <path>Cockpit/Engineer/low-press-hyd.xml</path>
@@ -6826,13 +6826,13 @@
       <x-m>-21.273</x-m>
       <y-m>0.366</y-m>
       <z-m>1.648</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>LPress Blue Right</name>
     <path>Cockpit/Engineer/low-press-hyd.xml</path>
@@ -6845,7 +6845,7 @@
       <x-m>-21.235</x-m>
       <y-m>0.361</y-m>
       <z-m>1.648</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -6864,12 +6864,12 @@
       <x-m>-21.445</x-m>
       <y-m>0.446</y-m>
       <z-m>1.515</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>CSD Disc 2</name>
     <path>Cockpit/Engineer/csd-disc.xml</path>
@@ -6883,12 +6883,12 @@
       <x-m>-21.388</x-m>
       <y-m>0.439</y-m>
       <z-m>1.515</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>CSD Disc 3</name>
     <path>Cockpit/Engineer/csd-disc.xml</path>
@@ -6902,12 +6902,12 @@
       <x-m>-21.296</x-m>
       <y-m>0.426</y-m>
       <z-m>1.515</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>CSD Disc 4</name>
     <path>Cockpit/Engineer/csd-disc.xml</path>
@@ -6921,12 +6921,12 @@
       <x-m>-21.24</x-m>
       <y-m>0.420</y-m>
       <z-m>1.515</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>CSD Oil Elec 1</name>
     <path>Cockpit/Engineer/csdoilelec.xml</path>
@@ -6940,14 +6940,14 @@
       <x-m>-21.456</x-m>
       <y-m>0.433</y-m>
       <z-m>1.55</z-m>
-      
+
       <heading-deg>-97</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>CSD Oil Elec 2</name>
     <path>Cockpit/Engineer/csdoilelec.xml</path>
@@ -6961,12 +6961,12 @@
       <x-m>-21.393</x-m>
       <y-m>0.425</y-m>
       <z-m>1.55</z-m>
-      
+
       <heading-deg>-97</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>CSD Oil Elec 3</name>
     <path>Cockpit/Engineer/csdoilelec.xml</path>
@@ -6980,12 +6980,12 @@
       <x-m>-21.333</x-m>
       <y-m>0.413</y-m>
       <z-m>1.55</z-m>
-      
+
       <heading-deg>-97</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>CSD Oil Elec 4</name>
     <path>Cockpit/Engineer/csdoilelec.xml</path>
@@ -6999,17 +6999,17 @@
       <x-m>-21.268</x-m>
       <y-m>0.406</y-m>
       <z-m>1.55</z-m>
-      
+
       <heading-deg>-97</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
 
 <model>
     <name>CSD 1</name>
@@ -7020,12 +7020,12 @@
       <x-m>-21.468</x-m>
       <y-m>0.453</y-m>
       <z-m>1.51</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>CSD 2</name>
     <path>Cockpit/Engineer/csd2.xml</path>
@@ -7035,13 +7035,13 @@
       <x-m>-21.412</x-m>
       <y-m>0.447</y-m>
       <z-m>1.51</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>CSD 3</name>
     <path>Cockpit/Engineer/csd3.xml</path>
@@ -7051,12 +7051,12 @@
       <x-m>-21.327</x-m>
       <y-m>0.435</y-m>
       <z-m>1.51</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>CSD 4</name>
     <path>Cockpit/Engineer/csd4.xml</path>
@@ -7066,7 +7066,7 @@
       <x-m>-21.267</x-m>
       <y-m>0.427</y-m>
       <z-m>1.51</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -7086,13 +7086,13 @@
       <x-m>-21.465</x-m>
       <y-m>0.466</y-m>
       <z-m>1.480</z-m>
-      
+
       <heading-deg>-97</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Watts 2</name>
     <path>Cockpit/Engineer/watt-2.xml</path>
@@ -7102,12 +7102,12 @@
       <x-m>-21.410</x-m>
       <y-m>0.458</y-m>
       <z-m>1.480</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Watts 3</name>
     <path>Cockpit/Engineer/watt-3.xml</path>
@@ -7117,12 +7117,12 @@
       <x-m>-21.310</x-m>
       <y-m>0.446</y-m>
       <z-m>1.480</z-m>
-      
+
       <heading-deg>-97</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Watts 4</name>
     <path>Cockpit/Engineer/watt-4.xml</path>
@@ -7132,7 +7132,7 @@
       <x-m>-21.255</x-m>
       <y-m>0.438</y-m>
       <z-m>1.480</z-m>
-      
+
       <heading-deg>-97</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -7144,7 +7144,7 @@
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/engines/engine[0]/master-alt</connect-status>        
+  <connect-status>/controls/engines/engine[0]/master-alt</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -7152,19 +7152,19 @@
    <x-m>-21.484</x-m>
       <y-m>0.498</y-m>
       <z-m>1.415</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>Gen Mi 2 </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/engines/engine[1]/master-alt</connect-status>        
+  <connect-status>/controls/engines/engine[1]/master-alt</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -7172,19 +7172,19 @@
       <x-m>-21.429</x-m>
       <y-m>0.491</y-m>
       <z-m>1.415</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>Gen  Mi 3 </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/engines/engine[2]/master-alt</connect-status>        
+  <connect-status>/controls/engines/engine[2]/master-alt</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -7192,20 +7192,20 @@
        <x-m>-21.314</x-m>
       <y-m>0.476</y-m>
       <z-m>1.415</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
   <name>Gen  Mi 4 </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/engines/engine[3]/master-alt</connect-status>        
+  <connect-status>/controls/engines/engine[3]/master-alt</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -7213,7 +7213,7 @@
        <x-m>-21.261</x-m>
       <y-m>0.469</y-m>
       <z-m>1.415</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -7230,13 +7230,13 @@
       <x-m>-21.46</x-m>
       <y-m>0.495</y-m>
       <z-m>1.415</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Gen 2</name>
     <path>Cockpit/Engineer/gen2.xml</path>
@@ -7246,12 +7246,12 @@
       <x-m>-21.405</x-m>
       <y-m>0.488</y-m>
       <z-m>1.415</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Gen 3</name>
     <path>Cockpit/Engineer/gen3.xml</path>
@@ -7261,12 +7261,12 @@
       <x-m>-21.290</x-m>
       <y-m>0.472</y-m>
       <z-m>1.415</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Gen 4</name>
     <path>Cockpit/Engineer/gen4.xml</path>
@@ -7276,7 +7276,7 @@
       <x-m>-21.237</x-m>
       <y-m>0.465</y-m>
       <z-m>1.415</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -7299,7 +7299,7 @@
       <x-m>-21.434</x-m>
       <y-m>0.538</y-m>
       <z-m>1.101</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -7320,14 +7320,14 @@
       <x-m>-21.290</x-m>
       <y-m>0.52</y-m>
       <z-m>1.102</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Battery Left Amps 1</name>
     <path>Cockpit/Engineer/battamps-1.xml</path>
@@ -7340,13 +7340,13 @@
       <x-m>-21.394</x-m>
       <y-m>0.532</y-m>
       <z-m>1.101</z-m>
-      
+
       <heading-deg>-97</heading-deg>
      <pitch-deg>-4</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Battery Left Amps 2</name>
     <path>Cockpit/Engineer/battamps-2.xml</path>
@@ -7359,7 +7359,7 @@
       <x-m>-21.330</x-m>
       <y-m>0.524</y-m>
       <z-m>1.101</z-m>
-      
+
       <heading-deg>-97</heading-deg>
      <pitch-deg>-4</pitch-deg>
     </offsets>
@@ -7369,82 +7369,82 @@
     <name>DC Selector</name>
     <path>Cockpit/Engineer/dc-selector.xml</path>
    <overlay>
-   
+
     </overlay>
     <offsets>
       <x-m>-21.405</x-m>
       <y-m>0.538</y-m>
       <z-m>1.045</z-m>
-      
+
       <heading-deg>-100</heading-deg>
      <pitch-deg>-5</pitch-deg>
      <roll-deg>-90</roll-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>AC Selector</name>
     <path>Cockpit/Engineer/ac-selector.xml</path>
    <overlay>
-   
+
     </overlay>
     <offsets>
       <x-m>-21.287</x-m>
       <y-m>0.523</y-m>
       <z-m>1.045</z-m>
-      
+
       <heading-deg>-100</heading-deg>
      <pitch-deg>-5</pitch-deg>
      <roll-deg>-45</roll-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Frequency</name>
     <path>Cockpit/Engineer/freq.xml</path>
    <overlay>
-   
+
     </overlay>
     <offsets>
       <x-m>-21.349</x-m>
       <y-m>0.524</y-m>
       <z-m>1.057</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>DC Volts</name>
     <path>Cockpit/Engineer/dcvolts.xml</path>
    <overlay>
-   
+
     </overlay>
     <offsets>
       <x-m>-21.471</x-m>
       <y-m>0.539</y-m>
       <z-m>1.052</z-m>
-      
-      
+
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>AC Volts</name>
     <path>Cockpit/Engineer/acvolts.xml</path>
    <overlay>
-   
+
     </overlay>
     <offsets>
       <x-m>-21.248</x-m>
       <y-m>0.503</y-m>
       <z-m>1.052</z-m>
-      
-      
+
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -7454,65 +7454,65 @@
     <name>Yellow OHeat 1</name>
     <path>Cockpit/Engineer/yellow-oheat.xml</path>
    <overlay>
-   
+
     </overlay>
     <offsets>
      <x-m>-21.47</x-m>
       <y-m>0.546</y-m>
       <z-m>1.164</z-m>
-      
-      
+
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Yellow OHeat 2</name>
     <path>Cockpit/Engineer/yellow-oheat.xml</path>
    <overlay>
-   
+
     </overlay>
     <offsets>
      <x-m>-21.403</x-m>
       <y-m>0.537</y-m>
       <z-m>1.165</z-m>
-      
-      
+
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Yellow OHeat 3</name>
     <path>Cockpit/Engineer/yellow-oheat.xml</path>
    <overlay>
-   
+
     </overlay>
     <offsets>
      <x-m>-21.329</x-m>
       <y-m>0.528</y-m>
       <z-m>1.165</z-m>
-      
-      
+
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
    <model>
     <name>Yellow OHeat 4</name>
     <path>Cockpit/Engineer/yellow-oheat.xml</path>
    <overlay>
-   
+
     </overlay>
     <offsets>
      <x-m>-21.267</x-m>
       <y-m>0.520</y-m>
       <z-m>1.164</z-m>
-      
-      
+
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-3</pitch-deg>
     </offsets>
@@ -7531,21 +7531,21 @@
      <x-m>-21.47</x-m>
       <y-m>0.544</y-m>
       <z-m>1.137</z-m>
-      
-      
+
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
    <model>
 <name>EMS A Mi </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-        <connect-status>/controls/electric/dc/ems-a</connect-status>        
+        <connect-status>/controls/electric/dc/ems-a</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
       </params>
     </overlay>
@@ -7553,39 +7553,39 @@
        <x-m>-21.420</x-m>
       <y-m>0.537</y-m>
       <z-m>1.137</z-m>
-      
-      
+
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
    <model>
     <name>DC Main Bus</name>
     <path>Cockpit/Engineer/dc-main-bus.xml</path>
    <overlay>
-   
-   
+
+
     </overlay>
     <offsets>
      <x-m>-21.369</x-m>
       <y-m>0.531</y-m>
       <z-m>1.137</z-m>
-      
-      
+
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-3</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
    <model>
 <name>EMS B Mi </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-        <connect-status>/controls/electric/dc/ems-b</connect-status>        
+        <connect-status>/controls/electric/dc/ems-b</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
       </params>
     </overlay>
@@ -7593,13 +7593,13 @@
       <x-m>-21.318</x-m>
       <y-m>0.524</y-m>
       <z-m>1.137</z-m>
-      
-      
+
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>DC Ess Bus B</name>
     <path>Cockpit/Engineer/dc-ess-bus.xml</path>
@@ -7612,21 +7612,21 @@
      <x-m>-21.267</x-m>
       <y-m>0.517</y-m>
       <z-m>1.137</z-m>
-      
-      
+
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-3</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
    <model>
 <name>BATT A Mi </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-        <connect-status>/controls/electric/dc/master-bat[0]</connect-status>        
+        <connect-status>/controls/electric/dc/master-bat[0]</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
       </params>
     </overlay>
@@ -7634,19 +7634,19 @@
       <x-m>-21.470</x-m>
       <y-m>0.544</y-m>
       <z-m>1.117</z-m>
-      
-      
+
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
    <model>
 <name>BATT B Mi </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-        <connect-status>/controls/electric/dc/master-bat[1]</connect-status>        
+        <connect-status>/controls/electric/dc/master-bat[1]</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
       </params>
     </overlay>
@@ -7654,15 +7654,15 @@
      <x-m>-21.267</x-m>
       <y-m>0.517</y-m>
       <z-m>1.117</z-m>
-      
-      
+
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Batt Isolate 1</name>
     <path>Cockpit/Engineer/batt-isolate.xml</path>
@@ -7675,15 +7675,15 @@
      <x-m>-21.47</x-m>
       <y-m>0.543</y-m>
       <z-m>1.083</z-m>
-      
-      
+
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-   
-  
+
+
+
   <model>
     <name>Batt Isolate 2</name>
     <path>Cockpit/Engineer/batt-isolate.xml</path>
@@ -7696,8 +7696,8 @@
      <x-m>-21.243</x-m>
       <y-m>0.513</y-m>
       <z-m>1.083</z-m>
-      
-      
+
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-3</pitch-deg>
     </offsets>
@@ -7718,7 +7718,7 @@
       <x-m>-21.449</x-m>
       <y-m>0.542</y-m>
       <z-m>1.164</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -7736,7 +7736,7 @@
       <x-m>-21.38</x-m>
       <y-m>0.533</y-m>
       <z-m>1.165</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -7754,7 +7754,7 @@
       <x-m>-21.300</x-m>
       <y-m>0.523</y-m>
       <z-m>1.165</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -7772,34 +7772,34 @@
       <x-m>-21.238</x-m>
       <y-m>0.515</y-m>
       <z-m>1.164</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <model>
   <name>AC ESS Mi 1 </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/electric/ac/essential[0]</connect-status>        
+  <connect-status>/controls/electric/ac/essential[0]</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -7807,19 +7807,19 @@
    <x-m>-21.469</x-m>
       <y-m>0.548</y-m>
       <z-m>1.265</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>AC ESS BMi 2 </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/electric/ac/essential[1]</connect-status>        
+  <connect-status>/controls/electric/ac/essential[1]</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -7827,19 +7827,19 @@
       <x-m>-21.439</x-m>
       <y-m>0.545</y-m>
       <z-m>1.265</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>AC ESS Mi 3 </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/electric/ac/essential[2]</connect-status>        
+  <connect-status>/controls/electric/ac/essential[2]</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -7847,20 +7847,20 @@
        <x-m>-21.284</x-m>
       <y-m>0.523</y-m>
       <z-m>1.265</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
   <name>AC ESS Mi 4 </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/electric/ac/essential[3]</connect-status>        
+  <connect-status>/controls/electric/ac/essential[3]</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -7868,27 +7868,27 @@
     <x-m>-21.254</x-m>
       <y-m>0.519</y-m>
       <z-m>1.265</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <model>
     <name>Ac ESS Bus 1</name>
     <path>Cockpit/Engineer/ac-ess-bus.xml</path>
@@ -7901,13 +7901,13 @@
       <x-m>-21.469</x-m>
       <y-m>0.548</y-m>
       <z-m>1.244</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
    <model>
     <name>Ac ESS Bus 2</name>
     <path>Cockpit/Engineer/ac-ess-bus.xml</path>
@@ -7920,12 +7920,12 @@
       <x-m>-21.439</x-m>
       <y-m>0.545</y-m>
       <z-m>1.244</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Ac ESS Bus 3</name>
     <path>Cockpit/Engineer/ac-ess-bus.xml</path>
@@ -7938,14 +7938,14 @@
       <x-m>-21.284</x-m>
       <y-m>0.523</y-m>
       <z-m>1.244</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
    <model>
     <name>Ac ESS Bus 4</name>
     <path>Cockpit/Engineer/ac-ess-bus.xml</path>
@@ -7958,18 +7958,18 @@
       <x-m>-21.254</x-m>
       <y-m>0.519</y-m>
       <z-m>1.244</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
   <model>
     <name>Ac ESS Emerg 1</name>
     <path>Cockpit/Engineer/elec-ac-ess-emerg-1.xml</path>
@@ -7983,13 +7983,13 @@
       <x-m>-21.469</x-m>
       <y-m>0.546</y-m>
       <z-m>1.225</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Ac ESS Emerg 2</name>
     <path>Cockpit/Engineer/elec-ac-ess-emerg-2.xml</path>
@@ -8003,12 +8003,12 @@
       <x-m>-21.439</x-m>
       <y-m>0.542</y-m>
       <z-m>1.225</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Ac ESS Emerg 3</name>
     <path>Cockpit/Engineer/elec-ac-ess-emerg-3.xml</path>
@@ -8022,12 +8022,12 @@
       <x-m>-21.284</x-m>
       <y-m>0.521</y-m>
       <z-m>1.225</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Ac ESS Emerg 4</name>
     <path>Cockpit/Engineer/elec-ac-ess-emerg-4.xml</path>
@@ -8041,16 +8041,16 @@
       <x-m>-21.254</x-m>
       <y-m>0.517</y-m>
       <z-m>1.225</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
+
+
+
+
+
   <model>
     <name>TRU Amps 1</name>
     <path>Cockpit/Engineer/truamps-1.xml</path>
@@ -8063,13 +8063,13 @@
       <x-m>-21.468</x-m>
       <y-m>0.545</y-m>
       <z-m>1.195</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-1</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>TRU Amps 2</name>
     <path>Cockpit/Engineer/truamps-2.xml</path>
@@ -8082,13 +8082,13 @@
       <x-m>-21.403</x-m>
       <y-m>0.536</y-m>
       <z-m>1.195</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-1</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>TRU Amps 3</name>
     <path>Cockpit/Engineer/truamps-3.xml</path>
@@ -8101,12 +8101,12 @@
       <x-m>-21.330</x-m>
       <y-m>0.527</y-m>
       <z-m>1.195</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-1</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>TRU Amps 4</name>
     <path>Cockpit/Engineer/truamps-4.xml</path>
@@ -8119,50 +8119,50 @@
       <x-m>-21.268</x-m>
       <y-m>0.519</y-m>
       <z-m>1.195</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-1</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Red OHeat </name>
     <path>Cockpit/Engineer/red-oheat.xml</path>
    <overlay>
-   
+
     </overlay>
     <offsets>
      <x-m>-21.409</x-m>
       <y-m>0.540</y-m>
       <z-m>1.265</z-m>
-      
-      
+
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Blue Selected </name>
     <path>Cockpit/Engineer/light-selected.xml</path>
    <overlay>
-   
+
     </overlay>
     <offsets>
      <x-m>-21.32</x-m>
       <y-m>0.530</y-m>
       <z-m>1.265</z-m>
-      
-      
+
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Emerg Gen</name>
     <path>Cockpit/Engineer/elec-emerg-gen.xml</path>
@@ -8172,14 +8172,14 @@
       <x-m>-21.414</x-m>
       <y-m>0.539</y-m>
       <z-m>1.233</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-1</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Emerg Gen</name>
     <path>Cockpit/Engineer/emerggen.xml</path>
@@ -8192,15 +8192,15 @@
       <x-m>-21.366</x-m>
       <y-m>0.534</y-m>
       <z-m>1.255</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-1</pitch-deg>
     </offsets>
-   
+
   </model>
-  
-  
-  
+
+
+
    <model>
     <name>Emerg Gen</name>
     <path>Cockpit/Engineer/elec-emerg-gen-selector.xml</path>
@@ -8210,19 +8210,19 @@
       <x-m>-21.324</x-m>
       <y-m>0.528</y-m>
       <z-m>1.225</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-1</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
 <name>ASB Mi </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-        <connect-status>/controls/electric/ac/emergency/asb</connect-status>        
+        <connect-status>/controls/electric/ac/emergency/asb</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
       </params>
     </overlay>
@@ -8230,15 +8230,15 @@
       <x-m>-21.366</x-m>
       <y-m>0.533</y-m>
       <z-m>1.21</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-1</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
+
+
+
+
   <model>
     <name>Light Fail</name>
     <path>Cockpit/Engineer/light-fail.xml</path>
@@ -8248,83 +8248,83 @@
       <x-m>-21.366</x-m>
       <y-m>0.535</y-m>
       <z-m>1.225</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-1</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
 <model>
     <name>Test Light Aft</name>
     <path>Cockpit/Engineer/test-light-aft.xml</path>
     <overlay>
-   
+
     </overlay>
     <offsets>
       <x-m>-21.26</x-m>
       <y-m>0.513</y-m>
       <z-m>1.010</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Test Light Center</name>
     <path>Cockpit/Engineer/test-light-center.xml</path>
     <overlay>
-  
+
     </overlay>
     <offsets>
       <x-m>-21.429</x-m>
       <y-m>0.534</y-m>
       <z-m>1.01</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Test Light Forward</name>
     <path>Cockpit/Engineer/test-light-forward.xml</path>
     <overlay>
-  
+
     </overlay>
     <offsets>
       <x-m>-22.298</x-m>
       <y-m>0.428</y-m>
       <z-m>1.511</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
    <model>
     <name>MWS Cancel</name>
     <path>Cockpit/Engineer/mws-cancel.xml</path>
     <overlay>
-  
+
     </overlay>
     <offsets>
       <x-m>-21.40</x-m>
       <y-m>0.53</y-m>
       <z-m>1.007</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
    <model>
     <name>Compass DG Mag Light 1</name>
     <path>Cockpit/Engineer/light-yellow-dg-compass.xml</path>
@@ -8337,12 +8337,12 @@
       <x-m>-21.485</x-m>
       <y-m>0.530</y-m>
       <z-m>0.66</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Compass DG Mag Light 2</name>
     <path>Cockpit/Engineer/light-yellow-dg-compass.xml</path>
@@ -8355,12 +8355,12 @@
       <x-m>-21.442</x-m>
       <y-m>0.526</y-m>
       <z-m>0.66</z-m>
-      
+
       <heading-deg>-95</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Compass DG Mag 1</name>
     <path>Cockpit/Engineer/compass-dg-mag-1.xml</path>
@@ -8373,12 +8373,12 @@
       <x-m>-21.485</x-m>
       <y-m>0.528</y-m>
       <z-m>0.640</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Compass DG Mag 2</name>
     <path>Cockpit/Engineer/compass-dg-mag-2.xml</path>
@@ -8391,7 +8391,7 @@
       <x-m>-21.441</x-m>
       <y-m>0.524</y-m>
       <z-m>0.640</z-m>
-      
+
       <heading-deg>-99</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -8405,7 +8405,7 @@
       <x-m>-21.419</x-m>
       <y-m>0.508</y-m>
       <z-m>0.928</z-m>
-      
+
       <heading-deg>-79</heading-deg>
     </offsets>
   </model>
@@ -8425,14 +8425,14 @@
       <x-m>-21.965</x-m>
       <y-m>0.364</y-m>
       <z-m>1.712</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
 <name>Air Bleed PSI 2 </name>
     <path>Cockpit/Engineer/air-bleed.xml</path>
@@ -8445,7 +8445,7 @@
       <x-m>-21.894</x-m>
       <y-m>0.364</y-m>
       <z-m>1.712</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -8463,13 +8463,13 @@
       <x-m>-21.853</x-m>
       <y-m>0.364</y-m>
       <z-m>1.712</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
 <name>Air Bleed PSI 4 </name>
     <path>Cockpit/Engineer/air-bleed.xml</path>
@@ -8482,7 +8482,7 @@
       <x-m>-21.781</x-m>
       <y-m>0.364</y-m>
       <z-m>1.712</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -8505,7 +8505,7 @@
       <x-m>-21.965</x-m>
       <y-m>0.349</y-m>
       <z-m>1.743</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -8524,7 +8524,7 @@
      <x-m>-21.892</x-m>
       <y-m>0.349</y-m>
       <z-m>1.743</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -8543,7 +8543,7 @@
       <x-m>-21.852</x-m>
       <y-m>0.349</y-m>
       <z-m>1.743</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -8562,21 +8562,21 @@
       <x-m>-21.780</x-m>
       <y-m>0.349</y-m>
       <z-m>1.743</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
+
+
+
+
 <model>
 <name>Air  Cross Bleed Mi 1 </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-        <connect-status>/controls/pneumatic/engine[0]/cross-bleed-valve</connect-status>        
+        <connect-status>/controls/pneumatic/engine[0]/cross-bleed-valve</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
       </params>
     </overlay>
@@ -8584,7 +8584,7 @@
       <x-m>-21.937</x-m>
       <y-m>0.361</y-m>
       <z-m>1.716</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -8598,7 +8598,7 @@
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-        <connect-status>/controls/pneumatic/engine[1]/cross-bleed-valve</connect-status>        
+        <connect-status>/controls/pneumatic/engine[1]/cross-bleed-valve</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
       </params>
     </overlay>
@@ -8606,7 +8606,7 @@
       <x-m>-21.920</x-m>
       <y-m>0.361</y-m>
       <z-m>1.716</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -8618,7 +8618,7 @@
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-        <connect-status>/controls/pneumatic/engine[2]/cross-bleed-valve</connect-status>        
+        <connect-status>/controls/pneumatic/engine[2]/cross-bleed-valve</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
       </params>
     </overlay>
@@ -8626,7 +8626,7 @@
       <x-m>-21.824</x-m>
       <y-m>0.361</y-m>
       <z-m>1.716</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -8639,7 +8639,7 @@
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-        <connect-status>/controls/pneumatic/engine[3]/cross-bleed-valve</connect-status>        
+        <connect-status>/controls/pneumatic/engine[3]/cross-bleed-valve</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
       </params>
     </overlay>
@@ -8647,7 +8647,7 @@
       <x-m>-21.807</x-m>
       <y-m>0.361</y-m>
       <z-m>1.716</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -8674,7 +8674,7 @@
       <x-m>-21.950</x-m>
       <y-m>0.349</y-m>
       <z-m>1.746</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -8691,7 +8691,7 @@
       <x-m>-21.937</x-m>
       <y-m>0.369</y-m>
       <z-m>1.701</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -8714,7 +8714,7 @@
       <x-m>-21.877</x-m>
       <y-m>0.349</y-m>
       <z-m>1.746</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -8731,7 +8731,7 @@
       <x-m>-21.920</x-m>
       <y-m>0.369</y-m>
       <z-m>1.701</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -8752,7 +8752,7 @@
       <x-m>-21.837</x-m>
       <y-m>0.349</y-m>
       <z-m>1.746</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -8769,7 +8769,7 @@
       <x-m>-21.824</x-m>
       <y-m>0.369</y-m>
       <z-m>1.701</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -8791,7 +8791,7 @@
       <x-m>-21.764</x-m>
       <y-m>0.349</y-m>
       <z-m>1.746</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -8808,12 +8808,12 @@
       <x-m>-21.807</x-m>
       <y-m>0.369</y-m>
       <z-m>1.701</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Air Bleed Overpress 1 </name>
     <path>Cockpit/Engineer/air-bleed-pressure.xml</path>
@@ -8826,14 +8826,14 @@
       <x-m>-21.966</x-m>
       <y-m>0.372</y-m>
       <z-m>1.679</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
   <name>Air Bleed Overpress 2 </name>
     <path>Cockpit/Engineer/air-bleed-pressure.xml</path>
@@ -8846,13 +8846,13 @@
       <x-m>-21.890</x-m>
       <y-m>0.372</y-m>
       <z-m>1.679</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>Air Bleed Overpress 3 </name>
     <path>Cockpit/Engineer/air-bleed-pressure.xml</path>
@@ -8865,13 +8865,13 @@
       <x-m>-21.853</x-m>
       <y-m>0.372</y-m>
       <z-m>1.679</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>Air Bleed Overpress 4 </name>
     <path>Cockpit/Engineer/air-bleed-pressure.xml</path>
@@ -8884,17 +8884,17 @@
       <x-m>-21.778</x-m>
       <y-m>0.372</y-m>
       <z-m>1.679</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <!-- ======== -->
 <!-- Air Cond -->
 <!-- ======== -->
-  
-  
+
+
   <model>
   <name>Light Air Exchanger 1</name>
     <path>Cockpit/Engineer/light-air-exch.xml</path>
@@ -8907,13 +8907,13 @@
       <x-m>-21.965</x-m>
       <y-m>0.418</y-m>
       <z-m>1.587</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>Light Air Exchanger 2</name>
     <path>Cockpit/Engineer/light-air-exch.xml</path>
@@ -8926,13 +8926,13 @@
       <x-m>-21.915</x-m>
       <y-m>0.418</y-m>
       <z-m>1.587</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>Light Air Exchanger 3</name>
     <path>Cockpit/Engineer/light-air-exch.xml</path>
@@ -8945,13 +8945,13 @@
       <x-m>-21.853</x-m>
       <y-m>0.418</y-m>
       <z-m>1.587</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>Light Air Exchanger 4</name>
     <path>Cockpit/Engineer/light-air-exch.xml</path>
@@ -8964,26 +8964,26 @@
       <x-m>-21.803</x-m>
       <y-m>0.418</y-m>
       <z-m>1.587</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
    <model>
   <name>Air  Cond Mi 1 </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/pneumatic/engine[0]/conditioning-valve</connect-status>        
+  <connect-status>/controls/pneumatic/engine[0]/conditioning-valve</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -8991,19 +8991,19 @@
       <x-m>-21.963</x-m>
       <y-m>0.391</y-m>
       <z-m>1.652</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>Air  Cond Mi 2 </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/pneumatic/engine[1]/conditioning-valve</connect-status>        
+  <connect-status>/controls/pneumatic/engine[1]/conditioning-valve</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -9011,19 +9011,19 @@
       <x-m>-21.913</x-m>
       <y-m>0.391</y-m>
       <z-m>1.652</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>Air  Cond Mi 3 </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/pneumatic/engine[2]/conditioning-valve</connect-status>        
+  <connect-status>/controls/pneumatic/engine[2]/conditioning-valve</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -9031,20 +9031,20 @@
       <x-m>-21.852</x-m>
       <y-m>0.391</y-m>
       <z-m>1.652</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
   <name>Air  Cond Mi 4 </name>
     <path>Cockpit/Engineer/mi-vertical-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/controls/pneumatic/engine[3]/conditioning-valve</connect-status>        
+  <connect-status>/controls/pneumatic/engine[3]/conditioning-valve</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -9052,27 +9052,27 @@
       <x-m>-21.802</x-m>
       <y-m>0.391</y-m>
       <z-m>1.652</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
    <model>
   <name>Jet Pump Mi 1 </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/systems/air-bleed/engine[0]/jet-pump</connect-status>        
+  <connect-status>/systems/air-bleed/engine[0]/jet-pump</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -9080,19 +9080,19 @@
       <x-m>-21.94</x-m>
       <y-m>0.401</y-m>
       <z-m>1.629</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>Jet Pump Mi 2 </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/systems/air-bleed/engine[1]/jet-pump</connect-status>        
+  <connect-status>/systems/air-bleed/engine[1]/jet-pump</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -9100,19 +9100,19 @@
       <x-m>-21.890</x-m>
       <y-m>0.401</y-m>
       <z-m>1.629</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>Jet Pump Mi 3 </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/systems/air-bleed/engine[2]/jet-pump</connect-status>        
+  <connect-status>/systems/air-bleed/engine[2]/jet-pump</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -9120,20 +9120,20 @@
      <x-m>-21.829</x-m>
       <y-m>0.401</y-m>
       <z-m>1.629</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
   <name>Jet Pump Mi 4 </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/systems/air-bleed/engine[3]/jet-pump</connect-status>        
+  <connect-status>/systems/air-bleed/engine[3]/jet-pump</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -9141,22 +9141,22 @@
       <x-m>-21.777</x-m>
       <y-m>0.401</y-m>
       <z-m>1.629</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
+
+
+
+
+
    <model>
   <name>Ram Air Mi 1 </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/systems/air-bleed/engine[0]/ram-air</connect-status>        
+  <connect-status>/systems/air-bleed/engine[0]/ram-air</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -9164,19 +9164,19 @@
       <x-m>-21.940</x-m>
       <y-m>0.41</y-m>
       <z-m>1.613</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>Ram Air Mi 2 </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/systems/air-bleed/engine[1]/ram-air</connect-status>        
+  <connect-status>/systems/air-bleed/engine[1]/ram-air</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -9184,19 +9184,19 @@
       <x-m>-21.890</x-m>
       <y-m>0.410</y-m>
       <z-m>1.613</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>Ram Air Mi 3 </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/systems/air-bleed/engine[2]/ram-air</connect-status>        
+  <connect-status>/systems/air-bleed/engine[2]/ram-air</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -9204,20 +9204,20 @@
      <x-m>-21.829</x-m>
       <y-m>0.410</y-m>
       <z-m>1.613</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
   <name>Ram Air Mi 4 </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/systems/air-bleed/engine[3]/ram-air</connect-status>        
+  <connect-status>/systems/air-bleed/engine[3]/ram-air</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -9225,22 +9225,22 @@
       <x-m>-21.777</x-m>
       <y-m>0.41</y-m>
       <z-m>1.613</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
+
+
+
+
+
   <model>
   <name>Fuel Valve Mi 1 </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/systems/air-bleed/engine[0]/ram-air</connect-status>        
+  <connect-status>/systems/air-bleed/engine[0]/ram-air</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -9248,19 +9248,19 @@
       <x-m>-21.944</x-m>
       <y-m>0.428</y-m>
       <z-m>1.573</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>Fuel Valve Mi 2 </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/systems/air-bleed/engine[1]/ram-air</connect-status>        
+  <connect-status>/systems/air-bleed/engine[1]/ram-air</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -9268,19 +9268,19 @@
       <x-m>-21.894</x-m>
       <y-m>0.428</y-m>
       <z-m>1.573</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>Fuel Valve Mi 3 </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/systems/air-bleed/engine[2]/ram-air</connect-status>        
+  <connect-status>/systems/air-bleed/engine[2]/ram-air</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -9288,20 +9288,20 @@
      <x-m>-21.833</x-m>
       <y-m>0.428</y-m>
       <z-m>1.573</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
   <name>Fuel Valve Mi 4 </name>
     <path>Cockpit/Engineer/mi-horizontal-valve.xml</path>
     <overlay>
       <params>
-  <connect-status>/systems/air-bleed/engine[3]/ram-air</connect-status>        
+  <connect-status>/systems/air-bleed/engine[3]/ram-air</connect-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
     </overlay>
@@ -9309,17 +9309,17 @@
       <x-m>-21.781</x-m>
       <y-m>0.428</y-m>
       <z-m>1.573</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
- 
-  
-  
-  
+
+
+
+
+
+
   <model>
   <name>Air  Cond 1 </name>
     <path>Cockpit/Engineer/air-cond-1.xml</path>
@@ -9332,13 +9332,13 @@
       <x-m>-21.940</x-m>
       <y-m>0.389</y-m>
       <z-m>1.657</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>Air  Cond 2 </name>
     <path>Cockpit/Engineer/air-cond-2.xml</path>
@@ -9351,13 +9351,13 @@
       <x-m>-21.890</x-m>
       <y-m>0.389</y-m>
       <z-m>1.657</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>Air  Cond 3 </name>
     <path>Cockpit/Engineer/air-cond-3.xml</path>
@@ -9370,14 +9370,14 @@
       <x-m>-21.829</x-m>
       <y-m>0.389</y-m>
       <z-m>1.657</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
   <name>Air  Cond 4 </name>
     <path>Cockpit/Engineer/air-cond-4.xml</path>
@@ -9390,30 +9390,30 @@
       <x-m>-21.777</x-m>
       <y-m>0.389</y-m>
       <z-m>1.657</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    <model>
   <name>Air  Cond Valve 1 </name>
     <path>Cockpit/Engineer/air-fuel-valve.xml</path>
@@ -9427,14 +9427,14 @@
       <x-m>-21.946</x-m>
       <y-m>0.439</y-m>
       <z-m>1.548</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
     <model>
   <name>Air  Cond Valve 2 </name>
     <path>Cockpit/Engineer/air-fuel-valve.xml</path>
@@ -9448,14 +9448,14 @@
       <x-m>-21.894</x-m>
       <y-m>0.439</y-m>
       <z-m>1.548</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
    <model>
   <name>Air  Cond Valve 3 </name>
     <path>Cockpit/Engineer/air-fuel-valve.xml</path>
@@ -9469,13 +9469,13 @@
       <x-m>-21.833</x-m>
       <y-m>0.439</y-m>
       <z-m>1.548</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>Air  Cond Valve 4 </name>
     <path>Cockpit/Engineer/air-fuel-valve.xml</path>
@@ -9489,13 +9489,13 @@
       <x-m>-21.782</x-m>
       <y-m>0.439</y-m>
       <z-m>1.548</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>TCA  1 </name>
     <path>Cockpit/Engineer/tcvalve-1.xml</path>
@@ -9508,12 +9508,12 @@
       <x-m>-21.967</x-m>
       <y-m>0.444</y-m>
       <z-m>1.535</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>TCA  2 </name>
     <path>Cockpit/Engineer/tcvalve-2.xml</path>
@@ -9526,12 +9526,12 @@
       <x-m>-21.915</x-m>
       <y-m>0.444</y-m>
       <z-m>1.535</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>TCA 3 </name>
     <path>Cockpit/Engineer/tcvalve-3.xml</path>
@@ -9544,12 +9544,12 @@
       <x-m>-21.853</x-m>
       <y-m>0.444</y-m>
       <z-m>1.535</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>TCA  4 </name>
     <path>Cockpit/Engineer/tcvalve-4.xml</path>
@@ -9562,89 +9562,89 @@
       <x-m>-21.802</x-m>
       <y-m>0.444</y-m>
       <z-m>1.535</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
+
+
+
+
   <model>
     <name>Leak 1</name>
     <path>Cockpit/Engineer/yellow-leak.xml</path>
     <overlay>
-    
+
     </overlay>
     <offsets>
       <x-m>-21.714</x-m>
       <y-m>0.350</y-m>
       <z-m>1.755</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Leak 2</name>
     <path>Cockpit/Engineer/yellow-leak.xml</path>
     <overlay>
-    
+
     </overlay>
     <offsets>
       <x-m>-21.657</x-m>
       <y-m>0.350</y-m>
       <z-m>1.755</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
+
+
+
+
+
    <model>
     <name>Leak 3</name>
     <path>Cockpit/Engineer/yellow-leak.xml</path>
     <overlay>
-    
+
     </overlay>
     <offsets>
       <x-m>-21.600</x-m>
       <y-m>0.350</y-m>
       <z-m>1.755</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
    <model>
     <name>Leak 4</name>
     <path>Cockpit/Engineer/yellow-leak.xml</path>
     <overlay>
-    
+
     </overlay>
     <offsets>
       <x-m>-21.544</x-m>
       <y-m>0.350</y-m>
       <z-m>1.755</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
+
+
+
+
    <model>
     <name>Air Cau Duct 1</name>
     <path>Cockpit/Engineer/cauduct.xml</path>
@@ -9658,12 +9658,12 @@
       <x-m>-21.714</x-m>
       <y-m>0.363</y-m>
       <z-m>1.729</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Air Cau Duct 2</name>
     <path>Cockpit/Engineer/cauduct.xml</path>
@@ -9677,13 +9677,13 @@
       <x-m>-21.657</x-m>
       <y-m>0.363</y-m>
       <z-m>1.729</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Air Cau Duct 3</name>
     <path>Cockpit/Engineer/cauduct.xml</path>
@@ -9697,12 +9697,12 @@
       <x-m>-21.6</x-m>
       <y-m>0.363</y-m>
       <z-m>1.729</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Air Cau Duct 4</name>
     <path>Cockpit/Engineer/cauduct.xml</path>
@@ -9716,13 +9716,13 @@
       <x-m>-21.543</x-m>
       <y-m>0.363</y-m>
       <z-m>1.729</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Air Mass Flow 1</name>
     <path>Cockpit/Engineer/massflow.xml</path>
@@ -9735,12 +9735,12 @@
        <x-m>-21.714</x-m>
       <y-m>0.385</y-m>
       <z-m>1.678</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Air Mass Flow 2</name>
     <path>Cockpit/Engineer/massflow.xml</path>
@@ -9753,12 +9753,12 @@
        <x-m>-21.657</x-m>
       <y-m>0.385</y-m>
       <z-m>1.678</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Air Mass Flow 3</name>
     <path>Cockpit/Engineer/massflow.xml</path>
@@ -9771,12 +9771,12 @@
        <x-m>-21.6</x-m>
       <y-m>0.385</y-m>
       <z-m>1.678</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Air Mass Flow 4</name>
     <path>Cockpit/Engineer/massflow.xml</path>
@@ -9789,33 +9789,33 @@
        <x-m>-21.543</x-m>
       <y-m>0.385</y-m>
       <z-m>1.678</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
+
+
+
+
+
   <model>
     <name>Temp Comparator</name>
     <path>Cockpit/Engineer/temp-comparator.xml</path>
     <overlay>
-    
+
     </overlay>
     <offsets>
       <x-m>-21.545</x-m>
       <y-m>0.397</y-m>
       <z-m>1.638</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Cabin Temp Deck</name>
     <path>Cockpit/Engineer/cabintemp.xml</path>
@@ -9828,13 +9828,13 @@
       <x-m>-21.718</x-m>
       <y-m>0.420</y-m>
       <z-m>1.601</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Cabin Temp Forward</name>
     <path>Cockpit/Engineer/cabintemp.xml</path>
@@ -9847,13 +9847,13 @@
       <x-m>-21.633</x-m>
       <y-m>0.420</y-m>
       <z-m>1.601</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Cabin Temp Rear</name>
     <path>Cockpit/Engineer/cabintemp.xml</path>
@@ -9866,12 +9866,12 @@
       <x-m>-21.547</x-m>
       <y-m>0.420</y-m>
       <z-m>1.601</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Temp Group 1 Switch</name>
     <path>Cockpit/Engineer/temp-group-switch.xml</path>
@@ -9885,13 +9885,13 @@
       <x-m>-21.68</x-m>
       <y-m>0.410</y-m>
       <z-m>1.605</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Temp Group 2 Switch</name>
     <path>Cockpit/Engineer/temp-group-switch.xml</path>
@@ -9905,12 +9905,12 @@
       <x-m>-21.597</x-m>
       <y-m>0.410</y-m>
       <z-m>1.605</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Temp Group 3 Switch</name>
     <path>Cockpit/Engineer/temp-group-34-switch.xml</path>
@@ -9924,12 +9924,12 @@
       <x-m>-21.605</x-m>
       <y-m>0.396</y-m>
       <z-m>1.637</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Temp Rear Mi</name>
     <path>Cockpit/Engineer/mi-temp-cabin-rear.xml</path>
@@ -9939,13 +9939,13 @@
       <x-m>-21.633</x-m>
       <y-m>0.399</y-m>
       <z-m>1.636</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Temp FWD Mi</name>
     <path>Cockpit/Engineer/mi-temp-cabin-fwd.xml</path>
@@ -9955,14 +9955,14 @@
       <x-m>-21.665</x-m>
       <y-m>0.399</y-m>
       <z-m>1.636</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Temp Flight Deck M</name>
     <path>Cockpit/Engineer/mi-temp-flight-deck.xml</path>
@@ -9972,13 +9972,13 @@
       <x-m>-21.696</x-m>
       <y-m>0.399</y-m>
       <z-m>1.636</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>Temp Selector  1 </name>
     <path>Cockpit/Engineer/temp-selector-1.xml</path>
@@ -9991,12 +9991,12 @@
       <x-m>-21.714</x-m>
       <y-m>0.445</y-m>
       <z-m>1.550</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Temp Selector  2 </name>
     <path>Cockpit/Engineer/temp-selector-2.xml</path>
@@ -10009,12 +10009,12 @@
       <x-m>-21.658</x-m>
       <y-m>0.445</y-m>
       <z-m>1.550</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Temp Selector  3 </name>
     <path>Cockpit/Engineer/temp-selector-3.xml</path>
@@ -10027,12 +10027,12 @@
       <x-m>-21.602</x-m>
       <y-m>0.445</y-m>
       <z-m>1.550</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
   <name>Temp Selector  4 </name>
     <path>Cockpit/Engineer/temp-selector-4.xml</path>
@@ -10045,13 +10045,13 @@
       <x-m>-21.545</x-m>
       <y-m>0.440</y-m>
       <z-m>1.550</z-m>
-      
+
       <heading-deg>-90</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
 <!-- ======== -->
 <!-- Starter -->
 <!-- ======== -->
@@ -10070,7 +10070,7 @@
       <x-m>-22.42</x-m>
       <y-m>0.505</y-m>
       <z-m>0.815</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -10091,7 +10091,7 @@
       <x-m>-22.38</x-m>
       <y-m>0.509</y-m>
       <z-m>0.815</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -10112,7 +10112,7 @@
       <x-m>-22.35</x-m>
       <y-m>0.512</y-m>
       <z-m>0.815</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -10133,7 +10133,7 @@
       <x-m>-22.315</x-m>
       <y-m>0.515</y-m>
       <z-m>0.815</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -10163,7 +10163,7 @@
       <x-m>-22.42</x-m>
       <y-m>0.502</y-m>
       <z-m>0.76</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -10185,7 +10185,7 @@
       <x-m>-22.38</x-m>
       <y-m>0.506</y-m>
       <z-m>0.76</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -10207,7 +10207,7 @@
       <x-m>-22.35</x-m>
       <y-m>0.509</y-m>
       <z-m>0.76</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -10229,14 +10229,14 @@
       <x-m>-22.315</x-m>
       <y-m>0.512</y-m>
       <z-m>0.76</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
 <name>Engine Debow 1</name>
     <path>Cockpit/Engineer/switch-nothing.xml</path>
@@ -10246,12 +10246,12 @@
       <x-m>-22.422</x-m>
       <y-m>0.499</y-m>
       <z-m>0.71</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
    <model>
 <name>Engine Debow 2</name>
     <path>Cockpit/Engineer/switch-nothing.xml</path>
@@ -10261,12 +10261,12 @@
       <x-m>-22.383</x-m>
       <y-m>0.503</y-m>
       <z-m>0.71</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
    <model>
 <name>Engine Debow 3</name>
     <path>Cockpit/Engineer/switch-nothing.xml</path>
@@ -10276,12 +10276,12 @@
       <x-m>-22.351</x-m>
       <y-m>0.506</y-m>
       <z-m>0.71</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
    <model>
 <name>Engine Debow 4</name>
     <path>Cockpit/Engineer/switch-nothing.xml</path>
@@ -10291,21 +10291,21 @@
       <x-m>-22.315</x-m>
       <y-m>0.509</y-m>
       <z-m>0.71</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
- 
-  
-  
-  
+
+
+
+
   <!-- ======== -->
 <!-- Engineer foward foot-->
 <!-- ======== -->
-  
-  
-  
+
+
+
   <model>
     <name>Engine Relight Selector</name>
     <path>Cockpit/Engineer/engine-relight-selector.xml</path>
@@ -10318,13 +10318,13 @@
       <x-m>-22.319</x-m>
       <y-m>0.510</y-m>
       <z-m>0.655</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Light RH</name>
     <path>Cockpit/Engineer/light-rh.xml</path>
@@ -10334,12 +10334,12 @@
       <x-m>-22.349</x-m>
       <y-m>0.5</y-m>
       <z-m>0.655</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Light LH</name>
     <path>Cockpit/Engineer/light-lh.xml</path>
@@ -10349,14 +10349,14 @@
       <x-m>-22.429</x-m>
       <y-m>0.494</y-m>
       <z-m>0.655</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>INS 1 Mode</name>
     <path>Cockpit/Engineer/ins-1-mode.xml</path>
@@ -10369,13 +10369,13 @@
       <x-m>-22.401</x-m>
       <y-m>0.50</y-m>
       <z-m>0.593</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>INS 1 Green</name>
     <path>Cockpit/Engineer/light-green-ins.xml</path>
@@ -10390,12 +10390,12 @@
       <x-m>-22.355</x-m>
       <y-m>0.50</y-m>
       <z-m>0.593</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
    <model>
     <name>INS 1 Red Battery</name>
     <path>Cockpit/Engineer/light-red-ins-battery.xml</path>
@@ -10410,12 +10410,12 @@
       <x-m>-22.335</x-m>
       <y-m>0.501</y-m>
       <z-m>0.593</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>INS 2 Mode</name>
     <path>Cockpit/Engineer/ins-2-mode.xml</path>
@@ -10428,13 +10428,13 @@
       <x-m>-22.26</x-m>
       <y-m>0.518</y-m>
       <z-m>0.729</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
    <model>
     <name>INS 2 Green</name>
     <path>Cockpit/Engineer/light-green-ins.xml</path>
@@ -10449,12 +10449,12 @@
       <x-m>-22.221</x-m>
       <y-m>0.518</y-m>
       <z-m>0.726</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
    <model>
     <name>INS 2 Red Battery</name>
     <path>Cockpit/Engineer/light-red-ins-battery.xml</path>
@@ -10469,16 +10469,16 @@
       <x-m>-22.202</x-m>
       <y-m>0.519</y-m>
       <z-m>0.726</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
+
+
+
+
+
   <model>
     <name>INS 3 Mode</name>
     <path>Cockpit/Engineer/ins-3-mode.xml</path>
@@ -10491,14 +10491,14 @@
       <x-m>-22.135</x-m>
       <y-m>0.528</y-m>
       <z-m>0.729</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
    <model>
     <name>INS 3 Green</name>
     <path>Cockpit/Engineer/light-green-ins.xml</path>
@@ -10513,12 +10513,12 @@
       <x-m>-22.095</x-m>
       <y-m>0.53</y-m>
       <z-m>0.725</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
    <model>
     <name>INS 3 Red Battery</name>
     <path>Cockpit/Engineer/light-red-ins-battery.xml</path>
@@ -10533,17 +10533,17 @@
       <x-m>-22.076</x-m>
       <y-m>0.531</y-m>
       <z-m>0.725</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
   <model>
     <name>Light Doors</name>
     <path>Cockpit/Engineer/light-doors.xml</path>
@@ -10553,12 +10553,12 @@
       <x-m>-22.113</x-m>
       <y-m>0.535</y-m>
       <z-m>0.81</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-2</pitch-deg>
     </offsets>
   </model>
-  
+
    <model>
     <name>Test Light Doors</name>
     <path>Cockpit/Engineer/test-light-doors.xml</path>
@@ -10568,13 +10568,13 @@
       <x-m>-22.058</x-m>
       <y-m>0.536</y-m>
       <z-m>0.783</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-2</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>RAT 1 Switch</name>
     <path>Cockpit/Engineer/rat-selector.xml</path>
@@ -10589,12 +10589,12 @@
       <x-m>-22.268</x-m>
       <y-m>0.505</y-m>
       <z-m>0.475</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>RAT Green</name>
     <path>Cockpit/Engineer/light-green-rat.xml</path>
@@ -10604,12 +10604,12 @@
       <x-m>-22.218</x-m>
       <y-m>0.504</y-m>
       <z-m>0.50</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>RAT Test</name>
     <path>Cockpit/Engineer/light-test-rat.xml</path>
@@ -10619,13 +10619,13 @@
       <x-m>-22.218</x-m>
       <y-m>0.504</y-m>
       <z-m>0.48</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>RAT 2 Switch</name>
     <path>Cockpit/Engineer/rat-selector.xml</path>
@@ -10640,7 +10640,7 @@
       <x-m>-22.188</x-m>
       <y-m>0.512</y-m>
       <z-m>0.475</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>-5</pitch-deg>
     </offsets>
@@ -10659,7 +10659,7 @@
       <x-m>-22.173</x-m>
       <y-m>0.499</y-m>
       <z-m>1.372</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -10672,7 +10672,7 @@
       <x-m>-22.252</x-m>
       <y-m>0.494</y-m>
       <z-m>1.372</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -10692,7 +10692,7 @@
       <x-m>-22.255</x-m>
       <y-m>0.481</y-m>
       <z-m>1.403</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -10711,7 +10711,7 @@
       <x-m>-22.228</x-m>
       <y-m>0.483</y-m>
       <z-m>1.403</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -10730,7 +10730,7 @@
       <x-m>-22.201</x-m>
       <y-m>0.487</y-m>
       <z-m>1.403</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -10749,7 +10749,7 @@
       <x-m>-22.174</x-m>
       <y-m>0.488</y-m>
       <z-m>1.403</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -10772,7 +10772,7 @@
       <x-m>-22.231</x-m>
       <y-m>0.504</y-m>
       <z-m>1.345</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -10789,7 +10789,7 @@
       <x-m>-22.197</x-m>
       <y-m>0.509</y-m>
       <z-m>1.345</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -10816,7 +10816,7 @@
       <x-m>-22.253</x-m>
       <y-m>0.468</y-m>
       <z-m>1.433</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -10836,7 +10836,7 @@
       <x-m>-22.226</x-m>
       <y-m>0.469</y-m>
       <z-m>1.433</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -10856,7 +10856,7 @@
       <x-m>-22.199</x-m>
       <y-m>0.473</y-m>
       <z-m>1.433</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -10876,7 +10876,7 @@
       <x-m>-22.172</x-m>
       <y-m>0.476</y-m>
       <z-m>1.433</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -10905,12 +10905,12 @@
       <x-m>-22.353</x-m>
       <y-m>0.382</y-m>
       <z-m>1.615</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>24</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Ground Hydraulic Pump 1</name>
     <path>Cockpit/Engineer/hyd-ground-pump-1.xml</path>
@@ -10921,12 +10921,12 @@
       <x-m>-22.403</x-m>
       <y-m>0.375</y-m>
       <z-m>1.606</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>23</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Ground Hydraulic Pump 2</name>
     <path>Cockpit/Engineer/hyd-ground-pump-2.xml</path>
@@ -10937,7 +10937,7 @@
       <x-m>-22.311</x-m>
       <y-m>0.385</y-m>
       <z-m>1.606</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>23</pitch-deg>
     </offsets>
@@ -10955,7 +10955,7 @@
     <path>Cockpit/Engineer/mi-open-valve.xml</path>
 <overlay>
 <params>
-  <open-status>/systems/engines/engine[0]/secondary-air-door</open-status>        
+  <open-status>/systems/engines/engine[0]/secondary-air-door</open-status>
   		<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
 </overlay>
@@ -10963,7 +10963,7 @@
       <x-m>-22.135</x-m>
       <y-m>0.466</y-m>
       <z-m>1.464</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -10975,7 +10975,7 @@
     <path>Cockpit/Engineer/mi-open-valve.xml</path>
 <overlay>
 <params>
-   <open-status>/systems/engines/engine[1]/secondary-air-door</open-status>        
+   <open-status>/systems/engines/engine[1]/secondary-air-door</open-status>
   	<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
 </overlay>
@@ -10983,7 +10983,7 @@
       <x-m>-22.113</x-m>
       <y-m>0.468</y-m>
       <z-m>1.464</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -10995,7 +10995,7 @@
     <path>Cockpit/Engineer/mi-open-valve.xml</path>
 <overlay>
 <params>
- <open-status>/systems/engines/engine[2]/secondary-air-door</open-status>        
+ <open-status>/systems/engines/engine[2]/secondary-air-door</open-status>
   	<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
 </overlay>
@@ -11003,7 +11003,7 @@
       <x-m>-22.084</x-m>
       <y-m>0.471</y-m>
       <z-m>1.464</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -11015,7 +11015,7 @@
     <path>Cockpit/Engineer/mi-open-valve.xml</path>
 <overlay>
 <params>
-   <open-status>/systems/engines/engine[3]/secondary-air-door</open-status>        
+   <open-status>/systems/engines/engine[3]/secondary-air-door</open-status>
   	<defined-status>/systems/electrical/power/specific</defined-status>
  </params>
 </overlay>
@@ -11023,7 +11023,7 @@
       <x-m>-22.058</x-m>
       <y-m>0.473</y-m>
       <z-m>1.464</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -11051,7 +11051,7 @@
       <x-m>-22.135</x-m>
       <y-m>0.474</y-m>
       <z-m>1.443</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -11071,7 +11071,7 @@
       <x-m>-22.113</x-m>
       <y-m>0.478</y-m>
       <z-m>1.443</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -11091,7 +11091,7 @@
       <x-m>-22.084</x-m>
       <y-m>0.481</y-m>
       <z-m>1.443</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -11111,12 +11111,12 @@
       <x-m>-22.058</x-m>
       <y-m>0.483</y-m>
       <z-m>1.443</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Engine Schedule</name>
     <path>Cockpit/Engineer/engine-schedule.xml</path>
@@ -11126,12 +11126,12 @@
       <x-m>-22.091</x-m>
       <y-m>0.459</y-m>
       <z-m>1.488</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Engine Schedule Light</name>
     <path>Cockpit/Engineer/light-ecs.xml</path>
@@ -11141,7 +11141,7 @@
       <x-m>-22.086</x-m>
       <y-m>0.441</y-m>
       <z-m>1.516</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -11156,10 +11156,10 @@
       <x-m>-22.128</x-m>
       <y-m>0.456</y-m>
       <z-m>1.495</z-m>
-     
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
-     
+
     </offsets>
   </model>
   <model>
@@ -11172,14 +11172,14 @@
       <x-m>-22.22</x-m>
       <y-m>0.442</y-m>
       <z-m>1.5</z-m>
-     
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
-     
+
     </offsets>
   </model>
-  
-  
+
+
   <model>
   <name>Alt Excess</name>
     <path>Cockpit/Engineer/cabin-altexcess.xml</path>
@@ -11190,13 +11190,13 @@
       <x-m>-22.26</x-m>
       <y-m>0.38</y-m>
       <z-m>1.634</z-m>
-     
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
-     
+
     </offsets>
   </model>
-  
+
   <model>
   <name>Cabin Overpress</name>
     <path>Cockpit/Engineer/cabin-overpress.xml</path>
@@ -11207,13 +11207,13 @@
       <x-m>-22.07</x-m>
       <y-m>0.40</y-m>
       <z-m>1.634</z-m>
-     
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
-     
+
     </offsets>
   </model>
-  
+
   <model>
   <name>Pressurisation Selector 1</name>
     <path>Cockpit/Engineer/cabin-alt-1.xml</path>
@@ -11229,16 +11229,16 @@
       <x-m>-22.23</x-m>
       <y-m>0.41</y-m>
       <z-m>1.575</z-m>
-     
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
-     
+
     </offsets>
   </model>
-  
-  
-  
-  
+
+
+
+
    <model>
   <name>Pressurisation Selector 2</name>
     <path>Cockpit/Engineer/cabin-alt-2.xml</path>
@@ -11254,19 +11254,19 @@
       <x-m>-22.097</x-m>
       <y-m>0.425</y-m>
       <z-m>1.574</z-m>
-     
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
-     
+
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
   <model>
     <name>Secondary Nozzle 1</name>
     <path>Cockpit/Engineer/secondary-nozzle-1.xml</path>
@@ -11279,7 +11279,7 @@
       <x-m>-22.146</x-m>
       <y-m>0.489</y-m>
       <z-m>1.405</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -11296,7 +11296,7 @@
       <x-m>-22.117</x-m>
       <y-m>0.491</y-m>
       <z-m>1.405</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -11313,7 +11313,7 @@
       <x-m>-22.088</x-m>
       <y-m>0.492</y-m>
       <z-m>1.405</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -11330,20 +11330,20 @@
       <x-m>-22.059</x-m>
       <y-m>0.496</y-m>
       <z-m>1.405</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
   <model>
     <name>Reverse Arm</name>
     <path>Cockpit/Engineer/reverse-arm.xml</path>
@@ -11353,12 +11353,12 @@
       <x-m>-22.158</x-m>
       <y-m>0.509</y-m>
       <z-m>1.375</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Open</name>
     <path>Cockpit/Engineer/blue-open.xml</path>
@@ -11368,14 +11368,14 @@
       <x-m>-22.128</x-m>
       <y-m>0.507</y-m>
       <z-m>1.37</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Nozzle</name>
     <path>Cockpit/Engineer/yellow-nozzle.xml</path>
@@ -11385,13 +11385,13 @@
       <x-m>-22.10</x-m>
       <y-m>0.512</y-m>
       <z-m>1.368</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
 
 
 <!-- ======== -->
@@ -11409,13 +11409,13 @@
       <x-m>-22.065</x-m>
       <y-m>0.351</y-m>
       <z-m>1.734</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
 <name>Ditching 2</name>
     <path>Cockpit/Engineer/ditching-pressure.xml</path>
@@ -11429,13 +11429,13 @@
       <x-m>-22.087</x-m>
       <y-m>0.348</y-m>
       <z-m>1.734</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
    <model>
 <name>Ditching 1</name>
     <path>Cockpit/Engineer/ditching-pressure.xml</path>
@@ -11449,12 +11449,12 @@
       <x-m>-22.125</x-m>
       <y-m>0.345</y-m>
       <z-m>1.734</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
 <name>Mi Relief Pressure </name>
     <path>Cockpit/Engineer/mi-relief-pressure.xml</path>
@@ -11468,7 +11468,7 @@
       <x-m>-22.255</x-m>
       <y-m>0.346</y-m>
       <z-m>1.710</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -11486,7 +11486,7 @@
       <x-m>-22.230</x-m>
       <y-m>0.346</y-m>
       <z-m>1.710</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -11505,12 +11505,12 @@
       <x-m>-22.205</x-m>
       <y-m>0.349</y-m>
       <z-m>1.710</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
      <model>
 <name>Mi Trut Recuperator </name>
     <path>Cockpit/Engineer/mi-thrust-recup.xml</path>
@@ -11520,13 +11520,13 @@
       <x-m>-22.118</x-m>
       <y-m>0.37</y-m>
       <z-m>1.683</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
    <model>
 <name>Mi Air Vents </name>
     <path>Cockpit/Engineer/mi-air-vents.xml</path>
@@ -11540,13 +11540,13 @@
       <x-m>-22.06</x-m>
       <y-m>0.375</y-m>
       <z-m>1.683</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Engineer Cabin Altimeter</name>
     <path>Aircraft/Concorde/Models/Cockpit/Engineer/cabin-alt-engineer.xml</path>
@@ -11554,12 +11554,12 @@
       <x-m>-22.218</x-m>
       <y-m>0.385</y-m>
       <z-m>1.633</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
    <model>
     <name>Engineer Cabin Pressure</name>
     <path>Aircraft/Concorde/Models/Cockpit/Engineer/cabin-pressure.xml</path>
@@ -11567,12 +11567,12 @@
       <x-m>-22.108</x-m>
       <y-m>0.398</y-m>
       <z-m>1.633</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Engineer Cabin Discharge</name>
     <path>Aircraft/Concorde/Models/Cockpit/Engineer/cabin-discharge.xml</path>
@@ -11580,12 +11580,12 @@
       <x-m>-22.16</x-m>
       <y-m>0.386</y-m>
       <z-m>1.640</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Engineer Cabin Vario</name>
     <path>Aircraft/Concorde/Models/Cockpit/Engineer/cabin-vario.xml</path>
@@ -11593,7 +11593,7 @@
       <x-m>-22.163</x-m>
       <y-m>0.42</y-m>
       <z-m>1.566</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -11609,7 +11609,7 @@
       <x-m>-22.173</x-m>
       <y-m>0.351</y-m>
       <z-m>1.713</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -11625,7 +11625,7 @@
       <x-m>-22.145</x-m>
       <y-m>0.354</y-m>
       <z-m>1.713</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -11638,12 +11638,12 @@
 <model>
 <name>Relief Valve Selector </name>
     <path>Cockpit/Engineer/pressure-relief-valve-selector.xml</path>
-    
+
     <offsets>
       <x-m>-22.257</x-m>
       <y-m>0.365</y-m>
       <z-m>1.665</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
@@ -11651,7 +11651,7 @@
   <!-- ======== -->
 <!-- Engineer Engines -->
 <!-- ======== -->
-  
+
   <model>
     <name>Altimeter  Engineer</name>
     <path>Aircraft/Concorde/Models/Cockpit/Engineer/altimeter-engineer.xml</path>
@@ -11661,12 +11661,12 @@
       <x-m>-22.124</x-m>
       <y-m>0.551</y-m>
       <z-m>1.241</z-m>
-      
+
       <heading-deg>-84</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Thermometer  Engineer</name>
     <path>Aircraft/Concorde/Models/Cockpit/Engineer/thermometer-engineer.xml</path>
@@ -11676,15 +11676,15 @@
       <x-m>-22.181</x-m>
       <y-m>0.545</y-m>
       <z-m>1.241</z-m>
-      
+
       <heading-deg>-84</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
+
+
+
+
   <model>
     <name>Machmeter  Engineer</name>
     <path>Aircraft/Concorde/Models/Cockpit/Engineer/machmeter-engineer.xml</path>
@@ -11694,18 +11694,18 @@
       <x-m>-22.238</x-m>
       <y-m>0.539</y-m>
       <z-m>1.241</z-m>
-      
+
       <heading-deg>-84</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
   <model>
     <name>Engine 1 P7</name>
     <path>Aircraft/Concorde/Models/Cockpit/Engineer/p7-1.xml</path>
@@ -11719,12 +11719,12 @@
       <x-m>-22.235</x-m>
       <y-m>0.53</y-m>
       <z-m>1.006</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
    <name>Engine 2 P7</name>
     <path>Aircraft/Concorde/Models/Cockpit/Engineer/p7-2.xml</path>
@@ -11738,7 +11738,7 @@
       <x-m>-22.178</x-m>
       <y-m>0.536</y-m>
       <z-m>1.006</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
@@ -11756,12 +11756,12 @@
       <x-m>-22.121</x-m>
       <y-m>0.541</y-m>
       <z-m>1.006</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Engine 4 P7</name>
     <path>Aircraft/Concorde/Models/Cockpit/Engineer/p7-4.xml</path>
@@ -11775,50 +11775,50 @@
       <x-m>-22.064</x-m>
       <y-m>0.546</y-m>
       <z-m>1.006</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Tank Pressure</name>
     <path>Aircraft/Concorde/Models/Cockpit/Engineer/tankpress.xml</path>
     <overlay>
-     
+
     </overlay>
     <offsets>
       <x-m>-22.096</x-m>
       <y-m>0.543</y-m>
       <z-m>0.95</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Tank Pressure Light</name>
     <path>Aircraft/Concorde/Models/Cockpit/Engineer/light-tankpress.xml</path>
     <overlay>
-     
+
     </overlay>
     <offsets>
       <x-m>-22.06</x-m>
       <y-m>0.543</y-m>
       <z-m>0.95</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
   <model>
     <name>Engine 1 Oil content </name>
     <path>Aircraft/Concorde/Models/Cockpit/Engineer/oiltempcontent-1.xml</path>
@@ -11831,7 +11831,7 @@
       <x-m>-22.235</x-m>
       <y-m>0.533</y-m>
       <z-m>1.064</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
@@ -11848,7 +11848,7 @@
       <x-m>-22.178</x-m>
       <y-m>0.537</y-m>
       <z-m>1.064</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
@@ -11865,7 +11865,7 @@
       <x-m>-22.121</x-m>
       <y-m>0.542</y-m>
       <z-m>1.064</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
@@ -11882,14 +11882,14 @@
       <x-m>-22.064</x-m>
       <y-m>0.546</y-m>
       <z-m>1.064</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Engine 1 TCA FUEL </name>
     <path>Aircraft/Concorde/Models/Cockpit/Engineer/tcafuel-1.xml</path>
@@ -11902,7 +11902,7 @@
       <x-m>-22.235</x-m>
       <y-m>0.532</y-m>
       <z-m>1.18</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
@@ -11919,7 +11919,7 @@
       <x-m>-22.178</x-m>
       <y-m>0.537</y-m>
       <z-m>1.18</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
@@ -11936,7 +11936,7 @@
       <x-m>-22.121</x-m>
       <y-m>0.543</y-m>
       <z-m>1.18</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
@@ -11953,21 +11953,21 @@
       <x-m>-22.064</x-m>
       <y-m>0.549</y-m>
       <z-m>1.180</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
   <model>
     <name>Engine 1 Oil pressure </name>
     <path>Aircraft/Concorde/Models/Cockpit/Engineer/oil-pressure-1.xml</path>
@@ -11980,7 +11980,7 @@
       <x-m>-22.235</x-m>
       <y-m>0.533</y-m>
       <z-m>1.122</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
@@ -11997,7 +11997,7 @@
       <x-m>-22.178</x-m>
       <y-m>0.538</y-m>
       <z-m>1.122</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
@@ -12014,7 +12014,7 @@
       <x-m>-22.121</x-m>
       <y-m>0.544</y-m>
       <z-m>1.122</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
@@ -12031,13 +12031,13 @@
       <x-m>-22.064</x-m>
       <y-m>0.549</y-m>
       <z-m>1.122</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name> Clock Engineer</name>
     <path>Aircraft/Concorde/Models/Cockpit/Engineer/clock_engineer.xml</path>
@@ -12045,230 +12045,230 @@
       <x-m>-22.396</x-m>
       <y-m>0.417</y-m>
       <z-m>1.533</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>24</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Brakes Pressure</name>
     <path>Cockpit/Engineer/brakes_pressure.xml</path>
    <overlay>
-   
+
     </overlay>
     <offsets>
       <x-m>-22.396</x-m>
       <y-m>0.438</y-m>
       <z-m>1.474</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>24</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Brakes Temp </name>
     <path>Cockpit/Engineer/brakes-temp.xml</path>
    <overlay>
-   
+
     </overlay>
     <offsets>
       <x-m>-22.356</x-m>
       <y-m>0.467</y-m>
       <z-m>1.414</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>24</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Brakes Temp Test</name>
     <path>Cockpit/Engineer/test-brakes-temp.xml</path>
    <overlay>
-   
+
     </overlay>
     <offsets>
       <x-m>-22.33</x-m>
       <y-m>0.483</y-m>
       <z-m>1.385</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>24</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
+
+
+
+
   <model>
     <name>Brakes FWD 1</name>
     <path>Cockpit/Engineer/brakes-fwd.xml</path>
    <overlay>
-   
+
     </overlay>
     <offsets>
       <x-m>-22.424</x-m>
       <y-m>0.453</y-m>
       <z-m>1.428</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Brakes REAR 1</name>
     <path>Cockpit/Engineer/brakes-rear.xml</path>
    <overlay>
-   
+
     </overlay>
     <offsets>
       <x-m>-22.425</x-m>
       <y-m>0.466</y-m>
       <z-m>1.398</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Brakes FWD 2</name>
     <path>Cockpit/Engineer/brakes-fwd.xml</path>
    <overlay>
-   
+
     </overlay>
     <offsets>
       <x-m>-22.406</x-m>
       <y-m>0.454</y-m>
       <z-m>1.428</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Brakes REAR 2</name>
     <path>Cockpit/Engineer/brakes-rear.xml</path>
    <overlay>
-   
+
     </overlay>
     <offsets>
       <x-m>-22.407</x-m>
       <y-m>0.467</y-m>
       <z-m>1.398</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
   <model>
     <name>Brakes FWD 3</name>
     <path>Cockpit/Engineer/brakes-fwd.xml</path>
    <overlay>
-   
+
     </overlay>
     <offsets>
       <x-m>-22.314</x-m>
       <y-m>0.463</y-m>
       <z-m>1.428</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Brakes REAR 3</name>
     <path>Cockpit/Engineer/brakes-rear.xml</path>
    <overlay>
-   
+
     </overlay>
     <offsets>
       <x-m>-22.315</x-m>
       <y-m>0.475</y-m>
       <z-m>1.398</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Brakes FWD 4</name>
     <path>Cockpit/Engineer/brakes-fwd.xml</path>
    <overlay>
-   
+
     </overlay>
     <offsets>
       <x-m>-22.296</x-m>
       <y-m>0.464</y-m>
       <z-m>1.428</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Brakes REAR 4</name>
     <path>Cockpit/Engineer/brakes-rear.xml</path>
    <overlay>
-   
+
     </overlay>
     <offsets>
       <x-m>-22.297</x-m>
       <y-m>0.476</y-m>
       <z-m>1.398</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
+
+
+
+
   <model>
     <name>Alpha</name>
     <path>Cockpit/Engineer/intake-alpha.xml</path>
    <overlay>
-  
+
     </overlay>
     <offsets>
       <x-m>-22.38</x-m>
       <y-m>0.513</y-m>
       <z-m>1.262</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Intake Red</name>
     <path>Cockpit/Engineer/intake-red.xml</path>
@@ -12278,65 +12278,65 @@
       <x-m>-22.345</x-m>
       <y-m>0.516</y-m>
       <z-m>1.262</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>N1 Sig 1</name>
     <path>Cockpit/Engineer/intake-n1.xml</path>
    <overlay>
-  
+
     </overlay>
     <offsets>
       <x-m>-22.41</x-m>
       <y-m>0.510</y-m>
       <z-m>1.247</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>N1 Sig 2</name>
     <path>Cockpit/Engineer/intake-n1.xml</path>
    <overlay>
-  
+
     </overlay>
     <offsets>
       <x-m>-22.38</x-m>
       <y-m>0.513</y-m>
       <z-m>1.247</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>N1 Sig 3</name>
     <path>Cockpit/Engineer/intake-n1.xml</path>
    <overlay>
-  
+
     </overlay>
     <offsets>
       <x-m>-22.345</x-m>
       <y-m>0.516</y-m>
       <z-m>1.247</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>N1 Sig 4</name>
     <path>Cockpit/Engineer/intake-n1.xml</path>
@@ -12346,13 +12346,13 @@
       <x-m>-22.315</x-m>
       <y-m>0.519</y-m>
       <z-m>1.247</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Intake Red 1</name>
     <path>Cockpit/Engineer/intake-rampspill.xml</path>
@@ -12360,19 +12360,19 @@
    <params>
   <pressure-psi>/systems/hydraulic/sensors/intake[0]</pressure-psi>
  </params>
-  
+
     </overlay>
     <offsets>
       <x-m>-22.41</x-m>
       <y-m>0.51</y-m>
       <z-m>1.232</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Intake Red 2</name>
     <path>Cockpit/Engineer/intake-rampspill.xml</path>
@@ -12385,13 +12385,13 @@
       <x-m>-22.38</x-m>
       <y-m>0.513</y-m>
       <z-m>1.232</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Intake Red 3</name>
     <path>Cockpit/Engineer/intake-rampspill.xml</path>
@@ -12404,14 +12404,14 @@
       <x-m>-22.345</x-m>
       <y-m>0.516</y-m>
       <z-m>1.232</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Intake Red 4</name>
     <path>Cockpit/Engineer/intake-rampspill.xml</path>
@@ -12424,22 +12424,22 @@
       <x-m>-22.315</x-m>
       <y-m>0.519</y-m>
       <z-m>1.232</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
   <model>
     <name>Intake ab 1</name>
     <path>Cockpit/Engineer/intake-ab.xml</path>
@@ -12453,14 +12453,14 @@
       <x-m>-22.415</x-m>
       <y-m>0.512</y-m>
       <z-m>1.195</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Intake ab 2</name>
     <path>Cockpit/Engineer/intake-ab.xml</path>
@@ -12474,14 +12474,14 @@
       <x-m>-22.383</x-m>
       <y-m>0.515</y-m>
       <z-m>1.195</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Intake ab 3</name>
     <path>Cockpit/Engineer/intake-ab.xml</path>
@@ -12495,13 +12495,13 @@
       <x-m>-22.349</x-m>
       <y-m>0.519</y-m>
       <z-m>1.195</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Intake ab 4</name>
     <path>Cockpit/Engineer/intake-ab.xml</path>
@@ -12515,21 +12515,21 @@
       <x-m>-22.319</x-m>
       <y-m>0.522</y-m>
       <z-m>1.195</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
   <model>
     <name>Intake Lane a 1</name>
     <path>Cockpit/Engineer/intake-lane.xml</path>
@@ -12539,14 +12539,14 @@
       <x-m>-22.42</x-m>
       <y-m>0.510</y-m>
       <z-m>1.175</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Intake Lane b 1</name>
     <path>Cockpit/Engineer/intake-lane.xml</path>
@@ -12556,14 +12556,14 @@
       <x-m>-22.41</x-m>
       <y-m>0.511</y-m>
       <z-m>1.175</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Intake Lane a 2</name>
     <path>Cockpit/Engineer/intake-lane.xml</path>
@@ -12573,12 +12573,12 @@
       <x-m>-22.388</x-m>
       <y-m>0.512</y-m>
       <z-m>1.175</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Intake Lane b 2</name>
     <path>Cockpit/Engineer/intake-lane.xml</path>
@@ -12588,14 +12588,14 @@
       <x-m>-22.378</x-m>
       <y-m>0.513</y-m>
       <z-m>1.175</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Intake Lane a 3</name>
     <path>Cockpit/Engineer/intake-lane.xml</path>
@@ -12605,13 +12605,13 @@
       <x-m>-22.354</x-m>
       <y-m>0.515</y-m>
       <z-m>1.175</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
    <model>
     <name>Intake Lane b 3</name>
     <path>Cockpit/Engineer/intake-lane.xml</path>
@@ -12621,13 +12621,13 @@
       <x-m>-22.344</x-m>
       <y-m>0.516</y-m>
       <z-m>1.175</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Intake Lane a 4</name>
     <path>Cockpit/Engineer/intake-lane.xml</path>
@@ -12637,13 +12637,13 @@
       <x-m>-22.324</x-m>
       <y-m>0.518</y-m>
      <z-m>1.175</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
    <model>
     <name>Intake Lane b 4</name>
     <path>Cockpit/Engineer/intake-lane.xml</path>
@@ -12653,26 +12653,26 @@
       <x-m>-22.314</x-m>
       <y-m>0.519</y-m>
       <z-m>1.175</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <model>
     <name>Intake Selector 1</name>
     <path>Cockpit/Engineer/intake-lane-selector-1.xml</path>
@@ -12685,15 +12685,15 @@
       <x-m>-22.413</x-m>
       <y-m>0.516</y-m>
       <z-m>1.142</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
      <roll-deg>-75</roll-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Intake Selector 2</name>
     <path>Cockpit/Engineer/intake-lane-selector-2.xml</path>
@@ -12706,15 +12706,15 @@
       <x-m>-22.381</x-m>
       <y-m>0.520</y-m>
       <z-m>1.142</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
      <roll-deg>-75</roll-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Intake Selector 3</name>
     <path>Cockpit/Engineer/intake-lane-selector-3.xml</path>
@@ -12727,14 +12727,14 @@
       <x-m>-22.344</x-m>
       <y-m>0.523</y-m>
       <z-m>1.142</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
      <roll-deg>-75</roll-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Intake Selector 4</name>
     <path>Cockpit/Engineer/intake-lane-selector-4.xml</path>
@@ -12747,39 +12747,39 @@
       <x-m>-22.313</x-m>
       <y-m>0.526</y-m>
       <z-m>1.142</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
      <roll-deg>-75</roll-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
- 
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <model>
     <name>Intake Hyd 1</name>
     <path>Cockpit/Engineer/intake-hyd.xml</path>
@@ -12795,14 +12795,14 @@
       <x-m>-22.415</x-m>
       <y-m>0.509</y-m>
       <z-m>1.116</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Intake Hyd 2</name>
     <path>Cockpit/Engineer/intake-hyd.xml</path>
@@ -12818,14 +12818,14 @@
       <x-m>-22.383</x-m>
       <y-m>0.512</y-m>
       <z-m>1.116</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Intake Hyd 3</name>
     <path>Cockpit/Engineer/intake-hyd.xml</path>
@@ -12841,13 +12841,13 @@
       <x-m>-22.346</x-m>
       <y-m>0.516</y-m>
       <z-m>1.116</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Intake Hyd 4</name>
     <path>Cockpit/Engineer/intake-hyd.xml</path>
@@ -12863,39 +12863,39 @@
       <x-m>-22.316</x-m>
       <y-m>0.519</y-m>
       <z-m>1.116</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
- 
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <model>
     <name>Intake Error 1</name>
     <path>Cockpit/Engineer/intakeerror-1.xml</path>
@@ -12908,12 +12908,12 @@
       <x-m>-22.412</x-m>
       <y-m>0.498</y-m>
       <z-m>1.332</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Intake Error 2</name>
     <path>Cockpit/Engineer/intakeerror-2.xml</path>
@@ -12926,12 +12926,12 @@
       <x-m>-22.381</x-m>
       <y-m>0.50</y-m>
       <z-m>1.332</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Intake Error 3</name>
     <path>Cockpit/Engineer/intakeerror-3.xml</path>
@@ -12944,12 +12944,12 @@
       <x-m>-22.349</x-m>
       <y-m>0.503</y-m>
       <z-m>1.332</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Intake Error 4</name>
     <path>Cockpit/Engineer/intakeerror-4.xml</path>
@@ -12962,93 +12962,93 @@
       <x-m>-22.316</x-m>
       <y-m>0.506</y-m>
       <z-m>1.332</z-m>
-      
+
       <heading-deg>-83</heading-deg>
      <pitch-deg>25</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
    <model>
     <name>Intake Switch 1</name>
     <path>Cockpit/Engineer/rampspillman.xml</path>
    <overlay>
    <params>
-  
+
  </params>
     </overlay>
     <offsets>
       <x-m>-22.412</x-m>
       <y-m>0.508</y-m>
       <z-m>1.03</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Intake Switch 2</name>
     <path>Cockpit/Engineer/rampspillman.xml</path>
    <overlay>
    <params>
-  
+
  </params>
     </overlay>
     <offsets>
       <x-m>-22.381</x-m>
       <y-m>0.512</y-m>
       <z-m>1.03</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Intake Switch 3</name>
     <path>Cockpit/Engineer/rampspillman.xml</path>
    <overlay>
    <params>
-  
+
  </params>
     </overlay>
     <offsets>
       <x-m>-22.349</x-m>
       <y-m>0.514</y-m>
       <z-m>1.03</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Intake Switch 4</name>
     <path>Cockpit/Engineer/rampspillman.xml</path>
    <overlay>
    <params>
-  
+
  </params>
     </overlay>
     <offsets>
       <x-m>-22.316</x-m>
       <y-m>0.518</y-m>
       <z-m>1.03</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
   <model>
     <name>Intake Ramp 1</name>
     <path>Cockpit/Engineer/ramp-1.xml</path>
@@ -13061,14 +13061,14 @@
       <x-m>-22.412</x-m>
       <y-m>0.509</y-m>
       <z-m>1.0</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Intake Ramp 2</name>
     <path>Cockpit/Engineer/ramp-2.xml</path>
@@ -13081,14 +13081,14 @@
       <x-m>-22.381</x-m>
       <y-m>0.512</y-m>
       <z-m>1.0</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Intake Ramp 3</name>
     <path>Cockpit/Engineer/ramp-3.xml</path>
@@ -13101,13 +13101,13 @@
       <x-m>-22.349</x-m>
       <y-m>0.514</y-m>
       <z-m>1.0</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Intake Ramp 4</name>
     <path>Cockpit/Engineer/ramp-4.xml</path>
@@ -13120,18 +13120,18 @@
       <x-m>-22.316</x-m>
       <y-m>0.517</y-m>
       <z-m>1.0</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
   <model>
     <name>Intake Spill 1</name>
     <path>Cockpit/Engineer/spill-1.xml</path>
@@ -13144,14 +13144,14 @@
       <x-m>-22.412</x-m>
       <y-m>0.508</y-m>
       <z-m>0.93</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Intake Spill 2</name>
     <path>Cockpit/Engineer/spill-2.xml</path>
@@ -13164,14 +13164,14 @@
       <x-m>-22.381</x-m>
       <y-m>0.511</y-m>
       <z-m>0.93</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Intake Spill 3</name>
     <path>Cockpit/Engineer/spill-3.xml</path>
@@ -13184,13 +13184,13 @@
       <x-m>-22.349</x-m>
       <y-m>0.514</y-m>
       <z-m>0.93</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Intake Spill 4</name>
     <path>Cockpit/Engineer/spill-4.xml</path>
@@ -13203,183 +13203,183 @@
       <x-m>-22.316</x-m>
       <y-m>0.517</y-m>
       <z-m>0.93</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Ramp Command 1</name>
     <path>Cockpit/Engineer/rampspillcommand.xml</path>
    <overlay>
    <params>
-  
+
  </params>
     </overlay>
     <offsets>
      <x-m>-22.412</x-m>
       <y-m>0.511</y-m>
       <z-m>0.96</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Ramp Command 2</name>
     <path>Cockpit/Engineer/rampspillcommand.xml</path>
    <overlay>
    <params>
-  
+
  </params>
     </overlay>
     <offsets>
      <x-m>-22.381</x-m>
       <y-m>0.514</y-m>
       <z-m>0.96</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Ramp Command 3</name>
     <path>Cockpit/Engineer/rampspillcommand.xml</path>
    <overlay>
    <params>
-  
+
  </params>
     </overlay>
     <offsets>
     <x-m>-22.349</x-m>
       <y-m>0.517</y-m>
       <z-m>0.96</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Ramp Command 4</name>
     <path>Cockpit/Engineer/rampspillcommand.xml</path>
    <overlay>
    <params>
-  
+
  </params>
     </overlay>
     <offsets>
      <x-m>-22.316</x-m>
       <y-m>0.520</y-m>
       <z-m>0.96</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
+
+
+
+
   <model>
     <name>Spill Command 1</name>
     <path>Cockpit/Engineer/rampspillcommand.xml</path>
    <overlay>
    <params>
-  
+
  </params>
     </overlay>
     <offsets>
      <x-m>-22.412</x-m>
       <y-m>0.510</y-m>
       <z-m>0.90</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Spill Command 2</name>
     <path>Cockpit/Engineer/rampspillcommand.xml</path>
    <overlay>
    <params>
-  
+
  </params>
     </overlay>
     <offsets>
      <x-m>-22.381</x-m>
       <y-m>0.513</y-m>
       <z-m>0.90</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Spill Command 3</name>
     <path>Cockpit/Engineer/rampspillcommand.xml</path>
    <overlay>
    <params>
-  
+
  </params>
     </overlay>
     <offsets>
     <x-m>-22.349</x-m>
       <y-m>0.516</y-m>
       <z-m>0.90</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Spill Command 4</name>
     <path>Cockpit/Engineer/rampspillcommand.xml</path>
    <overlay>
    <params>
-  
+
  </params>
     </overlay>
     <offsets>
      <x-m>-22.316</x-m>
       <y-m>0.519</y-m>
       <z-m>0.90</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <model>
     <name>Intake Hydraulic Selector 1</name>
     <path>Cockpit/Engineer/intake-hyd-selector-1.xml</path>
    <overlay>
    <params>
-  
+
   <hyd-main>/controls/engines/engine[0]/intake-main</hyd-main>
   <hyd-auto>/controls/engines/engine[0]/intake-auto</hyd-auto>
  </params>
@@ -13388,19 +13388,19 @@
       <x-m>-22.410</x-m>
       <y-m>0.510</y-m>
       <z-m>1.085</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Intake Hydraulic Selector 2</name>
     <path>Cockpit/Engineer/intake-hyd-selector-2.xml</path>
    <overlay>
    <params>
-  
+
   <hyd-main>/controls/engines/engine[1]/intake-main</hyd-main>
   <hyd-auto>/controls/engines/engine[1]/intake-auto</hyd-auto>
  </params>
@@ -13409,19 +13409,19 @@
       <x-m>-22.378</x-m>
       <y-m>0.513</y-m>
       <z-m>1.085</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Intake Hydraulic Selector 3</name>
     <path>Cockpit/Engineer/intake-hyd-selector-3.xml</path>
    <overlay>
    <params>
-  
+
   <hyd-main>/controls/engines/engine[2]/intake-main</hyd-main>
   <hyd-auto>/controls/engines/engine[2]/intake-auto</hyd-auto>
  </params>
@@ -13430,19 +13430,19 @@
       <x-m>-22.345</x-m>
       <y-m>0.516</y-m>
       <z-m>1.085</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Intake Hydraulic Selector 4</name>
     <path>Cockpit/Engineer/intake-hyd-selector-4.xml</path>
    <overlay>
    <params>
-  
+
   <hyd-main>/controls/engines/engine[3]/intake-main</hyd-main>
   <hyd-auto>/controls/engines/engine[3]/intake-auto</hyd-auto>
  </params>
@@ -13451,22 +13451,22 @@
       <x-m>-22.314</x-m>
       <y-m>0.520</y-m>
       <z-m>1.085</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
     <model>
     <name>Intake Mi 1</name>
     <path>Cockpit/Engineer/mi-intake-aux-inlet.xml</path>
@@ -13480,14 +13480,14 @@
       <x-m>-22.410</x-m>
       <y-m>0.510</y-m>
       <z-m>1.055</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Intake Mi 2</name>
     <path>Cockpit/Engineer/mi-intake-aux-inlet.xml</path>
@@ -13501,14 +13501,14 @@
       <x-m>-22.378</x-m>
       <y-m>0.513</y-m>
       <z-m>1.055</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>Intake Mi 3</name>
     <path>Cockpit/Engineer/mi-intake-aux-inlet.xml</path>
@@ -13522,13 +13522,13 @@
       <x-m>-22.345</x-m>
       <y-m>0.516</y-m>
       <z-m>1.055</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Intake Mi 4</name>
     <path>Cockpit/Engineer/mi-intake-aux-inlet.xml</path>
@@ -13542,21 +13542,21 @@
       <x-m>-22.314</x-m>
       <y-m>0.520</y-m>
       <z-m>1.055</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
   <!-- ======== -->
 <!-- ENGINEER LIGHTING -->
 <!-- ======== -->
@@ -13567,66 +13567,66 @@
     <x-m>-21.950</x-m>
       <y-m>0.305</y-m>
       <z-m>1.796</z-m>
-    
-   
+
+
       <pitch-deg>10</pitch-deg>
       <heading-deg>-95</heading-deg>
    </offsets>
   </model>
 
-  
-  
+
+
   <model>
     <name>Light Engineer Spot</name>
     <path>Cockpit/Engineer/light-engineer-spot.xml</path>
-   
+
     <offsets>
       <x-m>-22.511</x-m>
       <y-m>0.520</y-m>
       <z-m>0.88</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
      <roll-deg>-75</roll-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Light Engineer Flood</name>
     <path>Cockpit/Engineer/light-engineer-flood.xml</path>
-   
+
     <offsets>
       <x-m>-22.511</x-m>
       <y-m>0.520</y-m>
       <z-m>0.805</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
      <roll-deg>-75</roll-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Light Engineer</name>
     <path>Cockpit/Engineer/light-engineer.xml</path>
-   
+
     <offsets>
       <x-m>-22.567</x-m>
       <y-m>0.520</y-m>
       <z-m>0.745</z-m>
-      
+
       <heading-deg>-85</heading-deg>
      <pitch-deg>0</pitch-deg>
      <roll-deg>-75</roll-deg>
     </offsets>
   </model>
-  
+
 
 <!-- ======== -->
 <!-- LIGHTING -->
 <!-- ======== -->
 
- 
+
   <animation>
    <name>Dash lighting</name>
    <object-name>CeilingPanel</object-name>
@@ -13664,28 +13664,28 @@
 
  <!-- ENGINEER  1st column -->
 
- 
 
- 
+
+
 
 
  <!-- ENGINEER  2nd column -->
 
-  
 
- 
 
- 
+
+
+
 
 
  <!-- ENGINEER  3rd column -->
 
-  
 
- 
 
-  
- 
+
+
+
+
 
 
 <!-- ============ -->
@@ -13798,7 +13798,7 @@
     </params>
    </overlay>
   </model>
-  
+
   <model>
     <name>Exterior Temperature Captain</name>
     <path>Aircraft/Concorde/Models/Cockpit/Engineer/tempext.xml</path>
@@ -13809,8 +13809,8 @@
       <pitch-deg>-90</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Exterior Temperature Copilot</name>
     <path>Aircraft/Concorde/Models/Cockpit/Engineer/tempext.xml</path>
@@ -13967,8 +13967,8 @@
     <z-m> 0.818</z-m>
    </offsets>
   </model>
-  
-  
+
+
    <model>
    <name>Transponder</name>
    <path>Aircraft/Concorde/Instruments/pedestal/Transponder.xml</path>
@@ -13978,7 +13978,7 @@
     <z-m> 0.818</z-m>
    </offsets>
   </model>
-  
+
   <model>
    <name>Air Data</name>
    <path>Aircraft/Concorde/Instruments/pedestal/AirData.xml</path>
@@ -13988,8 +13988,8 @@
     <z-m> 0.818</z-m>
    </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>Test Light Center</name>
     <path>Cockpit/Instruments/test-light-center.xml</path>
@@ -14003,13 +14003,13 @@
       <x-m>-22.683</x-m>
     <y-m>0.143</y-m>
     <z-m>0.821</z-m>
-      
+
       <pitch-deg>-90</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>ADC Switch 1</name>
     <path>Cockpit/Instruments/adc-switch-1.xml</path>
@@ -14022,12 +14022,12 @@
       <x-m>-22.683</x-m>
     <y-m>-0.07</y-m>
     <z-m>0.821</z-m>
-      
+
       <pitch-deg>-90</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
   <model>
     <name>ADC Selector 1</name>
     <path>Cockpit/Instruments/adc-selector-1.xml</path>
@@ -14040,11 +14040,11 @@
       <x-m>-22.683</x-m>
     <y-m>-0.02</y-m>
     <z-m>0.817</z-m>
-      
+
       <pitch-deg>-90</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>ADC Selector 2</name>
     <path>Cockpit/Instruments/adc-selector-2.xml</path>
@@ -14057,12 +14057,12 @@
       <x-m>-22.683</x-m>
     <y-m>0.032</y-m>
     <z-m>0.817</z-m>
-      
+
       <pitch-deg>-90</pitch-deg>
     </offsets>
   </model>
-  
-  
+
+
    <model>
     <name>ADC Switch 2</name>
     <path>Cockpit/Instruments/adc-switch-2.xml</path>
@@ -14075,7 +14075,7 @@
       <x-m>-22.683</x-m>
     <y-m>0.08</y-m>
     <z-m>0.821</z-m>
-      
+
       <pitch-deg>-90</pitch-deg>
     </offsets>
   </model>
@@ -14088,13 +14088,13 @@
       <x-m>-22.683</x-m>
     <y-m>0.12</y-m>
     <z-m>0.822</z-m>
-      
+
       <pitch-deg>-90</pitch-deg>
     </offsets>
   </model>
-  
-  
-  
+
+
+
   <model>
     <name>ADC 1</name>
     <path>Cockpit/Instruments/light-amber-adc-1.xml</path>
@@ -14107,11 +14107,11 @@
       <x-m>-22.710</x-m>
     <y-m>0.064</y-m>
     <z-m>0.821</z-m>
-      
+
       <pitch-deg>-90</pitch-deg>
     </offsets>
   </model>
-  
+
    <model>
     <name>Light Blue Test 1</name>
     <path>Cockpit/Instruments/light-blue-adc-test-1.xml</path>
@@ -14124,11 +14124,11 @@
       <x-m>-22.710</x-m>
       <y-m>-0.02</y-m>
     <z-m>0.821</z-m>
-      
+
       <pitch-deg>-90</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>Light Blue Test 2</name>
     <path>Cockpit/Instruments/light-blue-adc-test-2.xml</path>
@@ -14139,13 +14139,13 @@
  </overlay>
     <offsets>
       <x-m>-22.710</x-m>
-    <y-m>0.022</y-m>    
+    <y-m>0.022</y-m>
     <z-m>0.821</z-m>
-      
+
       <pitch-deg>-90</pitch-deg>
     </offsets>
   </model>
-  
+
   <model>
     <name>ADC 2</name>
     <path>Cockpit/Instruments/light-amber-adc-2.xml</path>
@@ -14158,7 +14158,7 @@
       <x-m>-22.710</x-m>
     <y-m>-0.06</y-m>
     <z-m>0.821</z-m>
-      
+
       <pitch-deg>-90</pitch-deg>
     </offsets>
   </model>
@@ -14439,26 +14439,29 @@
     <heading-deg>270</heading-deg>
    </offsets>
   </model>
-  
+
 <!-- SEAT (the condition rotates once) -->
- 
+
   <animation>
    <type>rotate</type>
    <object-name>Engineer human</object-name>
    <property>sim/current-view/goal-heading-offset-deg</property>
    <offset-deg>90</offset-deg>
    <condition>
-    <and>
-     <property>systems/seat/engineer</property>
-     <equals>
-      <property>systems/human/engineer/seat-deg</property>
-      <value>0.0</value>
-     </equals>
-     <equals>
-      <property>systems/human/engineer/seat-x-m</property>
-      <value>0.0</value>
-     </equals>
-    </and>
+     <and>
+       <equals>
+         <property>sim/current-view/view-number</property>
+         <value>8</value>
+       </equals>
+       <equals>
+        <property>systems/human/engineer/seat-deg</property>
+        <value>0.0</value>
+       </equals>
+       <equals>
+        <property>systems/human/engineer/seat-x-m</property>
+        <value>0.0</value>
+       </equals>
+     </and>
    </condition>
    <center>
     <x-m>-21.788</x-m>
@@ -14471,7 +14474,7 @@
     <z>1.0</z>
    </axis>
   </animation>
- 
+
   <animation>
    <type>rotate</type>
    <object-name>Engineer human</object-name>
@@ -14487,7 +14490,7 @@
     <z>1.0</z>
    </axis>
   </animation>
- 
+
   <animation>
    <type>translate</type>
    <object-name>Engineer human</object-name>
