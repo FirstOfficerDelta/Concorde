@@ -1596,7 +1596,91 @@
    <path>Sounds/gear-hrn.wav</path>
    <mode>looped</mode>
    <type>avionics</type>
-   <condition include="../Panels/Instruments/concorde-cond-gear.xml"/>
+   <condition>
+     <and>
+      <or>
+       <property>/controls/gear/test-horn</property>
+       <and>
+        <not-equals>
+         <property>gear/gear[0]/position-norm</property>
+         <value>1.0</value>
+        </not-equals>
+        <less-than>
+         <property>/instrumentation/airspeed-indicator[0]/indicated-speed-kt</property>
+         <value>180</value>
+        </less-than>
+        <or>
+         <and>
+          <less-than>
+           <property>/controls/engines/engine[0]/throttle</property>
+           <value>0.95</value>
+          </less-than>
+          <less-than>
+           <property>/controls/engines/engine[1]/throttle</property>
+           <value>0.95</value>
+          </less-than>
+         </and>
+         <and>
+          <less-than>
+           <property>/controls/engines/engine[0]/throttle</property>
+           <value>0.95</value>
+          </less-than>
+          <less-than>
+           <property>/controls/engines/engine[2]/throttle</property>
+           <value>0.95</value>
+          </less-than>
+         </and>
+         <and>
+          <less-than>
+           <property>/controls/engines/engine[0]/throttle</property>
+           <value>0.95</value>
+          </less-than>
+          <less-than>
+           <property>/controls/engines/engine[3]/throttle</property>
+           <value>0.95</value>
+          </less-than>
+         </and>
+         <and>
+          <less-than>
+           <property>/controls/engines/engine[1]/throttle</property>
+           <value>0.95</value>
+          </less-than>
+          <less-than>
+           <property>/controls/engines/engine[2]/throttle</property>
+           <value>0.95</value>
+          </less-than>
+         </and>
+         <and>
+          <less-than>
+           <property>/controls/engines/engine[1]/throttle</property>
+           <value>0.95</value>
+          </less-than>
+          <less-than>
+           <property>/controls/engines/engine[3]/throttle</property>
+           <value>0.95</value>
+          </less-than>
+         </and>
+         <and>
+          <less-than>
+           <property>/controls/engines/engine[2]/throttle</property>
+           <value>0.95</value>
+          </less-than>
+          <less-than>
+           <property>/controls/engines/engine[3]/throttle</property>
+           <value>0.95</value>
+          </less-than>
+         </and>
+        </or>
+       </and>
+      </or>
+      <not>
+        <less-than>
+         <property>/systems/electrical/outputs/bulb</property>
+         <value>20.0</value>
+        </less-than>
+      </not>
+     </and>
+   </condition>
    <position>
     <x>8.0</x>
     <y>0.0</y>
@@ -1611,7 +1695,29 @@
    <mode>looped</mode>
    <path>Sounds/stall.wav</path>
    <type>avionics</type>
-   <condition include="../Panels/Instruments/concorde-cond-stall.xml"/>
+   <condition>
+     <and>
+      <or>
+       <and>
+        <property>/sim/alarms/stall-warning</property>
+        <greater-than> <!-- irritating on ground -->
+         <property>/position/altitude-agl-ft</property>
+         <value>20</value>
+        </greater-than>
+       </and>
+       <property>/systems/mws/stall</property>
+      </or>
+      <not>
+        <less-than>
+         <property>/systems/electrical/outputs/bulb</property>
+         <value>20.0</value>
+        </less-than>
+      </not>
+      <not>
+       <property>/controls/audio/cancel</property>
+      </not>
+    </and>
+  </condition>
    <position>
     <x>8.0</x>
     <y>0.0</y>
@@ -1626,7 +1732,17 @@
    <mode>looped</mode>
    <path>Sounds/overspeed.wav</path>
    <type>avionics</type>
-   <condition include="../Panels/Instruments/concorde-cond-overspeed.xml"/>
+   <condition>
+     <and>
+      <property>/systems/mws/overspeed</property>
+      <not>
+        <less-than>
+         <property>/systems/electrical/outputs/bulb</property>
+         <value>20.0</value>
+        </less-than>
+      </not>
+     </and>
+   </condition>
    <position>
     <x>8.0</x>
     <y>0.0</y>
@@ -1641,7 +1757,15 @@
    <mode>looped</mode>
    <path>Sounds/mk-viii/pull-up.wav</path>
    <type>avionics</type>
-   <condition include="../Panels/Instruments/concorde-cond-terrain.xml"/>
+   <condition>
+     <and>
+      <property>/systems/gpws/serviceable</property>
+      <or>
+       <property>/systems/gpws/test</property>
+       <property>/systems/gpws/terrain</property>
+      </or>
+     </and>
+   </condition>
    <position>
     <x>8.0</x>
     <y>0.0</y>
@@ -1656,7 +1780,20 @@
    <mode>looped</mode>
    <path>Sounds/overspeed2.wav</path>
    <type>avionics</type>
-   <condition include="../Panels/Instruments/concorde-cond-cavalry.xml"/>
+   <condition>
+     <and>
+      <property>/systems/mws/cavalry</property>
+      <not>
+        <less-than>
+         <property>/systems/electrical/outputs/bulb</property>
+         <value>20.0</value>
+        </less-than>
+      </not>
+      <not>
+       <property>/controls/audio/cancel</property>
+      </not>
+     </and>
+   </condition>
    <position>
     <x>8.0</x>
     <y>0.0</y>
@@ -1671,7 +1808,17 @@
    <mode>once</mode>
    <path>Sounds/beep.wav</path>
    <type>avionics</type>
-   <condition include="../Panels/Instruments/concorde-cond-gong-single.xml"/>
+   <condition>
+     <and>
+      <property>/systems/mws/single-gong</property>
+      <not>
+        <less-than>
+         <property>/systems/electrical/outputs/bulb</property>
+         <value>20.0</value>
+        </less-than>
+      </not>
+     </and>
+   </condition>
    <position>
     <x>8.0</x>
     <y>0.0</y>
@@ -1686,7 +1833,23 @@
    <mode>once</mode>
    <path>Sounds/beep.wav</path>
    <type>avionics</type>
-   <condition include="../Panels/Instruments/concorde-cond-gong-10s.xml"/>
+   <condition>
+     <and>
+      <property>/systems/mws/auxiliary</property>
+      <and>
+       <property>/systems/mws/single-gong</property>
+       <not>
+         <less-than>
+          <property>/systems/electrical/outputs/bulb</property>
+          <value>20.0</value>
+         </less-than>
+       </not>
+      </and>
+      <not>
+       <property>/controls/audio/cancel</property>
+      </not>
+     </and>
+   </condition>
    <position>
     <x>8.0</x>
     <y>0.0</y>
@@ -1701,7 +1864,19 @@
    <mode>looped</mode>
    <path>Sounds/beep.wav</path>
    <type>avionics</type>
-   <condition include="../Panels/Instruments/concorde-cond-gong.xml"/>
+   <condition>
+     <and>
+      <not>
+       <property>/systems/mws/serviceable</property>
+      </not>
+      <not>
+        <less-than>
+         <property>/systems/electrical/outputs/bulb</property>
+         <value>20.0</value>
+        </less-than>
+      </not>
+     </and>
+   </condition>
    <position>
     <x>8.0</x>
     <y>0.0</y>

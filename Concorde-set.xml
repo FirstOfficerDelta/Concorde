@@ -92,7 +92,7 @@
   </instrumentation>
 
   <sound>
-   <path type="string">Aircraft/Concorde/Sounds/Concorde-sound..xml</path>
+   <path type="string">Aircraft/Concorde/Sounds/Concorde-sound.xml</path>
   </sound>
 
 
