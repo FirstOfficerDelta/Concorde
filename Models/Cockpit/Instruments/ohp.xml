@@ -3564,7 +3564,6 @@
 	light=getprop("/controls/lighting/crew/roof");
         if (light>0){
 	  setprop("sim/rendering/als-secondary-lights/flash-radius",99);
-	  setprop("sim/rendering/als-secondary-lights/use-flashlight",1);
         } else {
 	  setprop("sim/rendering/als-secondary-lights/flash-radius",13);
         };
